@@ -144,7 +144,7 @@
 </IncludedGameTypes>
 </XmlNode>
 <XmlNode>
-<XmlName id="Settlements" path="akan_settlements"/>
+<XmlName id="Settlements" path="settlements"/>
 <IncludedGameTypes>
 <GameType value="Campaign"/>
 <GameType value="CampaignStoryMode"/>

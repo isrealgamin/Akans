@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  akan_comment_strings.xml
+  Conversation strings for Akan / Maroon lords.
+  All text values reference a {=*.text} localization token whose English
+  translation lives in Languages/EN/std_module_strings.xml.
+
+  Lords by personality:
+    Cudjoe  (lord_1_A31) — Honor +1, Generosity -1, Calculating +1, Oligarchic +1
+    Zea     (lord_1_A32) — Honor +1, Generosity +1            (traditional matriarch)
+    Joejoe  (lord_1_A33) — Honor +1, Generosity -1, Calculating +1, Oligarchic +1  (young)
+    Nyla    (lord_1_A34) — Honor +1, Generosity +1            (young, benevolent)
+-->
+<strings>
+
+  <!-- ==============================================================
+       VASSAL SELF-INTRODUCTION
+       (lord greeting the player as their liege)
+  ============================================================== -->
+
+  <string id="str_comment_vassal_introduces_self.akan"
+          text="{=str_comment_vassal_introduces_self.akan.text}I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}, my {?PLAYER.GENDER}lady{?}lord{\?}, and I am honored to serve you.">
+    <tags>
+      <tag tag_name="akanTag"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_vassal_introduces_self.akan_honor"
+          text="{=str_comment_vassal_introduces_self.akan_honor.text}I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}. My oath to your banner is my bond — I do not give it lightly, my {?PLAYER.GENDER}lady{?}lord{\?}.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="HonorTag" weight="1"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_vassal_introduces_self.akan_valor"
+          text="{=str_comment_vassal_introduces_self.akan_valor.text}I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}. You will find no fiercer sword arm in your service, my {?PLAYER.GENDER}lady{?}lord{\?}.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="ValorTag" weight="1"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_vassal_introduces_self.akan_calculating"
+          text="{=str_comment_vassal_introduces_self.akan_calculating.text}I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}. Alliance with you is sound strategy. I trust it will prove so for us both, my {?PLAYER.GENDER}lady{?}lord{\?}.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="CalculatingTag" weight="1"/>
+    </tags>
+  </string>
+
+  <!-- ==============================================================
+       NOBLE SELF-INTRODUCTION — SHORT FORM
+       (lord meeting the player without mentioning clan)
+  ============================================================== -->
+
+  <string id="str_comment_noble_introduces_self.akan"
+          text="{=str_comment_noble_introduces_self.akan.text}I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}.">
+    <tags>
+      <tag tag_name="akanTag"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_noble_introduces_self.akan_honor"
+          text="{=str_comment_noble_introduces_self.akan_honor.text}I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}. My word is my only currency — spend it wisely.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="HonorTag" weight="1"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_noble_introduces_self.akan_valor"
+          text="{=str_comment_noble_introduces_self.akan_valor.text}I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}. I have bled for these lands. Do not make me regret that.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="ValorTag" weight="1"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_noble_introduces_self.akan_mercy"
+          text="{=str_comment_noble_introduces_self.akan_mercy.text}I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}. Come in peace and you will find it returned.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="MercyTag" weight="1"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_noble_introduces_self.akan_calculating"
+          text="{=str_comment_noble_introduces_self.akan_calculating.text}I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}. Let us be direct — what do you want, and what will it cost me?">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="CalculatingTag" weight="1"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_noble_introduces_self.akan_uncharitable"
+          text="{=str_comment_noble_introduces_self.akan_uncharitable.text}I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}. I have little time and less patience. Speak your purpose.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="UncharitableTag" weight="1"/>
+    </tags>
+  </string>
+
+  <!-- Female noble introductions — Zea / Nyla -->
+  <string id="str_comment_noble_introduces_self.akan_female"
+          text="{=str_comment_noble_introduces_self.akan_female.text}I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}. You stand in the presence of a Maroon matriarch — mind your manners.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="FemaleTag"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_noble_introduces_self.akan_female_mercy"
+          text="{=str_comment_noble_introduces_self.akan_female_mercy.text}I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}. My hearth is open to those who come in friendship.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="FemaleTag"/>
+      <tag tag_name="MercyTag" weight="1"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_noble_introduces_self.akan_female_honor"
+          text="{=str_comment_noble_introduces_self.akan_female_honor.text}I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}. My people have survived worse than you — I ask only that you give me reason to trust.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="FemaleTag"/>
+      <tag tag_name="HonorTag" weight="1"/>
+    </tags>
+  </string>
+
+  <!-- ==============================================================
+       NOBLE SELF-INTRODUCTION WITH CLAN
+  ============================================================== -->
+
+  <string id="str_comment_noble_introduces_self_and_clan.akan"
+          text="{=str_comment_noble_introduces_self_and_clan.akan.text}I am {CONVERSATION_CHARACTER.LINK}, of {CLAN_NAME}.">
+    <tags>
+      <tag tag_name="akanTag"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_noble_introduces_self_and_clan.akan_honor"
+          text="{=str_comment_noble_introduces_self_and_clan.akan_honor.text}I am {CONVERSATION_CHARACTER.LINK}, of {CLAN_NAME}. We have kept our honour when others cast theirs aside.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="HonorTag" weight="1"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_noble_introduces_self_and_clan.akan_mercy"
+          text="{=str_comment_noble_introduces_self_and_clan.akan_mercy.text}I am {CONVERSATION_CHARACTER.LINK}, of {CLAN_NAME}. We do not forget those who showed us kindness.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="MercyTag" weight="1"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_noble_introduces_self_and_clan.akan_boasting"
+          text="{=str_comment_noble_introduces_self_and_clan.akan_boasting.text}I am {CONVERSATION_CHARACTER.LINK}, of {CLAN_NAME}. You would do well to remember both names.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="UncharitableTag"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_noble_introduces_self_and_clan.akan_boasting_cruel"
+          text="{=str_comment_noble_introduces_self_and_clan.akan_boasting_cruel.text}I am {CONVERSATION_CHARACTER.LINK}, of {CLAN_NAME}. Those who crossed us have learned what that means.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="UncharitableTag"/>
+      <tag tag_name="CruelTag" weight="1"/>
+    </tags>
+  </string>
+
+  <!-- Elder / Za variants — Cudjoe-style (high Commander, experienced) -->
+  <string id="str_comment_noble_introduces_self_and_clan.akan_elder"
+          text="{=str_comment_noble_introduces_self_and_clan.akan_elder.text}I am {CONVERSATION_CHARACTER.LINK}, Za of the {CLAN_NAME}. My father's father fought for these mountains. I will not surrender a stone of them.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="HonorTag" weight="1"/>
+      <tag tag_name="ValorTag" weight="1"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_noble_introduces_self_and_clan.akan_elder_honor"
+          text="{=str_comment_noble_introduces_self_and_clan.akan_elder_honor.text}I am {CONVERSATION_CHARACTER.LINK}, Za of the {CLAN_NAME}. Sankofa — we look back so we do not lose our way forward.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="HonorTag" weight="2"/>
+    </tags>
+  </string>
+
+  <!-- ==============================================================
+       LIEGE TITLES
+  ============================================================== -->
+
+  <string id="str_liege_title.akan"
+          text="{=str_liege_title.akan.text}rightful Za of the Maroon">
+    <tags>
+      <tag tag_name="akanTag"/>
+    </tags>
+  </string>
+
+  <string id="str_liege_title_female.akan"
+          text="{=str_liege_title_female.akan.text}rightful Za of the Maroon">
+    <tags>
+      <tag tag_name="akanTag"/>
+    </tags>
+  </string>
+
+  <!-- ==============================================================
+       PLAYER IS CAPTURED
+  ============================================================== -->
+
+  <string id="str_comment_player_is_captured.akan"
+          text="{=str_comment_player_is_captured.akan.text}You fought well. We did not seek this quarrel, but you left us no choice. Rest — we are not savages.">
+    <tags>
+      <tag tag_name="akanTag"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_player_is_captured.akan_cruel"
+          text="{=str_comment_player_is_captured.akan_cruel.text}Did you truly believe you could ride into Maroon lands and leave unscathed? You will have time in that cell to reconsider.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="CruelTag" weight="1"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_player_is_captured.akan_honor"
+          text="{=str_comment_player_is_captured.akan_honor.text}A warrior deserves a warrior's treatment. You have that, at least, from me.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="HonorTag" weight="1"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_player_is_captured.akan_mercy"
+          text="{=str_comment_player_is_captured.akan_mercy.text}You are unharmed — I have given orders. I hope you will remember that when the time comes to speak of us to others.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="MercyTag" weight="1"/>
+    </tags>
+  </string>
+
+  <!-- ==============================================================
+       ENEMY DEFEATED
+  ============================================================== -->
+
+  <string id="str_comment_enemy_defeated.akan"
+          text="{=str_comment_enemy_defeated.akan.text}The mountains demanded a price. We paid it. Now let us see to our wounded.">
+    <tags>
+      <tag tag_name="akanTag"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_enemy_defeated.akan_valor"
+          text="{=str_comment_enemy_defeated.akan_valor.text}We fought as our ancestors taught — without fear, without hesitation. This victory belongs to every soul that bled for Maroon freedom.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="ValorTag" weight="1"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_enemy_defeated.akan_calculating"
+          text="{=str_comment_enemy_defeated.akan_calculating.text}We chose our ground, we chose our moment. This was never in doubt.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="CalculatingTag" weight="1"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_enemy_defeated.akan_cruel"
+          text="{=str_comment_enemy_defeated.akan_cruel.text}Let word of this spread. The next column that marches into these hills will think twice.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="CruelTag" weight="1"/>
+    </tags>
+  </string>
+
+  <!-- ==============================================================
+       MEET AFTER VICTORY
+  ============================================================== -->
+
+  <string id="str_comment_meet_after_victory.akan"
+          text="{=str_comment_meet_after_victory.akan.text}A decisive victory. The Adinkra say 'Aya' — the fern endures. So must we.">
+    <tags>
+      <tag tag_name="akanTag"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_meet_after_victory.akan_honor"
+          text="{=str_comment_meet_after_victory.akan_honor.text}Well fought. Honour demands I say so plainly — you have earned respect this day.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="HonorTag" weight="1"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_meet_after_victory.akan_calculating"
+          text="{=str_comment_meet_after_victory.akan_calculating.text}The outcome was the correct one. I trust our arrangement remains intact.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="CalculatingTag" weight="1"/>
+    </tags>
+  </string>
+
+  <!-- ==============================================================
+       PEACE OFFER / DIPLOMACY OPENING
+  ============================================================== -->
+
+  <string id="str_comment_ask_for_peace.akan"
+          text="{=str_comment_ask_for_peace.akan.text}The Maroons have never sought war for its own sake. We fight because we must. If there is a path through words, I would walk it.">
+    <tags>
+      <tag tag_name="akanTag"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_ask_for_peace.akan_mercy"
+          text="{=str_comment_ask_for_peace.akan_mercy.text}Enough lives have been spent. Let us speak of what a lasting peace might look like for both our peoples.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="MercyTag" weight="1"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_ask_for_peace.akan_calculating"
+          text="{=str_comment_ask_for_peace.akan_calculating.text}Continuing this costs us both. I am prepared to discuss terms — if you are prepared to be reasonable.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="CalculatingTag" weight="1"/>
+    </tags>
+  </string>
+
+  <!-- ==============================================================
+       HOSTILE ENCOUNTER / ROAD CHALLENGE
+  ============================================================== -->
+
+  <string id="str_comment_lord_answers_hostile.akan"
+          text="{=str_comment_lord_answers_hostile.akan.text}You are riding on Maroon land. State your business, and state it plainly.">
+    <tags>
+      <tag tag_name="akanTag"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_lord_answers_hostile.akan_valor"
+          text="{=str_comment_lord_answers_hostile.akan_valor.text}I have not run from a fight in forty years. I will not start now. Choose your next words carefully.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="ValorTag" weight="1"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_lord_answers_hostile.akan_calculating"
+          text="{=str_comment_lord_answers_hostile.akan_calculating.text}I know what you are doing. I know why. And I know exactly how this ends if you do not stand down.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="CalculatingTag" weight="1"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_lord_answers_hostile.akan_cruel"
+          text="{=str_comment_lord_answers_hostile.akan_cruel.text}The last man who challenged me this way is no longer a concern. Yours is a short road.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="CruelTag" weight="1"/>
+    </tags>
+  </string>
+
+  <!-- ==============================================================
+       REACTION TO VILLAINY / HEROISM
+  ============================================================== -->
+
+  <string id="str_comment_reaction_to_villain.akan"
+          text="{=str_comment_reaction_to_villain.akan.text}Word of your deeds travels faster than you do. Do not expect a warm welcome in these mountains.">
+    <tags>
+      <tag tag_name="akanTag"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_reaction_to_villain.akan_honor"
+          text="{=str_comment_reaction_to_villain.akan_honor.text}We built our freedom on the principle that no one owns another. What you have done is an affront to everything the Maroons stand for.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="HonorTag" weight="1"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_reaction_to_villain.akan_calculating"
+          text="{=str_comment_reaction_to_villain.akan_calculating.text}I am cataloguing what you have done. Debts are not forgotten here.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="CalculatingTag" weight="1"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_reaction_to_hero.akan"
+          text="{=str_comment_reaction_to_hero.akan.text}There are few in Calradia I would call worthy of respect. You are closer to that list than most.">
+    <tags>
+      <tag tag_name="akanTag"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_reaction_to_hero.akan_honor"
+          text="{=str_comment_reaction_to_hero.akan_honor.text}What you did was right. Simple as that. I will not pretend otherwise.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="HonorTag" weight="1"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_reaction_to_hero.akan_mercy"
+          text="{=str_comment_reaction_to_hero.akan_mercy.text}Kindness is rarely repaid in kind in this world. The Maroons remember those who break that pattern.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="MercyTag" weight="1"/>
+    </tags>
+  </string>
+
+  <!-- ==============================================================
+       GREETING A FRIEND / ALLY
+  ============================================================== -->
+
+  <string id="str_comment_lord_greets_friend.akan"
+          text="{=str_comment_lord_greets_friend.akan.text}Akwaaba — you are welcome among us. Sit, eat, tell me what the roads are saying.">
+    <tags>
+      <tag tag_name="akanTag"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_lord_greets_friend.akan_generous"
+          text="{=str_comment_lord_greets_friend.akan_generous.text}Good to see you riding these roads again. My cook has prepared more than we can eat — come, join us.">
+    <tags>
+      <tag tag_name="akanTag"/>
+      <tag tag_name="GenerousTag" weight="1"/>
+    </tags>
+  </string>
+
+  <!-- ==============================================================
+       FACTION JOINING / LEAVING
+  ============================================================== -->
+
+  <string id="str_comment_can_you_join_faction.akan"
+          text="{=str_comment_can_you_join_faction.akan.text}The Maroons do not take oaths lightly, and we do not release them lightly. Think carefully before you bind yourself to us — or before you leave.">
+    <tags>
+      <tag tag_name="akanTag"/>
+    </tags>
+  </string>
+
+  <string id="str_comment_defect_from_faction.akan"
+          text="{=str_comment_defect_from_faction.akan.text}You are leaving. I will not grovel. But know that a soldier's worth is measured in loyalty as much as in skill.">
+    <tags>
+      <tag tag_name="akanTag"/>
+    </tags>
+  </string>
+
+</strings>

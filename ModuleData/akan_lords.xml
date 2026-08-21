@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<!--Maroon lords-->
+	<NPCCharacter id="lord_1_A31"
+	              name="Cudjoe"
+	              age="62"
+	              voice="curt"
+	              default_group="Cavalry"
+	              is_hero="true"
+	              culture="Culture.akan"
+	              skill_template="SkillSet.spc_politician_skills_ruler"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                weight="0.2315"
+			                build="0.5"
+			                key="003FD40FC1CC09552E801214480582AE10CF85378E790C033EFFB8E9840773C001B976130BC771120000000000000000000000000000000000000000017C2042"/>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+			       value="5"/>
+			<Trait id="Commander"
+			       value="16"/>
+			<Trait id="Politician"
+			       value="12"/>
+			<Trait id="Manager"
+			       value="14"/>
+			<Trait id="Honor"
+			       value="1"/>
+			<Trait id="Generosity"
+			       value="-1"/>
+			<Trait id="Calculating"
+			       value="1"/>
+			<Trait id="Oligarchic"
+			       value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="n_emp_king_template_bat_m"/>
+			<EquipmentSet id="n_emp_king_template_civ_m"
+			              equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- cudjoe's wife. Traditional matriarch, benevolent-->
+	<NPCCharacter id="lord_1_A32"
+	              name="Zea"
+	              age="52"
+	              voice="curt"
+	              default_group="Cavalry"
+	              is_hero="true"
+	              is_female="true"
+	              culture="Culture.akan"
+	              skill_template="SkillSet.spc_chatelaine_skills"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                weight="0.2315"
+			                build="0.5"
+			                key="003FCC0FC6CC0011677343968AA7950790474A7576DB8A4BFCEBF8499F5666E608C016820AC59A69000000000000000000000000000000000000000031942003"/>
+		</face>
+		<Traits>
+			<!-- USED TO DERIVE SKILLS-->
+			<Trait id="Politician"
+			       value="6"/>
+			<Trait id="Manager"
+			       value="16"/>
+			<!-- PERSONALITY/REPUTATION-->
+			<Trait id="Generosity"
+			       value="1"/>
+			<Trait id="Honor"
+			       value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="emp_bat_template_lady"/>
+			<EquipmentSet id="emp_noncom_template_stoic"
+			              equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_A33"
+	              name="Joejoe"
+	              age="22"
+	              voice="curt"
+	              default_group="Cavalry"
+	              is_hero="true"
+	              culture="Culture.akan"
+	              skill_template="SkillSet.spc_politician_skills_ruler"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="22.11"
+			                weight="0.4154"
+			                build="0.9935"
+			                key="003FF80FC4CC27997784B9B8AEBA4A4B88297FD64568D6F9DCC4783D8564FA99009F6603095725A10000000000000000000000000000000000000000532C5042"/>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+			       value="5"/>
+			<Trait id="Commander"
+			       value="16"/>
+			<Trait id="Politician"
+			       value="12"/>
+			<Trait id="Manager"
+			       value="14"/>
+			<Trait id="Honor"
+			       value="1"/>
+			<Trait id="Generosity"
+			       value="-1"/>
+			<Trait id="Calculating"
+			       value="1"/>
+			<Trait id="Oligarchic"
+			       value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="n_emp_king_template_bat_m"/>
+			<EquipmentSet id="n_emp_king_template_civ_m"
+			              equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Joejoe's wife. Traditional matriarch, benevolent-->
+	<NPCCharacter id="lord_1_A34"
+	              name="Nyla"
+	              age="22"
+	              voice="curt"
+	              default_group="Cavalry"
+	              is_hero="true"
+	              is_female="true"
+	              culture="Culture.akan"
+	              skill_template="SkillSet.spc_chatelaine_skills"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                age="22.11"
+			                weight="0.4154"
+			                build="0.7179"
+			                key="003FDC0FC7CC20087784B9B8AEBA4A4B8829A4D64168D6F9DCC4783D8564FA79004B6603045725A1000000000000000000000000000000000000000052944042"/>
+		</face>
+		<Traits>
+			<!-- USED TO DERIVE SKILLS-->
+			<Trait id="Politician"
+			       value="6"/>
+			<Trait id="Manager"
+			       value="16"/>
+			<!-- PERSONALITY/REPUTATION-->
+			<Trait id="Generosity"
+			       value="1"/>
+			<Trait id="Honor"
+			       value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="emp_bat_template_lady"/>
+			<EquipmentSet id="emp_noncom_template_stoic"
+			              equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+<!-- Accompong Warriors clan lords -->
+	<!-- Accompong – clan leader, battle-hardened commander, Cudjoe's brother -->
+	<NPCCharacter id="lord_1_A35"
+	              name="Accompong"
+	              age="45"
+	              voice="curt"
+	              default_group="Cavalry"
+	              is_hero="true"
+	              culture="Culture.akan"
+	              skill_template="SkillSet.spc_tactician_skills"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                weight="0.3820"
+			                build="0.8712"
+			                key="003FE00FC3CC14443E902414580593AE10CF85378E790C033EFFB8E9840773C001B976130BC771120000000000000000000000000000000000000000027C2042"/>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+			       value="6"/>
+			<Trait id="Commander"
+			       value="14"/>
+			<Trait id="Politician"
+			       value="8"/>
+			<Trait id="Manager"
+			       value="10"/>
+			<Trait id="Valor"
+			       value="1"/>
+			<Trait id="Honor"
+			       value="1"/>
+			<Trait id="Calculating"
+			       value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="n_emp_king_template_bat_m"/>
+			<EquipmentSet id="n_emp_king_template_civ_m"
+			              equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Accompong's wife. Quiet but fierce. -->
+	<NPCCharacter id="lord_1_A36"
+	              name="Akosua"
+	              age="38"
+	              voice="softspoken"
+	              default_group="Cavalry"
+	              is_hero="true"
+	              is_female="true"
+	              culture="Culture.akan"
+	              skill_template="SkillSet.spc_chatelaine_skills"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                weight="0.1980"
+			                build="0.5000"
+			                key="003FAC0FC5CC1118677343968AA7951790474A7576DB8A4BFCEBF8499F5666E608C016820AC59A69000000000000000000000000000000000000000041842003"/>
+		</face>
+		<Traits>
+			<Trait id="Politician"
+			       value="8"/>
+			<Trait id="Manager"
+			       value="14"/>
+			<Trait id="Generosity"
+			       value="1"/>
+			<Trait id="Honor"
+			       value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="emp_bat_template_lady"/>
+			<EquipmentSet id="emp_noncom_template_stoic"
+			              equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+
+<!-- Windward Maroons clan lords -->
+	<!-- Naquan – elder statesman, the father whose rebellion Cudjoe inherited -->
+	<NPCCharacter id="lord_1_A37"
+	              name="Naquan"
+	              age="58"
+	              voice="curt"
+	              default_group="Cavalry"
+	              is_hero="true"
+	              culture="Culture.akan"
+	              skill_template="SkillSet.spc_politician_skills_ruler"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                weight="0.2100"
+			                build="0.5500"
+			                key="003FC40FC2CC07662E801014380571AE10CF85378E790C033EFFB8E9840773C001B976130BC771120000000000000000000000000000000000000000017C3042"/>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills"
+			       value="4"/>
+			<Trait id="Commander"
+			       value="12"/>
+			<Trait id="Politician"
+			       value="14"/>
+			<Trait id="Manager"
+			       value="16"/>
+			<Trait id="Honor"
+			       value="1"/>
+			<Trait id="Generosity"
+			       value="1"/>
+			<Trait id="Oligarchic"
+			       value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="n_emp_king_template_bat_m"/>
+			<EquipmentSet id="n_emp_king_template_civ_m"
+			              equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Naquan's wife. Elder matriarch and keeper of Akan tradition. -->
+	<NPCCharacter id="lord_1_A38"
+	              name="Yaa"
+	              age="52"
+	              voice="softspoken"
+	              default_group="Cavalry"
+	              is_hero="true"
+	              is_female="true"
+	              culture="Culture.akan"
+	              skill_template="SkillSet.spc_chatelaine_skills"
+	              occupation="Lord"
+	              face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4"
+			                weight="0.2315"
+			                build="0.5000"
+			                key="003FD80FC7CC2209677353968BA7961790474A7576DB8A4BFCEBF8499F5666E608C016820AC59A69000000000000000000000000000000000000000031842003"/>
+		</face>
+		<Traits>
+			<Trait id="Politician"
+			       value="10"/>
+			<Trait id="Manager"
+			       value="16"/>
+			<Trait id="Generosity"
+			       value="1"/>
+			<Trait id="Honor"
+			       value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="emp_bat_template_lady"/>
+			<EquipmentSet id="emp_noncom_template_stoic"
+			              equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+
+<!-- Boklahoma Gang-->
+	<NPCCharacter
+		id="lord_K9_l1"
+		name="{=e0iDOkUq}Guslahoma"
+		age="53"
+		voice="softspoken"
+		is_female="false"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.khuzait"
+		skill_template="SkillSet.spc_tactician_skills"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!-- placeholder face key -->
+			<BodyProperties
+				version="4"
+				weight="0.5"
+				build="0.5"
+				key="000BF80CD100300418762BAD894AB3A687C58B3A22AF3A4C5B2C769832963D44017776130799894800000000000000000000000000000000000000003EF41043" />
+			<hair_tags>
+				<hair_tag
+					name="khuzait" />
+			</hair_tags>
+			<beard_tags>
+				<beard_tag
+					name="khuzait" />
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag
+					name="Cleanface" />
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="8" />
+			<Trait
+				id="Commander"
+				value="12" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="6" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_civ_template_default"
+				equipmentType="Civilian" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_K9_s1"
+		name="{=I6pJg72E}Ipek"
+		age="48"
+		voice="earnest"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.sturgia"
+		skill_template="SkillSet.spc_diplomat_skills"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!-- placeholder face key -->
+			<BodyProperties
+				version="4"
+				weight="0.5"
+				build="0.5"
+				key="000CD00D8070000D7748DA3B57429988D86DBD6945BFB664644589C5283414BC001BB703017661CB0000037F0000000F00000037049140010000000000288002" />
+			<hair_tags>
+				<hair_tag
+					name="khuzait" />
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag
+					name="Cleanface" />
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="6" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_noncom_template_default"
+				equipmentType="Civilian" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_K9_c1"
+		name="{=bEKtDbS0}Boklahoma"
+		age="24"
+		voice="ironic"
+		is_female="false"
+		default_group="HorseArcher"
+		is_hero="true"
+		culture="Culture.khuzait"
+		skill_template="SkillSet.spc_mounted_archery_skills"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!-- placeholder face key -->
+			<BodyProperties
+				version="4"
+				weight="0.3781"
+				build="0.5478"
+				key="000AB40CC0141840AD48BBECA574462983C78887724DBABB65D6686C8527AA8800D866030D8459A5000000000000000000000000000000000000000063AC10C6" />
+			<hair_tags>
+				<hair_tag
+					name="khuzait" />
+			</hair_tags>
+			<beard_tags>
+				<beard_tag
+					name="khuzait" />
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag
+					name="Cleanface" />
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="6" />
+			<Trait
+				id="Commander"
+				value="12" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="6" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_civ_template_default"
+				equipmentType="Civilian" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_K9_c2"
+		name="{=vDqbZTbb}LadyRed"
+		age="22"
+		voice="ironic"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.khuzait"
+		skill_template="SkillSet.spc_knight_skills"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!-- placeholder face key -->
+			<BodyProperties
+				version="4"
+				weight="0.142"
+				build="0.5648"
+				key="001EC00CC0FC100463B8C87941868498779B3336466F8678C67EEEDEC8AE7595008BB60308C7A5050000000000000000000000000000000000000000711C10C3" />
+			<hair_tags>
+				<hair_tag
+					name="khuzait" />
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag
+					name="Cleanface" />
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="8" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="14" />
+			<!-- Can lead a caravan if necessary but better suited to administer -->
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="khu_bat_template_medium" />
+			<EquipmentSet
+				id="khu_civ_template_default"
+				equipmentType="Civilian" />
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- English language strings for the Akans module.
+     Covers every named {=id} token used across the module's ModuleData files. -->
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+      type="string">
+  <tags>
+    <tag language="English" />
+  </tags>
+  <strings>
+
+    <!-- ================================================================
+         Culture
+    ================================================================ -->
+    <string id="culture_akan.name"
+            text="Akan" />
+    <string id="culture_akan.text"
+            text="Many people across the Americas trace their ancestry to Akan-speaking populations due to the trans-Atlantic slave trade. Between the 17th and 19th centuries, a significant proportion of enslaved Africans shipped from the Gold Coast — estimated at 10% of all embarkations from West Africa — were of Akan origin. Although gold remained central to the Akan economy, the intensification of internal conflicts — especially among the Fante and Ashanti during the 18th century — led to the capture and external sale of war captives, many of whom were exported through coastal ports such as Anomabo and Cape Coast." />
+
+    <!-- ================================================================
+         Kingdom — Maroon Warlords
+    ================================================================ -->
+    <string id="maroonfaction"
+            text="Maroon Warlords" />
+    <string id="maroonmembers"
+            text="Maroons" />
+    <!-- Kingdom title displayed in the diplomacy screen -->
+    <string id="UsbwPmYb"
+            text="Za of Maroon" />
+    <!-- Ruler title used in-game -->
+    <string id="5djtBrHj"
+            text="Za" />
+    <!-- Kingdom lore text shown in the encyclopedia -->
+    <string id="qggtvf8Y"
+            text="The Maroon was located in the southwestern extremities of the parish of Aserai land, close to the border of the Aserai kingdom. In 1080 a large number of Akan freedom fighters already living in the mountains launched an assault on the Northern Empire in Calradia, freeing between 300 and 400 enslaved people. They established a new community of free people in Calradia, in the forested mountains of the island's interior — the Cockpit Country. Naquan, Cudjoe's father, was allegedly the one who orchestrated this rebellion. Naquan was succeeded by Cudjoe, the first Za of this group of Maroons." />
+
+    <!-- ================================================================
+         Clan names
+    ================================================================ -->
+    <string id="zY2TQC9t"
+            text="Maroon Warlords" />
+    <string id="cYTdzMQ4"
+            text="BoklahomaGang" />
+
+    <!-- ================================================================
+         Comment-string text entries
+         (the {=*.text} tokens referenced inside akan_comment_strings.xml)
+    ================================================================ -->
+
+    <!-- Vassal lord greeting the player -->
+    <string id="str_comment_vassal_introduces_self.akan.text"
+            text="I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}, my {?PLAYER.GENDER}lady{?}lord{\?}, and I am honored to serve you." />
+    <string id="str_comment_vassal_introduces_self.akan_honor.text"
+            text="I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}. My oath to your banner is my bond — I do not give it lightly, my {?PLAYER.GENDER}lady{?}lord{\?}." />
+    <string id="str_comment_vassal_introduces_self.akan_valor.text"
+            text="I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}. You will find no fiercer sword arm in your service, my {?PLAYER.GENDER}lady{?}lord{\?}." />
+    <string id="str_comment_vassal_introduces_self.akan_calculating.text"
+            text="I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}. Alliance with you is sound strategy. I trust it will prove so for us both, my {?PLAYER.GENDER}lady{?}lord{\?}." />
+
+    <!-- Noble greeting — short form -->
+    <string id="str_comment_noble_introduces_self.akan.text"
+            text="I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}." />
+    <string id="str_comment_noble_introduces_self.akan_honor.text"
+            text="I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}. My word is my only currency — spend it wisely." />
+    <string id="str_comment_noble_introduces_self.akan_valor.text"
+            text="I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}. I have bled for these lands. Do not make me regret that." />
+    <string id="str_comment_noble_introduces_self.akan_mercy.text"
+            text="I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}. Come in peace and you will find it returned." />
+    <string id="str_comment_noble_introduces_self.akan_calculating.text"
+            text="I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}. Let us be direct — what do you want, and what will it cost me?" />
+    <string id="str_comment_noble_introduces_self.akan_uncharitable.text"
+            text="I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}. I have little time and less patience. Speak your purpose." />
+
+    <!-- Noble greeting — with clan mention -->
+    <string id="str_comment_noble_introduces_self_and_clan.akan.text"
+            text="I am {CONVERSATION_CHARACTER.LINK}, of {CLAN_NAME}." />
+    <string id="str_comment_noble_introduces_self_and_clan.akan_honor.text"
+            text="I am {CONVERSATION_CHARACTER.LINK}, of {CLAN_NAME}. We have kept our honour when others cast theirs aside." />
+    <string id="str_comment_noble_introduces_self_and_clan.akan_mercy.text"
+            text="I am {CONVERSATION_CHARACTER.LINK}, of {CLAN_NAME}. We do not forget those who showed us kindness." />
+    <string id="str_comment_noble_introduces_self_and_clan.akan_boasting.text"
+            text="I am {CONVERSATION_CHARACTER.LINK}, of {CLAN_NAME}. You would do well to remember both names." />
+    <string id="str_comment_noble_introduces_self_and_clan.akan_boasting_cruel.text"
+            text="I am {CONVERSATION_CHARACTER.LINK}, of {CLAN_NAME}. Those who crossed us have learned what that means." />
+
+    <!-- Maroon elder / Za introduction -->
+    <string id="str_comment_noble_introduces_self_and_clan.akan_elder.text"
+            text="I am {CONVERSATION_CHARACTER.LINK}, Za of the {CLAN_NAME}. My father's father fought for these mountains. I will not surrender a stone of them." />
+    <string id="str_comment_noble_introduces_self_and_clan.akan_elder_honor.text"
+            text="I am {CONVERSATION_CHARACTER.LINK}, Za of the {CLAN_NAME}. Sankofa — we look back so we do not lose our way forward." />
+
+    <!-- Female noble greeting — Zea / Nyla flavour -->
+    <string id="str_comment_noble_introduces_self.akan_female.text"
+            text="I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}. You stand in the presence of a Maroon matriarch — mind your manners." />
+    <string id="str_comment_noble_introduces_self.akan_female_mercy.text"
+            text="I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}. My hearth is open to those who come in friendship." />
+    <string id="str_comment_noble_introduces_self.akan_female_honor.text"
+            text="I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}. My people have survived worse than you — I ask only that you give me reason to trust." />
+
+    <!-- Liege titles -->
+    <string id="str_liege_title.akan.text"
+            text="rightful Za of the Maroon" />
+    <string id="str_liege_title_female.akan.text"
+            text="rightful Za of the Maroon" />
+
+    <!-- ================================================================
+         New comment strings — reactions, battle, peace, captivity
+    ================================================================ -->
+
+    <!-- After the player is captured by an Akan lord -->
+    <string id="str_comment_player_is_captured.akan.text"
+            text="You fought well. We did not seek this quarrel, but you left us no choice. Rest — we are not savages." />
+    <string id="str_comment_player_is_captured.akan_cruel.text"
+            text="Did you truly believe you could ride into Maroon lands and leave unscathed? You will have time in that cell to reconsider." />
+    <string id="str_comment_player_is_captured.akan_honor.text"
+            text="A warrior deserves a warrior's treatment. You have that, at least, from me." />
+    <string id="str_comment_player_is_captured.akan_mercy.text"
+            text="You are unharmed — I have given orders. I hope you will remember that when the time comes to speak of us to others." />
+
+    <!-- After defeating enemies -->
+    <string id="str_comment_enemy_defeated.akan.text"
+            text="The mountains demanded a price. We paid it. Now let us see to our wounded." />
+    <string id="str_comment_enemy_defeated.akan_valor.text"
+            text="We fought as our ancestors taught — without fear, without hesitation. This victory belongs to every soul that bled for Maroon freedom." />
+    <string id="str_comment_enemy_defeated.akan_calculating.text"
+            text="We chose our ground, we chose our moment. This was never in doubt." />
+    <string id="str_comment_enemy_defeated.akan_cruel.text"
+            text="Let word of this spread. The next column that marches into these hills will think twice." />
+
+    <!-- After meeting a victorious player / ally -->
+    <string id="str_comment_meet_after_victory.akan.text"
+            text="A decisive victory. The Adinkra say 'Aya' — the fern endures. So must we." />
+    <string id="str_comment_meet_after_victory.akan_honor.text"
+            text="Well fought. Honour demands I say so plainly — you have earned respect this day." />
+    <string id="str_comment_meet_after_victory.akan_calculating.text"
+            text="The outcome was the correct one. I trust our arrangement remains intact." />
+
+    <!-- Peace offer / opening diplomacy -->
+    <string id="str_comment_ask_for_peace.akan.text"
+            text="The Maroons have never sought war for its own sake. We fight because we must. If there is a path through words, I would walk it." />
+    <string id="str_comment_ask_for_peace.akan_mercy.text"
+            text="Enough lives have been spent. Let us speak of what a lasting peace might look like for both our peoples." />
+    <string id="str_comment_ask_for_peace.akan_calculating.text"
+            text="Continuing this costs us both. I am prepared to discuss terms — if you are prepared to be reasonable." />
+
+    <!-- Hostile encounter / road challenge -->
+    <string id="str_comment_lord_answers_hostile.akan.text"
+            text="You are riding on Maroon land. State your business, and state it plainly." />
+    <string id="str_comment_lord_answers_hostile.akan_valor.text"
+            text="I have not run from a fight in forty years. I will not start now. Choose your next words carefully." />
+    <string id="str_comment_lord_answers_hostile.akan_calculating.text"
+            text="I know what you are doing. I know why. And I know exactly how this ends if you do not stand down." />
+    <string id="str_comment_lord_answers_hostile.akan_cruel.text"
+            text="The last man who challenged me this way is no longer a concern. Yours is a short road." />
+
+    <!-- Reaction to villainous deeds -->
+    <string id="str_comment_reaction_to_villain.akan.text"
+            text="Word of your deeds travels faster than you do. Do not expect a warm welcome in these mountains." />
+    <string id="str_comment_reaction_to_villain.akan_honor.text"
+            text="We built our freedom on the principle that no one owns another. What you have done is an affront to everything the Maroons stand for." />
+    <string id="str_comment_reaction_to_villain.akan_calculating.text"
+            text="I am cataloguing what you have done. Debts are not forgotten here." />
+
+    <!-- Reaction to heroic deeds -->
+    <string id="str_comment_reaction_to_hero.akan.text"
+            text="There are few in Calradia I would call worthy of respect. You are closer to that list than most." />
+    <string id="str_comment_reaction_to_hero.akan_honor.text"
+            text="What you did was right. Simple as that. I will not pretend otherwise." />
+    <string id="str_comment_reaction_to_hero.akan_mercy.text"
+            text="Kindness is rarely repaid in kind in this world. The Maroons remember those who break that pattern." />
+
+    <!-- Greeting a lord you know well (used with relationship bonuses) -->
+    <string id="str_comment_lord_greets_friend.akan.text"
+            text="Akwaaba — you are welcome among us. Sit, eat, tell me what the roads are saying." />
+    <string id="str_comment_lord_greets_friend.akan_generous.text"
+            text="Good to see you riding these roads again. My cook has prepared more than we can eat — come, join us." />
+
+    <!-- Comment on the player joining / leaving their faction -->
+    <string id="str_comment_can_you_join_faction.akan.text"
+            text="The Maroons do not take oaths lightly, and we do not release them lightly. Think carefully before you bind yourself to us — or before you leave." />
+    <string id="str_comment_defect_from_faction.akan.text"
+            text="You are leaving. I will not grovel. But know that a soldier's worth is measured in loyalty as much as in skill." />
+
+  </strings>
+</base>

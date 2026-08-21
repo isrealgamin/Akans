@@ -1,0 +1,267 @@
+﻿<?xml version = "1.0" encoding = "utf-8" ?>
+<SPCultures>
+
+	<Culture id="akan"
+			 name="{=culture_akan.name}Akan"
+			 is_main_culture="true"
+			 color="0xff830808"
+			 color2="0xfff4ca14"
+			 elite_basic_troop="NPCCharacter.akan_warrior"
+			 basic_troop="NPCCharacter.akan_freeman"
+			 melee_militia_troop="NPCCharacter.akan_town_guard"
+			 ranged_militia_troop="NPCCharacter.akan_scout"
+			 melee_elite_militia_troop="NPCCharacter.akan_veteran_town_guard"
+			 ranged_elite_militia_troop="NPCCharacter.akan_skirmisher"
+			 can_have_settlement="true"
+			 villager_party_template="PartyTemplate.villager_akan_template"
+			 default_party_template="PartyTemplate.kingdom_hero_party_akan_template"
+		  settlement_patrol_template_level_1="PartyTemplate.patrol_party_akan_template_level_1"
+		  settlement_patrol_template_level_2="PartyTemplate.patrol_party_akan_template_level_2"
+		  settlement_patrol_template_level_3="PartyTemplate.patrol_party_akan_template_level_3"
+			 militia_party_template="PartyTemplate.militia_akan_template"
+			 rebels_party_template="PartyTemplate.rebels_akan_template"
+			 vassal_reward_party_template="PartyTemplate.vassal_reward_troops_akan"
+			 encounter_background_mesh="encounter_aserai"
+			 faction_banner_key="11.19.149.1836.1836.768.788.1.0.90.401.116.156.568.585.761.757.0.0.0.503.116.156.565.582.761.757.0.0.0.503.142.156.516.532.761.757.0.0.0.427.84.116.389.299.763.687.1.1.179"
+			 text="{=culture_akan.text}Many people across the Americas trace their ancestry to Akan-speaking populations due to the trans-Atlantic slave trade. Between the 17th and 19th centuries, a significant proportion of enslaved Africans shipped from the Gold Coast—estimated at 10% of all embarkations from West Africa—were of Akan origin. Although gold remained central to the Akan economy, the intensification of internal conflicts—especially among the Fante and Ashanti during the 18th century—led to the capture and external sale of war captives, many of whom were exported through coastal ports such as Anomabo and Cape Coast."
+			 tournament_master="NPCCharacter.tournament_master_akan"
+			 villager="NPCCharacter.villager_akan"
+			 caravan_master="NPCCharacter.eastern_caravan_master"
+			 armed_trader="NPCCharacter.eastern_armed_trader"
+			 caravan_guard="NPCCharacter.eastern_caravan_master"
+			 veteran_caravan_guard="NPCCharacter.veteran_eastern_caravan_guard"
+			 prison_guard="NPCCharacter.prison_guard_akan"
+			 guard="NPCCharacter.guard_akan"
+			 blacksmith="NPCCharacter.blacksmith_akan"
+			 weaponsmith="NPCCharacter.weaponsmith_akan"
+			 townswoman="NPCCharacter.townswoman_akan"
+			 townswoman_infant="NPCCharacter.townswoman_infant_akan"
+			 townswoman_child="NPCCharacter.townswoman_child_akan"
+			 townswoman_teenager="NPCCharacter.townswoman_teenager_akan"
+			 townsman="NPCCharacter.townsman_akan"
+			 townsman_infant="NPCCharacter.townsman_infant_akan"
+			 townsman_child="NPCCharacter.townsman_child_akan"
+			 townsman_teenager="NPCCharacter.townsman_teenager_akan"
+			 village_woman="NPCCharacter.village_woman_akan"
+			 villager_male_child="NPCCharacter.villager_child_akan"
+			 villager_male_teenager="NPCCharacter.villager_teenager_akan"
+			 villager_female_child="NPCCharacter.village_woman_child_akan"
+			 villager_female_teenager="NPCCharacter.village_woman_teenager_akan"
+			 ransom_broker="NPCCharacter.ransom_broker_akan"
+			 gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_akan"
+			 merchant_notary="NPCCharacter.merchant_notary_akan"
+			 artisan_notary="NPCCharacter.artisan_notary_akan"
+			 preacher_notary="NPCCharacter.preacher_notary_akan"
+			 rural_notable_notary="NPCCharacter.rural_notable_notary_akan"
+			 shop_worker="NPCCharacter.shop_worker_akan"
+			 tavernkeeper="NPCCharacter.tavernkeeper_akan"
+			 taverngamehost="NPCCharacter.taverngamehost_akan"
+			 musician="NPCCharacter.musician_akan"
+			 tavern_wench="NPCCharacter.tavern_wench_akan"
+			 armorer="NPCCharacter.armorer_akan"
+			 horseMerchant="NPCCharacter.horseMerchant_akan"
+			 barber="NPCCharacter.barber_akan"
+			 merchant="NPCCharacter.merchant_akan"
+		  beggar="NPCCharacter.beggar_akan"
+		  female_beggar="NPCCharacter.female_beggar_akan"
+		  female_dancer="NPCCharacter.female_dancer_akan"
+		  default_battle_equipment_roster="EquipmentRoster.akan_civ_template_default"
+		  default_civilian_equipment_roster="EquipmentRoster.akan_civ_template_default"
+		  default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster"
+		  duel_preset_equipment_roster="EquipmentRoster.akan_duel_preset_template"
+		  marriage_bride_equipment_roster="EquipmentRoster.marriage_female_akan_cutscene_template"
+		  board_game_type="MuTorere"
+		  default_character_creation_body_property="BodyProperty.default_character_creation_body_property_akan"
+			start_point_position_x="1115"
+			start_point_position_y="1152">
+		<caravan_party_templates>
+			<caravan_party_template
+				id="PartyTemplate.eastern_caravan_template" />
+		</caravan_party_templates>
+		<elite_caravan_party_templates>
+			<caravan_party_template
+				id="PartyTemplate.elite_eastern_caravan_template" />
+		</elite_caravan_party_templates>
+		<available_ship_hulls></available_ship_hulls>
+		<vassal_reward_items>
+			<item id="Item.sentinel_2hsword" />
+		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.vlandia_sword_1_t2" />
+			<item id="Item.vlandia_sword_2_t3" />
+			<item id="Item.vlandia_sword_3_t4" />
+			<item id="Item.vlandia_sword_5_t5" />
+		</banner_bearer_replacement_weapons>
+		<default_policies>
+			<policy id="policy_feudal_inheritance" />
+			<policy id="policy_castle_charters" />
+		</default_policies>
+		<male_names>
+			<name name="{=AF3E84B3}Adom" />
+			<name name="{=FBEDBF73}Afriyie" />
+			<name name="{=E4D03D89}Agyeman" />
+			<name name="{=0C912A32}Akwasi" />
+			<name name="{=B8708452}Amponsah" />
+			<name name="{=0265AC21}Antwi" />
+			<name name="{=241BEBD1}Appiah" />
+			<name name="{=71B3C2FC}Asamoah" />
+			<name name="{=3103DAF4}Baah" />
+			<name name="{=FD4A97BA}Baffour" />
+			<name name="{=FC7F4FE7}Boakye" />
+			<name name="{=DC26D82C}Frimpong" />
+			<name name="{=28EB55C3}Gyasi" />
+			<name name="{=0FBA5BAB}Kobina" />
+			<name name="{=E409FAC1}Kofi" />
+			<name name="{=4A9E1B26}Kojo" />
+			<name name="{=6C689F4C}Kwabena" />
+			<name name="{=71D264B7}Kwadwo" />
+			<name name="{=623D213B}Kwaku" />
+			<name name="{=23CB56BB}Kwakye" />
+			<name name="{=D76A24DE}Kwame" />
+			<name name="{=90C3D412}Kwamekyere" />
+			<name name="{=5D220C94}Kwesi" />
+			<name name="{=C8ED809D}Kyeremeh" />
+			<name name="{=30C2539C}Mensah" />
+			<name name="{=FB097C0B}Nana" />
+			<name name="{=F38CC407}Osei" />
+			<name name="{=EA059206}Owusu" />
+			<name name="{=D081B57F}Sekou" />
+			<name name="{=C60FAE6F}Yaw" />
+		</male_names>
+		<female_names>
+			<name name="{=C1AFA949}Abena" />
+			<name name="{=2FCC3559}Abenaa" />
+			<name name="{=2E16EEA1}Abenaasa" />
+			<name name="{=2718727A}Adjoa" />
+			<name name="{=FC94263B}Adoma" />
+			<name name="{=4E7BB301}Adwoa" />
+			<name name="{=927DA992}Afia" />
+			<name name="{=7800E79A}Afiba" />
+			<name name="{=6795ABCD}Afriyewaa" />
+			<name name="{=632D09E2}Afriyie" />
+			<name name="{=CD349F81}Afua" />
+			<name name="{=4A711A33}Agyapomaa" />
+			<name name="{=5AB6537A}Akosua" />
+			<name name="{=27660B6B}Akua" />
+			<name name="{=49D4F16E}Akuaaba" />
+			<name name="{=163329F0}Akuafo" />
+			<name name="{=E0A949D5}Ama" />
+			<name name="{=624A881C}Anto" />
+			<name name="{=B41A9967}Asantewaa" />
+			<name name="{=F2551EAC}Baaba" />
+			<name name="{=60349EA4}Efua" />
+			<name name="{=C76D20E6}Ewurabena" />
+			<name name="{=C8CBF009}Ewuraesi" />
+			<name name="{=B107085D}Maame" />
+			<name name="{=16DF4AE9}Nhyira" />
+			<name name="{=C6CD824B}Nyarkoaa" />
+			<name name="{=2D32AB3A}Ohemaa" />
+			<name name="{=1C0A9372}Oseiwaa" />
+			<name name="{=E2A15AA6}Serwaa" />
+			<name name="{=ACFFFED0}Yaa" />
+		</female_names>
+		<clan_names>
+			<name name="{=89DEB269}Acheampong" />
+			<name name="{=F64E8811}Agyeman" />
+			<name name="{=7A902529}Antwi" />
+			<name name="{=FF6C86C0}Appiah" />
+			<name name="{=0811D8E2}Asamoah" />
+			<name name="{=D3C8AB62}Baffour" />
+			<name name="{=18867F8C}Boakye" />
+			<name name="{=075C2EE0}Boateng" />
+			<name name="{=40A59DEC}Frimpong" />
+			<name name="{=EF8D1983}Owusu" />
+		</clan_names>
+		<cultural_feats>
+			<feat id="battanian_militia_production" />
+			<feat id="vlandian_villages_production_bonus" />
+		</cultural_feats>
+		<possible_clan_banner_icon_ids>
+			<icon id="140" />
+			<icon id="141" />
+			<icon id="142" />
+			<icon id="143" />
+			<icon id="144" />
+			<icon id="145" />
+			<icon id="146" />
+			<icon id="159" />
+			<icon id="205" />
+			<icon id="206" />
+			<icon id="207" />
+			<icon id="417" />
+			<icon id="418" />
+			<icon id="419" />
+			<icon id="300" />
+			<icon id="301" />
+			<icon id="302" />
+			<icon id="303" />
+			<icon id="315" />
+		</possible_clan_banner_icon_ids>
+		<notable_templates>
+			<template name="NPCCharacter.spc_notable_akan_merch1" />
+			<template name="NPCCharacter.spc_notable_akan_merch2" />
+			<template name="NPCCharacter.spc_notable_akan_merch3" />
+			<template name="NPCCharacter.spc_notable_akan_merch4" />
+			<template name="NPCCharacter.spc_notable_akan_merch5" />
+			<template name="NPCCharacter.spc_notable_akan_1" />
+			<template name="NPCCharacter.spc_notable_akan_1b" />
+			<template name="NPCCharacter.spc_notable_akan_2" />
+			<template name="NPCCharacter.spc_notable_akan_3" />
+			<template name="NPCCharacter.spc_akan_gangleader_1" />
+			<template name="NPCCharacter.spc_akan_gangleader_2" />
+			<template name="NPCCharacter.spc_akan_gangleader_3" />
+			<template name="NPCCharacter.spc_notable_akan_artisan_1" />
+			<template name="NPCCharacter.spc_notable_akan_artisan_2" />
+			<template name="NPCCharacter.spc_notable_akan_rural_1" />
+			<template name="NPCCharacter.spc_notable_akan_rural_2" />
+			<template name="NPCCharacter.spc_akan_headman_1" />
+			<template name="NPCCharacter.spc_akan_headman_2" />
+			<template name="NPCCharacter.spc_akan_headman_3" />
+		</notable_templates>
+		<lord_templates>
+			<template name="NPCCharacter.akan_rebel_lord" />
+		</lord_templates>
+		<rebellion_hero_templates>
+			<template name="NPCCharacter.akan_rebel_lord" />
+		</rebellion_hero_templates>
+		<tournament_team_templates_one_participant>
+			<template
+				name="NPCCharacter.jawwal_tier_1" />
+			<template
+				name="NPCCharacter.jawwal_tier_1" />
+			<template
+				name="NPCCharacter.jawwal_tier_1" />
+			<template
+				name="NPCCharacter.jawwal_tier_1" />
+			<template
+				name="NPCCharacter.tournament_template_khuzait_one_participant_set_v1" />
+			<template
+				name="NPCCharacter.tournament_template_khuzait_one_participant_set_v2" />
+			<template
+				name="NPCCharacter.tournament_template_khuzait_one_participant_set_v3" />
+		</tournament_team_templates_one_participant>
+		<tournament_team_templates_two_participant>
+			<template
+				name="NPCCharacter.tournament_template_khuzait_two_participant_set_v1" />
+			<template
+				name="NPCCharacter.tournament_template_khuzait_two_participant_set_v2" />
+			<template
+				name="NPCCharacter.tournament_template_khuzait_two_participant_set_v3" />
+		</tournament_team_templates_two_participant>
+		<tournament_team_templates_four_participant>
+			<template
+				name="NPCCharacter.tournament_template_khuzait_four_participant_set_v1" />
+			<template
+				name="NPCCharacter.tournament_template_khuzait_four_participant_set_v2" />
+			<template
+				name="NPCCharacter.tournament_template_khuzait_four_participant_set_v3" />
+		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+			<template name="NPCCharacter.jawwal_tier_1" />
+
+		</basic_mercenary_troops>
+	</Culture>
+
+
+
+</SPCultures>

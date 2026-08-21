@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+<partyTemplate id="villager_akan_template">
+<stacks>
+<stack character="NPCCharacter.tdTroop_VSTvcqL0002OH" min_value="8" max_value="25"/>
+</stacks>
+</partyTemplate>
+<partyTemplate id="militia_akan_template">
+<stacks>
+<stack character="NPCCharacter.akan_town_guard" min_value="6" max_value="15"/>
+<stack character="NPCCharacter.akan_scout" min_value="4" max_value="10"/>
+</stacks>
+</partyTemplate>
+<partyTemplate id="patrol_party_akan_template_level_1">
+<stacks>
+<stack character="NPCCharacter.akan_freeman" min_value="5" max_value="10"/>
+<stack character="NPCCharacter.akan_scout" min_value="2" max_value="5"/>
+</stacks>
+</partyTemplate>
+<partyTemplate id="patrol_party_akan_template_level_2">
+<stacks>
+<stack character="NPCCharacter.akan_town_guard" min_value="6" max_value="12"/>
+<stack character="NPCCharacter.akan_scout" min_value="4" max_value="8"/>
+<stack character="NPCCharacter.akan_warrior" min_value="3" max_value="6"/>
+</stacks>
+</partyTemplate>
+<partyTemplate id="patrol_party_akan_template_level_3">
+<stacks>
+<stack character="NPCCharacter.akan_veteran_town_guard" min_value="6" max_value="12"/>
+<stack character="NPCCharacter.akan_skirmisher" min_value="5" max_value="10"/>
+<stack character="NPCCharacter.tdTroop_VSTtYyg0001Qt" min_value="4" max_value="8"/>
+</stacks>
+</partyTemplate>
+<partyTemplate id="kingdom_hero_party_akan_template">
+<stacks>
+<stack character="NPCCharacter.akan_freeman" min_value="10" max_value="25"/>
+<stack character="NPCCharacter.akan_warrior" min_value="6" max_value="15"/>
+<stack character="NPCCharacter.tdTroop_VSTtYyg0001Qt" min_value="5" max_value="12"/>
+<stack character="NPCCharacter.tdTroop_VSTx2Fq0002Na" min_value="4" max_value="10"/>
+<stack character="NPCCharacter.jawwal_tier_1" min_value="3" max_value="8"/>
+</stacks>
+</partyTemplate>
+<partyTemplate id="rebels_akan_template">
+<stacks>
+<stack character="NPCCharacter.akan_freeman" min_value="15" max_value="30"/>
+<stack character="NPCCharacter.jawwal_tier_1" min_value="5" max_value="12"/>
+<stack character="NPCCharacter.akan_scout" min_value="5" max_value="10"/>
+</stacks>
+</partyTemplate>
+<partyTemplate id="vassal_reward_troops_akan">
+<stacks>
+<stack character="NPCCharacter.akan_warrior" min_value="5" max_value="5"/>
+<stack character="NPCCharacter.tdTroop_VSTuX020002B4" min_value="3" max_value="3"/>
+<stack character="NPCCharacter.akan_veteran_town_guard" min_value="2" max_value="2"/>
+</stacks>
+</partyTemplate>
+</partyTemplates>

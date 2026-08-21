@@ -1,0 +1,1638 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EquipmentRosters>
+  
+ <EquipmentRoster id="spc_wanderer_akan_0"
+                   culture="Culture.akan">
+    <EquipmentSet>
+      <Equipment slot="Item0"
+                 id="Item.vlandia_sword_3_t4" />
+      <Equipment slot="Body"
+                 id="Item.monk_robe" />
+      <Equipment slot="Leg"
+                 id="Item.strapped_leather_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  
+	<EquipmentRoster
+		id="spc_notable_akan_merch1"
+		culture="Culture.akan">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.vlandia_sword_3_t4" />
+			<Equipment
+				slot="Body"
+				id="Item.cloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster
+		id="spc_notable_akan_merch4"
+		culture="Culture.akan">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.vlandia_sword_2_t3" />
+			<Equipment
+				slot="Body"
+				id="Item.sleeveless_padded_short_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster
+		id="spc_notable_akan_merch5"
+		culture="Culture.akan">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.vlandia_sword_2_t3" />
+			<Equipment
+				slot="Body"
+				id="Item.sleeveless_padded_short_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster
+		id="spc_notable_akan_1"
+		culture="Culture.akan">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.vlandia_sword_2_t3" />
+			<Equipment
+				slot="Body"
+				id="Item.sleeveless_padded_short_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster
+		id="spc_notable_akan_1b"
+		culture="Culture.akan">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.vlandia_sword_2_t3" />
+			<Equipment
+				slot="Body"
+				id="Item.sleeveless_padded_short_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_leather_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster
+		id="spc_notable_akan_2"
+		culture="Culture.akan">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.vlandia_sword_2_t3" />
+			<Equipment
+				slot="Body"
+				id="Item.cloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster
+		id="spc_notable_akan_3"
+		culture="Culture.akan">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.vlandia_sword_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.cloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="spc_akan_gangleader_3"
+		culture="Culture.akan">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.vlandia_sword_2_t3" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="npc_wanderer_equipment_akan"
+		culture="Culture.akan">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.vlandia_sword_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.leather_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.vlandia_mace_1_t2" />
+			<Equipment
+				slot="Cape"
+				id="Item.hood" />
+			<Equipment
+				slot="Body"
+				id="Item.nordic_sloven_leather" />
+			<Equipment
+				slot="Leg"
+				id="Item.ragged_boots" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.vlandia_mace_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.tied_cloth_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.battania_axe_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_rolled_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.vlandia_sword_1_t2" />
+			<Equipment
+				slot="Head"
+				id="Item.leather_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.tundra_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.morningstar_mace_t3" />
+			<Equipment
+				slot="Cape"
+				id="Item.green_hood" />
+			<Equipment
+				slot="Body"
+				id="Item.tunic_with_rolled_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+			<Equipment
+				slot="Item0"
+				id="Item.vlandia_sword_2_t3" />
+		</EquipmentSet>
+		<Flags
+			
+			
+			 />
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="npc_artisan_equipment_akan"
+		culture="Culture.akan">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.simple_back_sword_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.heavy_nordic_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+		<Flags
+			 />
+	</EquipmentRoster>	
+	
+	<EquipmentRoster id="npc_gang_leader_equipment_akan"
+		culture="Culture.akan">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.vlandia_sword_2_t3" />
+			<Equipment
+				slot="Body"
+				id="Item.heavy_nordic_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+		<Flags
+			 />
+	</EquipmentRoster>	
+	
+	<EquipmentRoster id="npc_preacher_equipment_akan"
+		culture="Culture.akan">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.heavy_nordic_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+		<Flags
+			 />
+	</EquipmentRoster>	
+
+	<EquipmentRoster id="npc_merchant_equipment_akan"
+		culture="Culture.akan">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.heavy_nordic_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+		<Flags
+			 />
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="npc_gentry_equipment_akan"
+		culture="Culture.akan">
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.heavy_nordic_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.leather_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.leather_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.strapped_shoes" />
+			<Equipment
+				slot="Item0"
+				id="Item.narrow_sword_t3" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Body"
+				id="Item.leather_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.wrapped_shoes" />
+			<Equipment
+				slot="Item0"
+				id="Item.vlandia_axe_1_t3" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Head"
+				id="Item.leather_cap" />
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+			<Equipment
+				slot="Item0"
+				id="Item.narrow_sword_t3" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.sleeveless_padded_short_coat" />
+			<Equipment
+				slot="Gloves"
+				id="Item.leather_gloves" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_boots" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_1_t2" />
+			<Equipment
+				slot="Body"
+				id="Item.leather_coat_over_cloth" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_3_t3" />
+			<Equipment
+				slot="Body"
+				id="Item.thick_sleeved_robe" />
+			<Equipment
+				slot="Leg"
+				id="Item.leather_shoes" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_3_t3" />
+			<Equipment
+				slot="Body"
+				id="Item.merchants_fur_coat" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment
+				slot="Item0"
+				id="Item.empire_sword_3_t3" />
+			<Equipment
+				slot="Body"
+				id="Item.long_woolen_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+		</EquipmentSet>
+		<EquipmentSet
+			civilian="true">
+			<Equipment
+				slot="Body"
+				id="Item.fine_town_tunic" />
+			<Equipment
+				slot="Leg"
+				id="Item.fine_town_boots" />
+			<Equipment
+				slot="Item0"
+				id="Item.vlandia_axe_1_t3" />
+		</EquipmentSet>
+		<Flags
+			IsLordTemplate="true"
+			
+			 />
+	</EquipmentRoster>		
+	
+	<!--Culture.akan -->
+	<!--Retainer -->
+	<EquipmentRoster id="player_char_creation_childhood_age_akan_retainer_m"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.desert_helmet"/>
+				<Equipment slot="Body" id="Item.aserai_villager_female_dress"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="player_char_creation_education_age_akan_retainer_m"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.desert_helmet"/>
+				<Equipment slot="Body" id="Item.aserai_villager_female_dress"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="player_char_creation_childhood_age_akan_retainer_f"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
+				<Equipment slot="Body" id="Item.fine_southern_dress"/>
+				<Equipment slot="Leg" id="Item.noble_lady_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="player_char_creation_education_age_akan_retainer_f"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
+				<Equipment slot="Body" id="Item.fine_southern_dress"/>
+				<Equipment slot="Leg" id="Item.noble_lady_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!--Merchant -->
+	<EquipmentRoster id="player_char_creation_childhood_age_akan_merchant_m"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.merchants_hat"/>
+				<Equipment slot="Body" id="Item.ragged_robes"/>
+				<Equipment slot="Leg" id="Item.wrapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="player_char_creation_education_age_akan_merchant_m"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.merchants_hat"/>
+				<Equipment slot="Body" id="Item.ragged_robes"/>
+				<Equipment slot="Leg" id="Item.wrapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="player_char_creation_childhood_age_akan_merchant_f"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.head_wrapped"/>
+				<Equipment slot="Body" id="Item.vlandian_woman_dress"/>
+				<Equipment slot="Leg" id="Item.noble_lady_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="player_char_creation_education_age_akan_merchant_f"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.head_wrapped"/>
+				<Equipment slot="Body" id="Item.vlandian_woman_dress"/>
+				<Equipment slot="Leg" id="Item.noble_lady_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!--Yeomen -->
+	<EquipmentRoster id="player_char_creation_childhood_age_akan_farmer_m"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.desert_helmet"/>
+				<Equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="player_char_creation_education_age_akan_farmer_m"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.desert_helmet"/>
+				<Equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="player_char_creation_childhood_age_akan_farmer_f"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
+				<Equipment slot="Body" id="Item.plain_dress"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="player_char_creation_education_age_akan_farmer_f"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
+				<Equipment slot="Body" id="Item.plain_dress"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!--Blacksmith -->
+	<EquipmentRoster id="player_char_creation_childhood_age_akan_artisan_m"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.desert_cap"/>
+				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
+				<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="player_char_creation_education_age_akan_artisan_m"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.desert_cap"/>
+				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
+				<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="player_char_creation_childhood_age_akan_artisan_f"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Body" id="Item.cut_dress_with_pouch"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="player_char_creation_education_age_akan_artisan_f"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Body" id="Item.cut_dress_with_pouch"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!--Hunter -->
+	<EquipmentRoster id="player_char_creation_childhood_age_akan_hunter_m"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.desert_helmet"/>
+				<Equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>	
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="player_char_creation_education_age_akan_hunter_m"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.desert_helmet"/>
+				<Equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>	
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="player_char_creation_childhood_age_akan_hunter_f"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
+				<Equipment slot="Body" id="Item.plain_dress"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>	
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="player_char_creation_education_age_akan_hunter_f"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
+				<Equipment slot="Body" id="Item.plain_dress"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>	
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!--Mercenary -->
+	<EquipmentRoster id="player_char_creation_childhood_age_akan_mercenary_m"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.shaman_hat"/>
+				<Equipment slot="Body" id="Item.aserai_villager_male_pants"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="player_char_creation_education_age_akan_mercenary_m"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.shaman_hat"/>
+				<Equipment slot="Body" id="Item.aserai_villager_male_pants"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="player_char_creation_childhood_age_akan_mercenary_f"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.head_wrapped"/>
+				<Equipment slot="Body" id="Item.vlandian_woman_dress"/>
+				<Equipment slot="Leg" id="Item.noble_lady_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="player_char_creation_education_age_akan_mercenary_f"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.head_wrapped"/>
+				<Equipment slot="Body" id="Item.vlandian_woman_dress"/>
+				<Equipment slot="Leg" id="Item.noble_lady_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>	
+	
+	<EquipmentRoster id="player_char_creation_show_akan"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>		
+				<Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+				<Equipment slot="Gloves" id="Item.armwraps"/>
+				<Equipment slot="Leg" id="Item.wrapped_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>				
+				<Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+				<Equipment slot="Gloves" id="Item.armwraps"/>
+				<Equipment slot="Leg" id="Item.wrapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>	
+	
+	<!--Townsman -->
+	<EquipmentRoster id="child_template_akan_townsman_male"
+		culture="Culture.akan">
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.sackcloth_tunic"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Head" id="Item.wrapped_headcloth"/>
+				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>		
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.tattered_rags"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.torn_bandit_clothes"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Head" id="Item.wrapped_headcloth"/>
+				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>	
+		<Flags
+			IsChildEquipmentTemplate="true"
+			IsFemaleTemplate="false"
+			
+			
+			 />
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="child_template_akan_townsman_female"
+		culture="Culture.akan">
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.cut_dress_with_pouch"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.aserai_villager_female_dress"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
+				<Equipment slot="Body" id="Item.plain_dress"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Head" id="Item.head_wrapped"/>
+				<Equipment slot="Body" id="Item.aserai_villager_female_dress"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+		<Flags
+			IsChildEquipmentTemplate="true"
+			IsFemaleTemplate="true"
+			
+			
+			 />
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="teenager_template_akan_townsman_male"
+		culture="Culture.akan">
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.sackcloth_tunic"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Head" id="Item.wrapped_headcloth"/>
+				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>		
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.tattered_rags"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.torn_bandit_clothes"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Head" id="Item.wrapped_headcloth"/>
+				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<Flags
+			IsTeenagerEquipmentTemplate="true"
+			IsFemaleTemplate="false"
+			
+			
+			 />
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="teenager_template_akan_townsman_female"
+		culture="Culture.akan">
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.cut_dress_with_pouch"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.aserai_villager_female_dress"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
+				<Equipment slot="Body" id="Item.plain_dress"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Head" id="Item.head_wrapped"/>
+				<Equipment slot="Body" id="Item.aserai_villager_female_dress"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>	
+		<Flags
+			IsTeenagerEquipmentTemplate="true"
+			IsFemaleTemplate="true"
+			
+			
+			 />
+	</EquipmentRoster>
+	<!--Villager -->
+	<EquipmentRoster id="child_template_akan_villager_male"
+		culture="Culture.akan">
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.sackcloth_tunic"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Head" id="Item.wrapped_headcloth"/>
+				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>		
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.tattered_rags"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.torn_bandit_clothes"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Head" id="Item.wrapped_headcloth"/>
+				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>	
+		<Flags
+			IsChildEquipmentTemplate="true"
+			IsFemaleTemplate="false"
+			
+			
+			 />
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="child_template_akan_villager_female"
+		culture="Culture.akan">
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.cut_dress_with_pouch"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.aserai_villager_female_dress"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
+				<Equipment slot="Body" id="Item.plain_dress"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Head" id="Item.head_wrapped"/>
+				<Equipment slot="Body" id="Item.aserai_villager_female_dress"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+		<Flags
+			IsChildEquipmentTemplate="true"
+			IsFemaleTemplate="true"
+			
+			
+			 />
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="teenager_template_akan_villager_male"
+		culture="Culture.akan">
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.sackcloth_tunic"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Head" id="Item.wrapped_headcloth"/>
+				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>		
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.tattered_rags"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.torn_bandit_clothes"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Head" id="Item.wrapped_headcloth"/>
+				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<Flags
+			IsTeenagerEquipmentTemplate="true"
+			IsFemaleTemplate="false"
+			
+			
+			 />
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="teenager_template_akan_villager_female"
+		culture="Culture.akan">
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.cut_dress_with_pouch"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.aserai_villager_female_dress"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
+				<Equipment slot="Body" id="Item.plain_dress"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Head" id="Item.head_wrapped"/>
+				<Equipment slot="Body" id="Item.aserai_villager_female_dress"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>	
+		<Flags
+			IsTeenagerEquipmentTemplate="true"
+			IsFemaleTemplate="true"
+			
+			
+			 />
+	</EquipmentRoster>
+	<!--Noble -->
+	<EquipmentRoster id="child_template_akan_noble_male"
+		culture="Culture.akan">
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.sackcloth_tunic"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Head" id="Item.wrapped_headcloth"/>
+				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>		
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.tattered_rags"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.torn_bandit_clothes"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Head" id="Item.wrapped_headcloth"/>
+				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<Flags
+			IsChildEquipmentTemplate="true"
+			IsFemaleTemplate="false"
+			IsLordTemplate="true"
+			
+			 />
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="child_template_akan_noble_female"
+		culture="Culture.akan">
+		<EquipmentSet civilian="true">
+				<Equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
+				<Equipment slot="Body" id="Item.fine_southern_dress"/>
+				<Equipment slot="Leg" id="Item.noble_lady_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Head" id="Item.head_wrapped"/>
+				<Equipment slot="Body" id="Item.vlandian_woman_dress"/>
+				<Equipment slot="Leg" id="Item.noble_lady_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
+				<Equipment slot="Body" id="Item.laced_dress"/>
+				<Equipment slot="Leg" id="Item.noble_lady_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.vlandian_dress"/>
+				<Equipment slot="Leg" id="Item.noble_lady_shoes"/>
+		</EquipmentSet>	
+		<Flags
+			IsChildEquipmentTemplate="true"
+			IsFemaleTemplate="true"
+			IsLordTemplate="true"
+			
+			 />
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="teenager_template_akan_noble_male"
+		culture="Culture.akan">
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.sackcloth_tunic"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Head" id="Item.wrapped_headcloth"/>
+				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>		
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.tattered_rags"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.torn_bandit_clothes"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Head" id="Item.wrapped_headcloth"/>
+				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<Flags
+			IsTeenagerEquipmentTemplate="true"
+			IsFemaleTemplate="false"
+			IsLordTemplate="true"
+			
+			 />
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="teenager_template_akan_noble_female"
+		culture="Culture.akan">
+		<EquipmentSet civilian="true">
+				<Equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
+				<Equipment slot="Body" id="Item.fine_southern_dress"/>
+				<Equipment slot="Leg" id="Item.noble_lady_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Head" id="Item.head_wrapped"/>
+				<Equipment slot="Body" id="Item.vlandian_woman_dress"/>
+				<Equipment slot="Leg" id="Item.noble_lady_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
+				<Equipment slot="Body" id="Item.laced_dress"/>
+				<Equipment slot="Leg" id="Item.noble_lady_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Body" id="Item.vlandian_dress"/>
+				<Equipment slot="Leg" id="Item.noble_lady_shoes"/>
+		</EquipmentSet>
+		<Flags
+			IsTeenagerEquipmentTemplate="true"
+			IsFemaleTemplate="true"
+			IsLordTemplate="true"
+			
+			 />
+	</EquipmentRoster>	
+	
+	<!--Parents Options-->
+	
+	<!--Barons-->
+	<EquipmentRoster id="mother_char_creation_retainer_akan"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
+				<Equipment slot="Body" id="Item.fine_southern_dress"/>
+				<Equipment slot="Leg" id="Item.noble_lady_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="father_char_creation_retainer_akan"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.desert_helmet"/>
+				<Equipment slot="Body" id="Item.aserai_villager_female_dress"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!--Merchants-->
+	<EquipmentRoster id="mother_char_creation_merchant_akan"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.head_wrapped"/>
+				<Equipment slot="Body" id="Item.vlandian_woman_dress"/>
+				<Equipment slot="Leg" id="Item.noble_lady_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="father_char_creation_merchant_akan"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.merchants_hat"/>
+				<Equipment slot="Body" id="Item.ragged_robes"/>
+				<Equipment slot="Leg" id="Item.wrapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<!--Yeoman-->
+	<EquipmentRoster id="mother_char_creation_artisan_akan"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
+				<Equipment slot="Body" id="Item.plain_dress"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="father_char_creation_artisan_akan"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.desert_helmet"/>
+				<Equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+<!--artisan-->
+
+	<EquipmentRoster id="mother_char_creation_vagabond_akan"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Body" id="Item.cut_dress_with_pouch"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="father_char_creation_vagabond_akan"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.desert_cap"/>
+				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
+				<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>		
+	
+	<!--Soldiers-->
+	<EquipmentRoster id="mother_char_creation_farmer_akan"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.head_wrapped"/>
+				<Equipment slot="Body" id="Item.aserai_villager_female_dress"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="father_char_creation_farmer_akan"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.shaman_hat"/>
+				<Equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>	
+		</EquipmentSet>
+	</EquipmentRoster>	
+	
+	<!--Mercenaries-->
+	<EquipmentRoster id="mother_char_creation_hunter_akan"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
+				<Equipment slot="Body" id="Item.plain_dress"/>
+				<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	
+	<EquipmentRoster id="father_char_creation_hunter_akan"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Head" id="Item.wrapped_headcloth"/>
+				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>	
+	
+	<!--player options-->
+
+	<EquipmentRoster id="player_char_creation_akan_guard_m"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>		
+				<Equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="player_char_creation_akan_guard_f"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>		
+				<Equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<Equipment slot="Body" id="Item.long_woolen_tunic" />
+			<Equipment slot="Cape" id="Item.hood" />
+			<Equipment slot="Leg" id="Item.empire_horseman_boots" />
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!--knight-->
+	<EquipmentRoster id="player_char_creation_akan_noble_m"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>			
+				<Equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>			
+				<Equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="player_char_creation_akan_noble_f"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>			
+				<Equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>			
+				<Equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!--chamberlain-->
+	<EquipmentRoster id="player_char_creation_akan_special_m"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>	
+				<Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+				<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>	
+				<Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+				<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="player_char_creation_akan_special_f"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>	
+				<Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+				<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>	
+				<Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+				<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!--merchant-->
+	<EquipmentRoster id="player_char_creation_akan_merchant_m"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>	
+				<Equipment slot="Head" id="Item.desert_helmet"/>
+				<Equipment slot="Body" id="Item.aserai_villager_female_dress"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="player_char_creation_akan_merchant_f"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>	
+				<Equipment slot="Head" id="Item.desert_helmet"/>
+				<Equipment slot="Body" id="Item.aserai_villager_female_dress"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>	
+				<Equipment slot="Head" id="Item.desert_helmet"/>
+				<Equipment slot="Body" id="Item.aserai_villager_female_dress"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!--guild-->
+	<EquipmentRoster id="player_char_creation_akan_craftman_m"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>	
+				<Equipment slot="Head" id="Item.desert_helmet"/>
+				<Equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>	
+				<Equipment slot="Head" id="Item.desert_helmet"/>
+				<Equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="player_char_creation_akan_craftman_f"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>	
+				<Equipment slot="Head" id="Item.desert_helmet"/>
+				<Equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>	
+				<Equipment slot="Head" id="Item.desert_helmet"/>
+				<Equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!--farmer-->
+	<EquipmentRoster id="player_char_creation_akan_farmer_m"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>	
+				<Equipment slot="Head" id="Item.desert_cap"/>
+				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
+				<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>	
+				<Equipment slot="Head" id="Item.desert_cap"/>
+				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
+				<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="player_char_creation_akan_farmer_f"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>	
+				<Equipment slot="Head" id="Item.desert_cap"/>
+				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
+				<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>	
+				<Equipment slot="Head" id="Item.desert_cap"/>
+				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
+				<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!--infantry-->
+	<EquipmentRoster id="player_char_creation_akan_infantry_m"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>	
+				<Equipment slot="Head" id="Item.desert_cap"/>
+				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
+				<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>	
+				<Equipment slot="Head" id="Item.desert_cap"/>
+				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
+				<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="player_char_creation_akan_infantry_f"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>	
+				<Equipment slot="Head" id="Item.desert_cap"/>
+				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
+				<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>	
+				<Equipment slot="Head" id="Item.desert_cap"/>
+				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
+				<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!--cavalry-->
+	<EquipmentRoster id="player_char_creation_akan_cavalry_m"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>	
+				<Equipment slot="Head" id="Item.desert_helmet"/>
+				<Equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>	
+				<Equipment slot="Head" id="Item.desert_helmet"/>
+				<Equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="player_char_creation_akan_cavalry_f"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>	
+				<Equipment slot="Head" id="Item.desert_helmet"/>
+				<Equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>	
+				<Equipment slot="Head" id="Item.desert_helmet"/>
+				<Equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!--crossbowman-->
+	<EquipmentRoster id="player_char_creation_akan_skirmisher_m"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>	
+				<Equipment slot="Head" id="Item.desert_helmet"/>
+				<Equipment slot="Body" id="Item.aserai_villager_male_pants"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>	
+				<Equipment slot="Head" id="Item.desert_helmet"/>
+				<Equipment slot="Body" id="Item.aserai_villager_male_pants"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="player_char_creation_akan_skirmisher_f"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>	
+				<Equipment slot="Head" id="Item.desert_helmet"/>
+				<Equipment slot="Body" id="Item.aserai_villager_male_pants"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>	
+				<Equipment slot="Head" id="Item.desert_helmet"/>
+				<Equipment slot="Body" id="Item.aserai_villager_male_pants"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!-- Highwayman -->
+	<EquipmentRoster id="player_char_creation_akan_bandit_m"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>	
+				<Equipment slot="Head" id="Item.desert_helmet"/>
+				<Equipment slot="Body" id="Item.aserai_villager_male_pants"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>	
+				<Equipment slot="Head" id="Item.desert_helmet"/>
+				<Equipment slot="Body" id="Item.aserai_villager_male_pants"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="player_char_creation_akan_bandit_f"
+		culture="Culture.akan">
+		<EquipmentSet>
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>	
+				<Equipment slot="Head" id="Item.desert_helmet"/>
+				<Equipment slot="Body" id="Item.aserai_villager_male_pants"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.infantry_sabre"/>		
+				<Equipment slot="Item2" id="Item.noble_bow"/>
+				<Equipment slot="Item3" id="Item.default_arrows"/>	
+				<Equipment slot="Head" id="Item.desert_helmet"/>
+				<Equipment slot="Body" id="Item.aserai_villager_male_pants"/>
+				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>		
+
+
+<!-- ===== default culture rosters referenced by the Culture entry ===== -->
+<EquipmentRoster id="akan_civ_template_default" culture="Culture.akan">
+<EquipmentSet civilian="true">
+<Equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
+<Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+</EquipmentSet>
+</EquipmentRoster>
+<EquipmentRoster id="akan_duel_preset_template" culture="Culture.akan">
+<EquipmentSet>
+<Equipment slot="Item0" id="Item.desert_long_sword_t4"/>
+<Equipment slot="Item1" id="Item.stronger_eastern_wicker_shield"/>
+<Equipment slot="Body" id="Item.heavy_gambeson_armor"/>
+<Equipment slot="Leg" id="Item.battania_leather_boots"/>
+</EquipmentSet>
+</EquipmentRoster>
+<EquipmentRoster id="marriage_female_akan_cutscene_template" culture="Culture.akan">
+<EquipmentSet civilian="true">
+<Equipment slot="Body" id="Item.aserai_villager_female_dress"/>
+<Equipment slot="Leg" id="Item.strapped_shoes"/>
+</EquipmentSet>
+</EquipmentRoster>
+
+</EquipmentRosters>

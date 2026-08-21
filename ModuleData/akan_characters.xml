@@ -1,0 +1,1382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+  <!-- ═══════════════════════════════════════════════════════
+       SETTLEMENT GUARDS / SOLDIERS
+       ═══════════════════════════════════════════════════════ -->
+
+  <NPCCharacter
+    id="guard_akan"
+    default_group="Infantry"
+    level="4"
+    occupation="Soldier"
+    culture="Culture.akan"
+    name="{=guardnoun}Guard"
+    skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <skills>
+      <skill id="OneHanded" value="50" />
+      <skill id="TwoHanded" value="50" />
+      <skill id="Polearm" value="50" />
+      <skill id="Crossbow" value="50" />
+      <skill id="Bow" value="50" />
+      <skill id="Throwing" value="50" />
+    </skills>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.infantry_sabre" />
+        <equipment slot="Body" id="Item.torn_bandit_clothes" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.infantry_sabre" />
+        <equipment slot="Body" id="Item.torn_bandit_clothes" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.infantry_sabre" />
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Body" id="Item.bandit_leather_water_flask" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.infantry_sabre" />
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Body" id="Item.bandit_leather_water_flask" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Body" id="Item.bandit_leather_water_flask" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_wanderer_equipment_akan" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="prison_guard_akan"
+    default_group="Infantry"
+    level="4"
+    occupation="Soldier"
+    culture="Culture.akan"
+    name="{=!}Guard"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <skills>
+      <skill id="OneHanded" value="60" />
+      <skill id="TwoHanded" value="50" />
+      <skill id="Polearm" value="60" />
+    </skills>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.infantry_sabre" />
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Body" id="Item.bandit_leather_water_flask" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.infantry_sabre" />
+        <equipment slot="Body" id="Item.vlandia_bandit_c" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Body" id="Item.bandit_leather_water_flask" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- ═══════════════════════════════════════════════════════
+       SETTLEMENT TOWNSFOLK — ADULT
+       ═══════════════════════════════════════════════════════ -->
+
+  <NPCCharacter
+    id="townsman_akan"
+    level="4"
+    occupation="Townsman"
+    culture="Culture.akan"
+    name="{=!}Townsman"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.bandit_leather_water_flask" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Body" id="Item.vlandia_bandit_c" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.sackcloth_tunic" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.aserai_villager_male_tunic" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.torn_bandit_clothes" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.desert_helmet" />
+        <equipment slot="Body" id="Item.bandit_envelope_dress_v2" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="townswoman_akan"
+    level="4"
+    occupation="Townswoman"
+    culture="Culture.akan"
+    is_female="true"
+    name="{=!}Townswoman"
+    is_hidden_encyclopedia="true">
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.head_wrapped" />
+        <equipment slot="Body" id="Item.aserai_villager_female_dress" />
+        <equipment slot="Leg" id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cut_dress_with_pouch" />
+        <equipment slot="Leg" id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.aserai_villager_female_dress" />
+        <equipment slot="Leg" id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.aserai_female_civil_hscarf" />
+        <equipment slot="Body" id="Item.plain_dress" />
+        <equipment slot="Leg" id="Item.ladys_shoe" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- ═══════════════════════════════════════════════════════
+       SETTLEMENT TOWNSFOLK — INFANT
+       ═══════════════════════════════════════════════════════ -->
+
+  <NPCCharacter
+    id="townsman_infant_akan"
+    level="1"
+    occupation="Infant"
+    culture="Culture.akan"
+    name="{=!}Infant"
+    is_hidden_encyclopedia="true">
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.sackcloth_tunic" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="townswoman_infant_akan"
+    level="1"
+    occupation="Infant"
+    culture="Culture.akan"
+    is_female="true"
+    name="{=!}Infant"
+    is_hidden_encyclopedia="true">
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.sackcloth_tunic" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- ═══════════════════════════════════════════════════════
+       SETTLEMENT TOWNSFOLK — CHILD
+       ═══════════════════════════════════════════════════════ -->
+
+  <NPCCharacter
+    id="townsman_child_akan"
+    level="1"
+    occupation="Child"
+    culture="Culture.akan"
+    name="{=!}Child"
+    is_hidden_encyclopedia="true">
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="child_template_akan_townsman_male" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="townswoman_child_akan"
+    level="1"
+    occupation="Child"
+    culture="Culture.akan"
+    is_female="true"
+    name="{=!}Child"
+    is_hidden_encyclopedia="true">
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="child_template_akan_townsman_female" />
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- ═══════════════════════════════════════════════════════
+       SETTLEMENT TOWNSFOLK — TEENAGER
+       ═══════════════════════════════════════════════════════ -->
+
+  <NPCCharacter
+    id="townsman_teenager_akan"
+    level="2"
+    occupation="Teenager"
+    culture="Culture.akan"
+    name="{=!}Teenager"
+    is_hidden_encyclopedia="true">
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="teenager_template_akan_townsman_male" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="townswoman_teenager_akan"
+    level="2"
+    occupation="Teenager"
+    culture="Culture.akan"
+    is_female="true"
+    name="{=!}Teenager"
+    is_hidden_encyclopedia="true">
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="teenager_template_akan_townsman_female" />
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- ═══════════════════════════════════════════════════════
+       VILLAGE FOLK — ADULT
+       ═══════════════════════════════════════════════════════ -->
+
+  <NPCCharacter
+    id="villager_akan"
+    level="4"
+    occupation="Villager"
+    culture="Culture.akan"
+    name="{=!}Villager"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.desert_helmet" />
+        <equipment slot="Body" id="Item.aserai_villager_male_tunic" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.sackcloth_tunic" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.bandit_envelope_dress_v2" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tattered_rags" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="village_woman_akan"
+    level="4"
+    occupation="Townswoman"
+    culture="Culture.akan"
+    is_female="true"
+    name="{=!}Village Woman"
+    is_hidden_encyclopedia="true">
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.head_wrapped" />
+        <equipment slot="Body" id="Item.aserai_villager_female_dress" />
+        <equipment slot="Leg" id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.aserai_female_civil_hscarf" />
+        <equipment slot="Body" id="Item.plain_dress" />
+        <equipment slot="Leg" id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.aserai_villager_female_dress" />
+        <equipment slot="Leg" id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cut_dress_with_pouch" />
+        <equipment slot="Leg" id="Item.ladys_shoe" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- ═══════════════════════════════════════════════════════
+       VILLAGE FOLK — CHILD
+       ═══════════════════════════════════════════════════════ -->
+
+  <NPCCharacter
+    id="villager_child_akan"
+    level="1"
+    occupation="Child"
+    culture="Culture.akan"
+    name="{=!}Child"
+    is_hidden_encyclopedia="true">
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="child_template_akan_villager_male" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="village_woman_child_akan"
+    level="1"
+    occupation="Child"
+    culture="Culture.akan"
+    is_female="true"
+    name="{=!}Child"
+    is_hidden_encyclopedia="true">
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="child_template_akan_villager_female" />
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- ═══════════════════════════════════════════════════════
+       VILLAGE FOLK — TEENAGER
+       ═══════════════════════════════════════════════════════ -->
+
+  <NPCCharacter
+    id="villager_teenager_akan"
+    level="2"
+    occupation="Teenager"
+    culture="Culture.akan"
+    name="{=!}Teenager"
+    is_hidden_encyclopedia="true">
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="teenager_template_akan_villager_male" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="village_woman_teenager_akan"
+    level="2"
+    occupation="Teenager"
+    culture="Culture.akan"
+    is_female="true"
+    name="{=!}Teenager"
+    is_hidden_encyclopedia="true">
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="teenager_template_akan_villager_female" />
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- ═══════════════════════════════════════════════════════
+       SETTLEMENT SERVICE NPCs
+       ═══════════════════════════════════════════════════════ -->
+
+  <NPCCharacter
+    id="blacksmith_akan"
+    level="5"
+    occupation="Weaponsmith"
+    culture="Culture.akan"
+    name="{=!}Blacksmith"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Body" id="Item.vlandia_bandit_c" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.bandit_leather_water_flask" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_artisan_equipment_akan" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="weaponsmith_akan"
+    level="5"
+    occupation="Weaponsmith"
+    culture="Culture.akan"
+    name="{=!}Weaponsmith"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Body" id="Item.bandit_leather_water_flask" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.vlandia_bandit_c" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_artisan_equipment_akan" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="armorer_akan"
+    level="5"
+    occupation="ArmorySmith"
+    culture="Culture.akan"
+    name="{=!}Armorer"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Body" id="Item.bandit_leather_water_flask" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_artisan_equipment_akan" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="merchant_akan"
+    level="5"
+    occupation="Merchant"
+    culture="Culture.akan"
+    name="{=!}Merchant"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.desert_helmet" />
+        <equipment slot="Body" id="Item.bandit_leather_water_flask" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_merchant_equipment_akan" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="horseMerchant_akan"
+    level="5"
+    occupation="HorseTrader"
+    culture="Culture.akan"
+    name="{=!}Horse Merchant"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Body" id="Item.bandit_leather_water_flask" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_merchant_equipment_akan" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="shop_worker_akan"
+    level="4"
+    occupation="ShopWorker"
+    culture="Culture.akan"
+    name="{=!}Shop Worker"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.sackcloth_tunic" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.bandit_leather_water_flask" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Body" id="Item.aserai_villager_male_tunic" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="barber_akan"
+    level="4"
+    occupation="Barber"
+    culture="Culture.akan"
+    name="{=!}Barber"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.bandit_leather_water_flask" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Body" id="Item.sackcloth_tunic" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="ransom_broker_akan"
+    level="5"
+    occupation="RansomBroker"
+    culture="Culture.akan"
+    name="{=!}Ransom Broker"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Body" id="Item.bandit_leather_water_flask" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_merchant_equipment_akan" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="gangleader_bodyguard_akan"
+    default_group="Infantry"
+    level="6"
+    occupation="Soldier"
+    culture="Culture.akan"
+    name="{=!}Bodyguard"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <skills>
+      <skill id="OneHanded" value="80" />
+      <skill id="TwoHanded" value="60" />
+      <skill id="Polearm" value="60" />
+    </skills>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.infantry_sabre" />
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Body" id="Item.bandit_leather_water_flask" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.infantry_sabre" />
+        <equipment slot="Body" id="Item.vlandia_bandit_c" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Body" id="Item.bandit_leather_water_flask" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="tournament_master_akan"
+    level="5"
+    occupation="TournamentMaster"
+    culture="Culture.akan"
+    name="{=!}Tournament Master"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.desert_helmet" />
+        <equipment slot="Body" id="Item.bandit_leather_water_flask" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_gentry_equipment_akan" />
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- ═══════════════════════════════════════════════════════
+       TAVERN NPCs
+       ═══════════════════════════════════════════════════════ -->
+
+  <NPCCharacter
+    id="tavernkeeper_akan"
+    level="5"
+    occupation="TavernKeeper"
+    culture="Culture.akan"
+    name="{=!}Tavernkeeper"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Body" id="Item.bandit_leather_water_flask" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.sackcloth_tunic" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_merchant_equipment_akan" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="taverngamehost_akan"
+    level="4"
+    occupation="TavernGameHost"
+    culture="Culture.akan"
+    name="{=!}Game Host"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.bandit_leather_water_flask" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Body" id="Item.sackcloth_tunic" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="musician_akan"
+    level="4"
+    occupation="Musician"
+    culture="Culture.akan"
+    name="{=!}Musician"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.desert_helmet" />
+        <equipment slot="Body" id="Item.aserai_villager_male_tunic" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.sackcloth_tunic" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="tavern_wench_akan"
+    level="4"
+    occupation="TavernWench"
+    culture="Culture.akan"
+    is_female="true"
+    name="{=!}Barmaid"
+    is_hidden_encyclopedia="true">
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.head_wrapped" />
+        <equipment slot="Body" id="Item.aserai_villager_female_dress" />
+        <equipment slot="Leg" id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.cut_dress_with_pouch" />
+        <equipment slot="Leg" id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.aserai_villager_female_dress" />
+        <equipment slot="Leg" id="Item.ladys_shoe" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="female_dancer_akan"
+    level="4"
+    occupation="Dancer"
+    culture="Culture.akan"
+    is_female="true"
+    name="{=!}Dancer"
+    is_hidden_encyclopedia="true">
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.head_wrapped" />
+        <equipment slot="Body" id="Item.aserai_villager_female_dress" />
+        <equipment slot="Leg" id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.aserai_female_civil_hscarf" />
+        <equipment slot="Body" id="Item.plain_dress" />
+        <equipment slot="Leg" id="Item.ladys_shoe" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- ═══════════════════════════════════════════════════════
+       BEGGARS
+       ═══════════════════════════════════════════════════════ -->
+
+  <NPCCharacter
+    id="beggar_akan"
+    level="1"
+    occupation="Beggar"
+    culture="Culture.akan"
+    name="{=!}Beggar"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tattered_rags" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.torn_bandit_clothes" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="female_beggar_akan"
+    level="1"
+    occupation="Beggar"
+    culture="Culture.akan"
+    is_female="true"
+    name="{=!}Beggar"
+    is_hidden_encyclopedia="true">
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.tattered_rags" />
+        <equipment slot="Leg" id="Item.ladys_shoe" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.plain_dress" />
+        <equipment slot="Leg" id="Item.ladys_shoe" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- ═══════════════════════════════════════════════════════
+       NOTARY NPCs  (portrait characters for notable dialogues)
+       ═══════════════════════════════════════════════════════ -->
+
+  <NPCCharacter
+    id="merchant_notary_akan"
+    level="5"
+    occupation="Merchant"
+    culture="Culture.akan"
+    name="{=!}Merchant"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.desert_helmet" />
+        <equipment slot="Body" id="Item.bandit_leather_water_flask" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_merchant_equipment_akan" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="artisan_notary_akan"
+    level="5"
+    occupation="Artisan"
+    culture="Culture.akan"
+    name="{=!}Artisan"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Body" id="Item.vlandia_bandit_c" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_artisan_equipment_akan" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="preacher_notary_akan"
+    level="5"
+    occupation="Preacher"
+    culture="Culture.akan"
+    name="{=!}Preacher"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.shaman_hat" />
+        <equipment slot="Body" id="Item.aserai_villager_male_tunic" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_preacher_equipment_akan" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="rural_notable_notary_akan"
+    level="5"
+    occupation="RuralNotable"
+    culture="Culture.akan"
+    name="{=!}Rural Notable"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.desert_helmet" />
+        <equipment slot="Body" id="Item.aserai_villager_male_tunic" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_gentry_equipment_akan" />
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- ═══════════════════════════════════════════════════════
+       NOTABLE SPCs — MERCHANTS
+       ═══════════════════════════════════════════════════════ -->
+
+  <NPCCharacter
+    id="spc_notable_akan_merch1"
+    level="6"
+    occupation="Merchant"
+    culture="Culture.akan"
+    name="{=!}Merchant"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="spc_notable_akan_merch1" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="spc_notable_akan_merch2"
+    level="6"
+    occupation="Merchant"
+    culture="Culture.akan"
+    name="{=!}Merchant"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.desert_helmet" />
+        <equipment slot="Body" id="Item.bandit_leather_water_flask" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_merchant_equipment_akan" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="spc_notable_akan_merch3"
+    level="6"
+    occupation="Merchant"
+    culture="Culture.akan"
+    name="{=!}Merchant"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Body" id="Item.vlandia_bandit_c" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_merchant_equipment_akan" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="spc_notable_akan_merch4"
+    level="6"
+    occupation="Merchant"
+    culture="Culture.akan"
+    name="{=!}Merchant"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="spc_notable_akan_merch4" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="spc_notable_akan_merch5"
+    level="6"
+    occupation="Merchant"
+    culture="Culture.akan"
+    name="{=!}Merchant"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="spc_notable_akan_merch5" />
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- ═══════════════════════════════════════════════════════
+       NOTABLE SPCs — GENTRY / WARRIOR CLASS
+       ═══════════════════════════════════════════════════════ -->
+
+  <NPCCharacter
+    id="spc_notable_akan_1"
+    level="6"
+    occupation="Merchant"
+    culture="Culture.akan"
+    name="{=!}Notable"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="spc_notable_akan_1" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="spc_notable_akan_1b"
+    level="6"
+    occupation="Merchant"
+    culture="Culture.akan"
+    name="{=!}Notable"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="spc_notable_akan_1b" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="spc_notable_akan_2"
+    level="6"
+    occupation="Merchant"
+    culture="Culture.akan"
+    name="{=!}Notable"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="spc_notable_akan_2" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="spc_notable_akan_3"
+    level="6"
+    occupation="Merchant"
+    culture="Culture.akan"
+    name="{=!}Notable"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="spc_notable_akan_3" />
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- ═══════════════════════════════════════════════════════
+       NOTABLE SPCs — GANG LEADERS
+       ═══════════════════════════════════════════════════════ -->
+
+  <NPCCharacter
+    id="spc_akan_gangleader_1"
+    level="8"
+    occupation="GangLeader"
+    culture="Culture.akan"
+    name="{=!}Gang Leader"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <skills>
+      <skill id="OneHanded" value="100" />
+      <skill id="Roguery" value="100" />
+    </skills>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="npc_gang_leader_equipment_akan" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="spc_akan_gangleader_2"
+    level="8"
+    occupation="GangLeader"
+    culture="Culture.akan"
+    name="{=!}Gang Leader"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <skills>
+      <skill id="OneHanded" value="100" />
+      <skill id="Roguery" value="100" />
+    </skills>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.infantry_sabre" />
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Body" id="Item.vlandia_bandit_c" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_gang_leader_equipment_akan" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="spc_akan_gangleader_3"
+    level="8"
+    occupation="GangLeader"
+    culture="Culture.akan"
+    name="{=!}Gang Leader"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <skills>
+      <skill id="OneHanded" value="100" />
+      <skill id="Roguery" value="100" />
+    </skills>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="spc_akan_gangleader_3" />
+      <EquipmentSet id="npc_gang_leader_equipment_akan" />
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- ═══════════════════════════════════════════════════════
+       NOTABLE SPCs — ARTISANS
+       ═══════════════════════════════════════════════════════ -->
+
+  <NPCCharacter
+    id="spc_notable_akan_artisan_1"
+    level="6"
+    occupation="Artisan"
+    culture="Culture.akan"
+    name="{=!}Artisan"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Body" id="Item.bandit_leather_water_flask" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_artisan_equipment_akan" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="spc_notable_akan_artisan_2"
+    level="6"
+    occupation="Artisan"
+    culture="Culture.akan"
+    name="{=!}Artisan"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Body" id="Item.vlandia_bandit_c" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_artisan_equipment_akan" />
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- ═══════════════════════════════════════════════════════
+       NOTABLE SPCs — RURAL NOTABLES
+       ═══════════════════════════════════════════════════════ -->
+
+  <NPCCharacter
+    id="spc_notable_akan_rural_1"
+    level="6"
+    occupation="RuralNotable"
+    culture="Culture.akan"
+    name="{=!}Elder"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.desert_helmet" />
+        <equipment slot="Body" id="Item.aserai_villager_male_tunic" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_gentry_equipment_akan" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="spc_notable_akan_rural_2"
+    level="6"
+    occupation="RuralNotable"
+    culture="Culture.akan"
+    name="{=!}Elder"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.shaman_hat" />
+        <equipment slot="Body" id="Item.aserai_villager_male_tunic" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_gentry_equipment_akan" />
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- ═══════════════════════════════════════════════════════
+       NOTABLE SPCs — HEADMEN (village leaders)
+       ═══════════════════════════════════════════════════════ -->
+
+  <NPCCharacter
+    id="spc_akan_headman_1"
+    level="6"
+    occupation="Headman"
+    culture="Culture.akan"
+    name="{=!}Headman"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.desert_helmet" />
+        <equipment slot="Body" id="Item.bandit_leather_water_flask" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_gentry_equipment_akan" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="spc_akan_headman_2"
+    level="6"
+    occupation="Headman"
+    culture="Culture.akan"
+    name="{=!}Headman"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Body" id="Item.vlandia_bandit_c" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_gentry_equipment_akan" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter
+    id="spc_akan_headman_3"
+    level="6"
+    occupation="Headman"
+    culture="Culture.akan"
+    name="{=!}Headman"
+    is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits></Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Head" id="Item.shaman_hat" />
+        <equipment slot="Body" id="Item.aserai_villager_female_dress" />
+        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_gentry_equipment_akan" />
+    </Equipments>
+  </NPCCharacter>
+
+  <!-- ═══════════════════════════════════════════════════════
+       LORD TEMPLATES
+       ═══════════════════════════════════════════════════════ -->
+
+  <NPCCharacter
+    id="akan_rebel_lord"
+    level="10"
+    occupation="Lord"
+    culture="Culture.akan"
+    is_hero="true"
+    default_group="Infantry"
+    name="{=!}Rebel"
+    voice="curt"
+    skill_template="SkillSet.spc_tactician_skills"
+    face_mesh_cache="true">
+    <face>
+      <face_key_template value="BodyProperty.fighter_akan" />
+    </face>
+    <Traits>
+      <Trait id="Commander" value="8" />
+      <Trait id="Valor" value="1" />
+    </Traits>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="npc_gentry_equipment_akan" />
+    </Equipments>
+  </NPCCharacter>
+
+
+</NPCCharacters>

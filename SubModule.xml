@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+<Name value="Akans"/>
+<Id value="Akans"/>
+<Version value="v1.5.0"/>
+<DefaultModule value="false"/>
+<ModuleCategory value="Singleplayer"/>
+<Official value="false"/>
+<DependedModules>
+<DependedModule Id="Native" Optional="false"/>
+<DependedModule Id="SandBoxCore" Optional="false"/>
+<DependedModule Id="Sandbox" Optional="false"/>
+<DependedModule Id="CustomBattle" Optional="false"/>
+<DependedModule Id="StoryMode" Optional="true"/>
+<DependedModule Id="NavalDLC" Optional="false"/>
+</DependedModules>
+<SubModules>
+</SubModules>
+<Xmls>
+<XmlNode>
+<XmlName id="SPCultures" path="akan_cultures"/>
+<IncludedGameTypes>
+<GameType value="Campaign"/>
+<GameType value="CampaignStoryMode"/>
+<GameType value="CustomGame"/>
+<GameType value="EditorGame"/>
+</IncludedGameTypes>
+</XmlNode>
+<XmlNode>
+<XmlName id="BodyProperties" path="akan_bodyproperties"/>
+<IncludedGameTypes>
+<GameType value="Campaign"/>
+<GameType value="CampaignStoryMode"/>
+<GameType value="CustomGame"/>
+<GameType value="EditorGame"/>
+</IncludedGameTypes>
+</XmlNode>
+<XmlNode>
+<XmlName id="EquipmentRosters" path="akan_equipment_sets"/>
+<IncludedGameTypes>
+<GameType value="Campaign"/>
+<GameType value="CampaignStoryMode"/>
+<GameType value="CustomGame"/>
+<GameType value="EditorGame"/>
+</IncludedGameTypes>
+</XmlNode>
+<XmlNode>
+<XmlName id="EquipmentRosters" path="education_equipment_templates_akan"/>
+<IncludedGameTypes>
+<GameType value="Campaign"/>
+<GameType value="CampaignStoryMode"/>
+<GameType value="CustomGame"/>
+<GameType value="EditorGame"/>
+</IncludedGameTypes>
+</XmlNode>
+<XmlNode>
+<XmlName id="NPCCharacters" path="akan_troops"/>
+<IncludedGameTypes>
+<GameType value="Campaign"/>
+<GameType value="CampaignStoryMode"/>
+<GameType value="CustomGame"/>
+<GameType value="EditorGame"/>
+</IncludedGameTypes>
+</XmlNode>
+<XmlNode>
+<XmlName id="NPCCharacters" path="akan_characters"/>
+<IncludedGameTypes>
+<GameType value="Campaign"/>
+<GameType value="CampaignStoryMode"/>
+<GameType value="CustomGame"/>
+<GameType value="EditorGame"/>
+</IncludedGameTypes>
+</XmlNode>
+<XmlNode>
+<XmlName id="NPCCharacters" path="education_character_templates_akan"/>
+<IncludedGameTypes>
+<GameType value="Campaign"/>
+<GameType value="CampaignStoryMode"/>
+<GameType value="CustomGame"/>
+<GameType value="EditorGame"/>
+</IncludedGameTypes>
+</XmlNode>
+<XmlNode>
+<XmlName id="NPCCharacters" path="akan_lords"/>
+<IncludedGameTypes>
+<GameType value="Campaign"/>
+<GameType value="CampaignStoryMode"/>
+<GameType value="CustomGame"/>
+<GameType value="EditorGame"/>
+</IncludedGameTypes>
+</XmlNode>
+<XmlNode>
+<XmlName id="partyTemplates" path="akan_party_templates"/>
+<IncludedGameTypes>
+<GameType value="Campaign"/>
+<GameType value="CampaignStoryMode"/>
+<GameType value="CustomGame"/>
+<GameType value="EditorGame"/>
+</IncludedGameTypes>
+</XmlNode>
+<XmlNode>
+<XmlName id="Factions" path="akan_clans"/>
+<IncludedGameTypes>
+<GameType value="Campaign"/>
+<GameType value="CampaignStoryMode"/>
+<GameType value="CustomGame"/>
+<GameType value="EditorGame"/>
+</IncludedGameTypes>
+</XmlNode>
+<XmlNode>
+<XmlName id="Kingdoms" path="akan_kingdoms"/>
+<IncludedGameTypes>
+<GameType value="Campaign"/>
+<GameType value="CampaignStoryMode"/>
+<GameType value="CustomGame"/>
+<GameType value="EditorGame"/>
+</IncludedGameTypes>
+</XmlNode>
+<XmlNode>
+<XmlName id="Heroes" path="akan_heroes"/>
+<IncludedGameTypes>
+<GameType value="Campaign"/>
+<GameType value="CampaignStoryMode"/>
+<GameType value="CustomGame"/>
+<GameType value="EditorGame"/>
+</IncludedGameTypes>
+</XmlNode>
+<XmlNode>
+<XmlName id="strings" path="akan_comment_strings"/>
+<IncludedGameTypes>
+<GameType value="Campaign"/>
+<GameType value="CampaignStoryMode"/>
+<GameType value="CustomGame"/>
+<GameType value="EditorGame"/>
+</IncludedGameTypes>
+</XmlNode>
+<XmlNode>
+<XmlName id="Concepts" path="akan_concept_strings"/>
+<IncludedGameTypes>
+<GameType value="Campaign"/>
+<GameType value="CampaignStoryMode"/>
+<GameType value="CustomGame"/>
+<GameType value="EditorGame"/>
+</IncludedGameTypes>
+</XmlNode>
+<XmlNode>
+<XmlName id="Settlements" path="akan_settlements"/>
+<IncludedGameTypes>
+<GameType value="Campaign"/>
+<GameType value="CampaignStoryMode"/>
+<GameType value="CustomGame"/>
+<GameType value="EditorGame"/>
+</IncludedGameTypes>
+</XmlNode>
+</Xmls>
+</Module>

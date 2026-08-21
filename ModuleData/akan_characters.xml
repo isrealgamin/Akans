@@ -99,7 +99,7 @@
   <NPCCharacter
     id="townsman_akan"
     level="4"
-    occupation="Townsman"
+    occupation="Townsfolk"
     culture="Culture.akan"
     name="{=!}Townsman"
     is_hidden_encyclopedia="true">
@@ -141,7 +141,7 @@
   <NPCCharacter
     id="townswoman_akan"
     level="4"
-    occupation="Townswoman"
+    occupation="Townsfolk"
     culture="Culture.akan"
     is_female="true"
     name="{=!}Townswoman"
@@ -177,7 +177,7 @@
   <NPCCharacter
     id="townsman_infant_akan"
     level="1"
-    occupation="Infant"
+    occupation="Townsfolk"
     culture="Culture.akan"
     name="{=!}Infant"
     is_hidden_encyclopedia="true">
@@ -193,7 +193,7 @@
   <NPCCharacter
     id="townswoman_infant_akan"
     level="1"
-    occupation="Infant"
+    occupation="Townsfolk"
     culture="Culture.akan"
     is_female="true"
     name="{=!}Infant"
@@ -214,7 +214,7 @@
   <NPCCharacter
     id="townsman_child_akan"
     level="1"
-    occupation="Child"
+    occupation="Townsfolk"
     culture="Culture.akan"
     name="{=!}Child"
     is_hidden_encyclopedia="true">
@@ -228,7 +228,7 @@
   <NPCCharacter
     id="townswoman_child_akan"
     level="1"
-    occupation="Child"
+    occupation="Townsfolk"
     culture="Culture.akan"
     is_female="true"
     name="{=!}Child"
@@ -247,7 +247,7 @@
   <NPCCharacter
     id="townsman_teenager_akan"
     level="2"
-    occupation="Teenager"
+    occupation="Townsfolk"
     culture="Culture.akan"
     name="{=!}Teenager"
     is_hidden_encyclopedia="true">
@@ -261,7 +261,7 @@
   <NPCCharacter
     id="townswoman_teenager_akan"
     level="2"
-    occupation="Teenager"
+    occupation="Townsfolk"
     culture="Culture.akan"
     is_female="true"
     name="{=!}Teenager"
@@ -313,7 +313,7 @@
   <NPCCharacter
     id="village_woman_akan"
     level="4"
-    occupation="Townswoman"
+    occupation="Townsfolk"
     culture="Culture.akan"
     is_female="true"
     name="{=!}Village Woman"
@@ -349,7 +349,7 @@
   <NPCCharacter
     id="villager_child_akan"
     level="1"
-    occupation="Child"
+    occupation="Townsfolk"
     culture="Culture.akan"
     name="{=!}Child"
     is_hidden_encyclopedia="true">
@@ -363,7 +363,7 @@
   <NPCCharacter
     id="village_woman_child_akan"
     level="1"
-    occupation="Child"
+    occupation="Townsfolk"
     culture="Culture.akan"
     is_female="true"
     name="{=!}Child"
@@ -382,7 +382,7 @@
   <NPCCharacter
     id="villager_teenager_akan"
     level="2"
-    occupation="Teenager"
+    occupation="Townsfolk"
     culture="Culture.akan"
     name="{=!}Teenager"
     is_hidden_encyclopedia="true">
@@ -396,7 +396,7 @@
   <NPCCharacter
     id="village_woman_teenager_akan"
     level="2"
-    occupation="Teenager"
+    occupation="Townsfolk"
     culture="Culture.akan"
     is_female="true"
     name="{=!}Teenager"
@@ -467,7 +467,7 @@
   <NPCCharacter
     id="armorer_akan"
     level="5"
-    occupation="ArmorySmith"
+    occupation="Armorer"
     culture="Culture.akan"
     name="{=!}Armorer"
     is_hidden_encyclopedia="true">
@@ -562,7 +562,7 @@
   <NPCCharacter
     id="barber_akan"
     level="4"
-    occupation="Barber"
+    occupation="Townsfolk"
     culture="Culture.akan"
     name="{=!}Barber"
     is_hidden_encyclopedia="true">
@@ -647,7 +647,7 @@
   <NPCCharacter
     id="tournament_master_akan"
     level="5"
-    occupation="TournamentMaster"
+    occupation="ArenaMaster"
     culture="Culture.akan"
     name="{=!}Tournament Master"
     is_hidden_encyclopedia="true">
@@ -673,7 +673,7 @@
   <NPCCharacter
     id="tavernkeeper_akan"
     level="5"
-    occupation="TavernKeeper"
+    occupation="Tavernkeeper"
     culture="Culture.akan"
     name="{=!}Tavernkeeper"
     is_hidden_encyclopedia="true">
@@ -776,7 +776,7 @@
   <NPCCharacter
     id="female_dancer_akan"
     level="4"
-    occupation="Dancer"
+    occupation="Townsfolk"
     culture="Culture.akan"
     is_female="true"
     name="{=!}Dancer"
@@ -804,7 +804,7 @@
   <NPCCharacter
     id="beggar_akan"
     level="1"
-    occupation="Beggar"
+    occupation="Townsfolk"
     culture="Culture.akan"
     name="{=!}Beggar"
     is_hidden_encyclopedia="true">
@@ -828,7 +828,7 @@
   <NPCCharacter
     id="female_beggar_akan"
     level="1"
-    occupation="Beggar"
+    occupation="Townsfolk"
     culture="Culture.akan"
     is_female="true"
     name="{=!}Beggar"

@@ -17,6 +17,9 @@ TroopDesigner files. It adds:
 - Starting fief: castle_A7, in the far SOUTHWEST of the Aserai lands by
   the Perassic Sea, is handed to the Maroon Warlords at campaign start via
   an XSLT patch on settlements.xml (version-safe, no native files copied).
+  Note: castle_A7 is a secondary fief of the native clan_aserai_7, not
+  their home settlement (that's castle_A3) - clan_aserai_7 keeps its
+  capital and simply starts with one less fief.
 
 INSTALL
 -------

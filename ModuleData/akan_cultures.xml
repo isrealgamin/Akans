@@ -27,7 +27,6 @@
 			 tournament_master="NPCCharacter.tournament_master_akan"
 			 villager="NPCCharacter.villager_akan"
 			 caravan_master="NPCCharacter.caravan_master_aserai"
-			 armed_trader="NPCCharacter.naval_armed_trader_aserai"
 			 caravan_guard="NPCCharacter.caravan_guard_aserai"
 			 veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_aserai"
 			 prison_guard="NPCCharacter.prison_guard_akan"

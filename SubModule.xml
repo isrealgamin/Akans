@@ -126,7 +126,7 @@
 </IncludedGameTypes>
 </XmlNode>
 <XmlNode>
-<XmlName id="strings" path="akan_comment_strings"/>
+<XmlName id="GameText" path="akan_comment_strings"/>
 <IncludedGameTypes>
 <GameType value="Campaign"/>
 <GameType value="CampaignStoryMode"/>

@@ -58,7 +58,7 @@
 			<EquipmentRoster civilian="true">
 				<equipment slot="Item0" id="Item.empire_sword_1_t2"/>
 				<equipment slot="Head" id="Item.nordic_civilian_hat_fur_brim"/>
-				<equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
 				<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
@@ -104,7 +104,7 @@
 				<equipment slot="Item3" id="Item.battania_axe_1_t2"/>
 				<equipment slot="Head" id="Item.desert_helmet"/>
 				<equipment slot="Cape" id="Item.leopard_pelt"/>
-				<equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
 				<equipment slot="Gloves" id="Item.splinted_bracers"/>
 				<equipment slot="Leg" id="Item.wrapped_leather_boots"/>
 			</EquipmentRoster>
@@ -115,7 +115,7 @@
 				<equipment slot="Item3" id="Item.battania_axe_1_t2"/>
 				<equipment slot="Head" id="Item.desert_helmet"/>
 				<equipment slot="Cape" id="Item.bandit_hybrid_armor_shoulder_b"/>
-				<equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
 				<equipment slot="Gloves" id="Item.splinted_bracers"/>
 				<equipment slot="Leg" id="Item.battania_leather_boots"/>
 			</EquipmentRoster>
@@ -126,7 +126,7 @@
 				<equipment slot="Item3" id="Item.battania_axe_1_t2"/>
 				<equipment slot="Head" id="Item.desert_helmet"/>
 				<equipment slot="Cape" id="Item.bandit_hybrid_armor_shoulder_b"/>
-				<equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
 				<equipment slot="Gloves" id="Item.splinted_bracers"/>
 				<equipment slot="Leg" id="Item.battania_leather_boots"/>
 			</EquipmentRoster>
@@ -134,7 +134,7 @@
 				<equipment slot="Item0" id="Item.empire_sword_2_t3"/>
 				<equipment slot="Head" id="Item.fur_hat"/>
 				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
 				<equipment slot="Leg" id="Item.wrapped_leather_boots"/>
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
@@ -244,13 +244,13 @@
 		<Equipments>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.western_javelin_3_t4"/>
-				<equipment slot="Item1" id="Item.aserai_javelin_1_t3"/>
+				<equipment slot="Item1" id="Item.eastern_javelin_2_t3"/>
 				<equipment slot="Item2" id="Item.stronger_eastern_wicker_shield"/>
 				<equipment slot="Item3" id="Item.desert_long_sword_t4"/>
 				<equipment slot="Cape" id="Item.leopard_pelt"/>
-				<equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
 				<equipment slot="Gloves" id="Item.splinted_bracers"/>
-				<equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
@@ -335,7 +335,7 @@
         <equipment slot="Item3" id="Item.battania_axe_1_t2" />
         <equipment slot="Head" id="Item.desert_helmet" />
         <equipment slot="Cape" id="Item.leopard_pelt" />
-        <equipment slot="Body" id="Item.aserai_villager_male_tunic" />
+        <equipment slot="Body" id="Item.aserai_tunic_waistcoat" />
         <equipment slot="Gloves" id="Item.splinted_bracers" />
         <equipment slot="Leg" id="Item.wrapped_leather_boots" />
       </EquipmentRoster>
@@ -346,7 +346,7 @@
         <equipment slot="Item3" id="Item.battania_axe_1_t2" />
         <equipment slot="Head" id="Item.desert_helmet" />
         <equipment slot="Cape" id="Item.bandit_hybrid_armor_shoulder_b" />
-        <equipment slot="Body" id="Item.aserai_villager_male_tunic" />
+        <equipment slot="Body" id="Item.aserai_tunic_waistcoat" />
         <equipment slot="Gloves" id="Item.splinted_bracers" />
         <equipment slot="Leg" id="Item.battania_leather_boots" />
       </EquipmentRoster>
@@ -357,7 +357,7 @@
         <equipment slot="Item3" id="Item.battania_axe_1_t2" />
         <equipment slot="Head" id="Item.desert_helmet" />
         <equipment slot="Cape" id="Item.bandit_hybrid_armor_shoulder_b" />
-        <equipment slot="Body" id="Item.aserai_villager_male_tunic" />
+        <equipment slot="Body" id="Item.aserai_tunic_waistcoat" />
         <equipment slot="Gloves" id="Item.splinted_bracers" />
         <equipment slot="Leg" id="Item.battania_leather_boots" />
       </EquipmentRoster>
@@ -365,7 +365,7 @@
         <equipment slot="Item0" id="Item.empire_sword_2_t3" />
         <equipment slot="Head" id="Item.fur_hat" />
         <equipment slot="Cape" id="Item.scarf" />
-        <equipment slot="Body" id="Item.aserai_villager_male_tunic" />
+        <equipment slot="Body" id="Item.aserai_tunic_waistcoat" />
         <equipment slot="Leg" id="Item.wrapped_leather_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
@@ -478,7 +478,7 @@
 <equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
 <equipment slot="Head" id="Item.desert_helmet"/>
 <equipment slot="Cape" id="Item.leopard_pelt"/>
-<equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+<equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
 <equipment slot="Gloves" id="Item.splinted_bracers"/>
 <equipment slot="Leg" id="Item.battania_leather_boots"/>
 </EquipmentRoster>

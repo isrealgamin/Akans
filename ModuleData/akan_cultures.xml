@@ -26,10 +26,10 @@
 			 text="{=culture_akan.text}Many people across the Americas trace their ancestry to Akan-speaking populations due to the trans-Atlantic slave trade. Between the 17th and 19th centuries, a significant proportion of enslaved Africans shipped from the Gold Coast—estimated at 10% of all embarkations from West Africa—were of Akan origin. Although gold remained central to the Akan economy, the intensification of internal conflicts—especially among the Fante and Ashanti during the 18th century—led to the capture and external sale of war captives, many of whom were exported through coastal ports such as Anomabo and Cape Coast."
 			 tournament_master="NPCCharacter.tournament_master_akan"
 			 villager="NPCCharacter.villager_akan"
-			 caravan_master="NPCCharacter.eastern_caravan_master"
-			 armed_trader="NPCCharacter.eastern_armed_trader"
-			 caravan_guard="NPCCharacter.eastern_caravan_master"
-			 veteran_caravan_guard="NPCCharacter.veteran_eastern_caravan_guard"
+			 caravan_master="NPCCharacter.caravan_master_aserai"
+			 armed_trader="NPCCharacter.naval_armed_trader_aserai"
+			 caravan_guard="NPCCharacter.caravan_guard_aserai"
+			 veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_aserai"
 			 prison_guard="NPCCharacter.prison_guard_akan"
 			 guard="NPCCharacter.guard_akan"
 			 blacksmith="NPCCharacter.blacksmith_akan"
@@ -76,11 +76,11 @@
 			start_point_position_y="1152">
 		<caravan_party_templates>
 			<caravan_party_template
-				id="PartyTemplate.eastern_caravan_template" />
+				id="PartyTemplate.caravan_template_aserai" />
 		</caravan_party_templates>
 		<elite_caravan_party_templates>
 			<caravan_party_template
-				id="PartyTemplate.elite_eastern_caravan_template" />
+				id="PartyTemplate.elite_caravan_template_aserai" />
 		</elite_caravan_party_templates>
 		<available_ship_hulls>
 			<ship_hull id="ShipHull.central_light_ship" />

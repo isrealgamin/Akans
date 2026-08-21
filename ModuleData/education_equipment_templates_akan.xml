@@ -6,28 +6,28 @@
 <EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_default_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
   
   <EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_0_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster> 
 
   <EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_1_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>  
   
   <EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_2_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
@@ -41,49 +41,49 @@
   <EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_4_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
   <EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_5_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
   <EquipmentRoster id="child_education_equipments_stage_1_page_1_branch_0_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster> 
 
   <EquipmentRoster id="child_education_equipments_stage_1_page_1_branch_1_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
   <EquipmentRoster id="child_education_equipments_stage_1_page_1_branch_2_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
   <EquipmentRoster id="child_education_equipments_stage_1_page_1_branch_3_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
   <EquipmentRoster id="child_education_equipments_stage_1_page_1_branch_4_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
@@ -97,63 +97,63 @@
   <EquipmentRoster id="child_education_equipments_stage_1_page_2_branch_0_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
   <EquipmentRoster id="child_education_equipments_stage_1_page_2_branch_1_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
   <EquipmentRoster id="child_education_equipments_stage_1_page_2_branch_2_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
   <EquipmentRoster id="child_education_equipments_stage_1_page_2_branch_3_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster> 
 
   <EquipmentRoster id="child_education_equipments_stage_1_page_2_branch_4_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
   <EquipmentRoster id="child_education_equipments_stage_1_page_2_branch_5_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
   <EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_default_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
   <EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_child_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
   <EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_0_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
@@ -161,14 +161,14 @@
     <EquipmentSet>
 				<Equipment slot="Head" id="Item.desert_helmet"/>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
   <EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_2_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
@@ -183,21 +183,21 @@
   <EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_4_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
   <EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_5_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
   <EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_child_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
@@ -205,14 +205,14 @@
     <EquipmentSet>
 				<Equipment slot="Head" id="Item.desert_helmet"/>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
   <EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_1_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
@@ -234,21 +234,21 @@
   <EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_4_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
   <EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_5_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
   <EquipmentRoster id="child_education_equipments_stage_2_page_2_branch_child_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
@@ -256,14 +256,14 @@
     <EquipmentSet>
 				<Equipment slot="Head" id="Item.desert_helmet"/>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster> 
 
   <EquipmentRoster id="child_education_equipments_stage_2_page_2_branch_1_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster> 
 
@@ -285,42 +285,42 @@
   <EquipmentRoster id="child_education_equipments_stage_2_page_2_branch_4_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster> 
 
   <EquipmentRoster id="child_education_equipments_stage_2_page_2_branch_5_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
   <EquipmentRoster id="child_education_equipments_stage_3_page_0_branch_default_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
   <EquipmentRoster id="child_education_equipments_stage_3_page_0_branch_0_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster> 
 
   <EquipmentRoster id="child_education_equipments_stage_3_page_0_branch_1_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster> 
 
   <EquipmentRoster id="child_education_equipments_stage_3_page_0_branch_2_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
   
@@ -334,28 +334,28 @@
   <EquipmentRoster id="child_education_equipments_stage_3_page_0_branch_4_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
   <EquipmentRoster id="child_education_equipments_stage_3_page_0_branch_5_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster> 
 
   <EquipmentRoster id="child_education_equipments_stage_3_page_1_branch_0_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster> 
 
   <EquipmentRoster id="child_education_equipments_stage_3_page_1_branch_1_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
@@ -377,28 +377,28 @@
   <EquipmentRoster id="child_education_equipments_stage_3_page_1_branch_4_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster> 
 
   <EquipmentRoster id="child_education_equipments_stage_3_page_1_branch_5_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
   <EquipmentRoster id="child_education_equipments_stage_3_page_2_branch_0_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
   <EquipmentRoster id="child_education_equipments_stage_3_page_2_branch_1_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
@@ -412,14 +412,14 @@
   <EquipmentRoster id="child_education_equipments_stage_3_page_2_branch_3_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
   <EquipmentRoster id="child_education_equipments_stage_3_page_2_branch_4_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
@@ -433,21 +433,21 @@
   <EquipmentRoster id="child_education_equipments_stage_4_page_0_branch_default_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
   <EquipmentRoster id="child_education_equipments_stage_4_page_0_branch_0_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
   <EquipmentRoster id="child_education_equipments_stage_4_page_0_branch_1_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
@@ -462,14 +462,14 @@
   <EquipmentRoster id="child_education_equipments_stage_4_page_0_branch_3_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
 
   <EquipmentRoster id="child_education_equipments_stage_4_page_0_branch_4_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster> 
 
@@ -483,14 +483,14 @@
   <EquipmentRoster id="child_education_equipments_stage_4_page_1_branch_0_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster> 
 
   <EquipmentRoster id="child_education_equipments_stage_4_page_1_branch_1_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster> 
 
@@ -505,14 +505,14 @@
   <EquipmentRoster id="child_education_equipments_stage_4_page_1_branch_3_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
   
     <EquipmentRoster id="child_education_equipments_stage_4_page_1_branch_4_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
   
@@ -526,14 +526,14 @@
     <EquipmentRoster id="child_education_equipments_stage_4_page_2_branch_0_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
   
     <EquipmentRoster id="child_education_equipments_stage_4_page_2_branch_1_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
   
@@ -555,21 +555,21 @@
     <EquipmentRoster id="child_education_equipments_stage_4_page_2_branch_4_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
   
     <EquipmentRoster id="child_education_equipments_stage_4_page_2_branch_5_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
   
     <EquipmentRoster id="child_education_equipments_stage_5_page_0_branch_default_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
   
@@ -577,14 +577,14 @@
     <EquipmentSet>
 				<Equipment slot="Head" id="Item.desert_helmet"/>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
   
     <EquipmentRoster id="child_education_equipments_stage_5_page_0_branch_1_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
   
@@ -598,14 +598,14 @@
     <EquipmentRoster id="child_education_equipments_stage_5_page_0_branch_3_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
   
     <EquipmentRoster id="child_education_equipments_stage_5_page_0_branch_4_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
   
@@ -620,14 +620,14 @@
     <EquipmentSet>
 				<Equipment slot="Head" id="Item.desert_helmet"/>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
   
     <EquipmentRoster id="child_education_equipments_stage_5_page_1_branch_1_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
   
@@ -641,14 +641,14 @@
     <EquipmentRoster id="child_education_equipments_stage_5_page_1_branch_3_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
   
     <EquipmentRoster id="child_education_equipments_stage_5_page_1_branch_4_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
   
@@ -663,7 +663,7 @@
     <EquipmentSet>
 				<Equipment slot="Head" id="Item.desert_helmet"/>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
   
@@ -671,7 +671,7 @@
     <EquipmentSet>
 				<Equipment slot="Head" id="Item.desert_helmet"/>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
   
@@ -685,14 +685,14 @@
     <EquipmentRoster id="child_education_equipments_stage_5_page_2_branch_3_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
   
     <EquipmentRoster id="child_education_equipments_stage_5_page_2_branch_4_akan" culture="Culture.akan">
     <EquipmentSet>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<Equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
     </EquipmentSet>
   </EquipmentRoster>
   

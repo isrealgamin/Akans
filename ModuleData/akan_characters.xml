@@ -29,20 +29,20 @@
     <upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
-        <equipment slot="Item0" id="Item.infantry_sabre" />
+        <equipment slot="Item0" id="Item.simple_sabre_sword_t2" />
         <equipment slot="Body" id="Item.torn_bandit_clothes" />
       </EquipmentRoster>
       <EquipmentRoster>
-        <equipment slot="Item0" id="Item.infantry_sabre" />
+        <equipment slot="Item0" id="Item.simple_sabre_sword_t2" />
         <equipment slot="Body" id="Item.torn_bandit_clothes" />
       </EquipmentRoster>
       <EquipmentRoster>
-        <equipment slot="Item0" id="Item.infantry_sabre" />
+        <equipment slot="Item0" id="Item.simple_sabre_sword_t2" />
         <equipment slot="Head" id="Item.wrapped_headcloth" />
         <equipment slot="Body" id="Item.bandit_leather_water_flask" />
       </EquipmentRoster>
       <EquipmentRoster>
-        <equipment slot="Item0" id="Item.infantry_sabre" />
+        <equipment slot="Item0" id="Item.simple_sabre_sword_t2" />
         <equipment slot="Head" id="Item.wrapped_headcloth" />
         <equipment slot="Body" id="Item.bandit_leather_water_flask" />
       </EquipmentRoster>
@@ -74,20 +74,20 @@
     <upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
-        <equipment slot="Item0" id="Item.infantry_sabre" />
+        <equipment slot="Item0" id="Item.simple_sabre_sword_t2" />
         <equipment slot="Head" id="Item.wrapped_headcloth" />
         <equipment slot="Body" id="Item.bandit_leather_water_flask" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster>
-        <equipment slot="Item0" id="Item.infantry_sabre" />
+        <equipment slot="Item0" id="Item.simple_sabre_sword_t2" />
         <equipment slot="Body" id="Item.vlandia_bandit_c" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Head" id="Item.wrapped_headcloth" />
         <equipment slot="Body" id="Item.bandit_leather_water_flask" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
@@ -111,29 +111,29 @@
     <Equipments>
       <EquipmentRoster civilian="true">
         <equipment slot="Body" id="Item.bandit_leather_water_flask" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Head" id="Item.wrapped_headcloth" />
         <equipment slot="Body" id="Item.vlandia_bandit_c" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Body" id="Item.sackcloth_tunic" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Body" id="Item.aserai_villager_male_tunic" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Body" id="Item.aserai_tunic_waistcoat" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Body" id="Item.torn_bandit_clothes" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Head" id="Item.desert_helmet" />
         <equipment slot="Body" id="Item.bandit_envelope_dress_v2" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
@@ -292,20 +292,20 @@
     <Equipments>
       <EquipmentRoster civilian="true">
         <equipment slot="Head" id="Item.desert_helmet" />
-        <equipment slot="Body" id="Item.aserai_villager_male_tunic" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Body" id="Item.aserai_tunic_waistcoat" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Body" id="Item.sackcloth_tunic" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Body" id="Item.bandit_envelope_dress_v2" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Body" id="Item.tattered_rags" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
@@ -428,11 +428,11 @@
       <EquipmentRoster civilian="true">
         <equipment slot="Head" id="Item.wrapped_headcloth" />
         <equipment slot="Body" id="Item.vlandia_bandit_c" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Body" id="Item.bandit_leather_water_flask" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentSet id="npc_artisan_equipment_akan" />
     </Equipments>
@@ -454,11 +454,11 @@
       <EquipmentRoster civilian="true">
         <equipment slot="Head" id="Item.wrapped_headcloth" />
         <equipment slot="Body" id="Item.bandit_leather_water_flask" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Body" id="Item.vlandia_bandit_c" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentSet id="npc_artisan_equipment_akan" />
     </Equipments>
@@ -480,7 +480,7 @@
       <EquipmentRoster civilian="true">
         <equipment slot="Head" id="Item.wrapped_headcloth" />
         <equipment slot="Body" id="Item.bandit_leather_water_flask" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentSet id="npc_artisan_equipment_akan" />
     </Equipments>
@@ -502,7 +502,7 @@
       <EquipmentRoster civilian="true">
         <equipment slot="Head" id="Item.desert_helmet" />
         <equipment slot="Body" id="Item.bandit_leather_water_flask" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentSet id="npc_merchant_equipment_akan" />
     </Equipments>
@@ -524,7 +524,7 @@
       <EquipmentRoster civilian="true">
         <equipment slot="Head" id="Item.wrapped_headcloth" />
         <equipment slot="Body" id="Item.bandit_leather_water_flask" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentSet id="npc_merchant_equipment_akan" />
     </Equipments>
@@ -545,16 +545,16 @@
     <Equipments>
       <EquipmentRoster civilian="true">
         <equipment slot="Body" id="Item.sackcloth_tunic" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Body" id="Item.bandit_leather_water_flask" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Head" id="Item.wrapped_headcloth" />
-        <equipment slot="Body" id="Item.aserai_villager_male_tunic" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Body" id="Item.aserai_tunic_waistcoat" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
@@ -574,12 +574,12 @@
     <Equipments>
       <EquipmentRoster civilian="true">
         <equipment slot="Body" id="Item.bandit_leather_water_flask" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Head" id="Item.wrapped_headcloth" />
         <equipment slot="Body" id="Item.sackcloth_tunic" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
@@ -600,7 +600,7 @@
       <EquipmentRoster civilian="true">
         <equipment slot="Head" id="Item.wrapped_headcloth" />
         <equipment slot="Body" id="Item.bandit_leather_water_flask" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentSet id="npc_merchant_equipment_akan" />
     </Equipments>
@@ -626,20 +626,20 @@
     <upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
-        <equipment slot="Item0" id="Item.infantry_sabre" />
+        <equipment slot="Item0" id="Item.simple_sabre_sword_t2" />
         <equipment slot="Head" id="Item.wrapped_headcloth" />
         <equipment slot="Body" id="Item.bandit_leather_water_flask" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster>
-        <equipment slot="Item0" id="Item.infantry_sabre" />
+        <equipment slot="Item0" id="Item.simple_sabre_sword_t2" />
         <equipment slot="Body" id="Item.vlandia_bandit_c" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Head" id="Item.wrapped_headcloth" />
         <equipment slot="Body" id="Item.bandit_leather_water_flask" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
@@ -660,7 +660,7 @@
       <EquipmentRoster civilian="true">
         <equipment slot="Head" id="Item.desert_helmet" />
         <equipment slot="Body" id="Item.bandit_leather_water_flask" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentSet id="npc_gentry_equipment_akan" />
     </Equipments>
@@ -686,11 +686,11 @@
       <EquipmentRoster civilian="true">
         <equipment slot="Head" id="Item.wrapped_headcloth" />
         <equipment slot="Body" id="Item.bandit_leather_water_flask" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Body" id="Item.sackcloth_tunic" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentSet id="npc_merchant_equipment_akan" />
     </Equipments>
@@ -711,12 +711,12 @@
     <Equipments>
       <EquipmentRoster civilian="true">
         <equipment slot="Body" id="Item.bandit_leather_water_flask" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Head" id="Item.wrapped_headcloth" />
         <equipment slot="Body" id="Item.sackcloth_tunic" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
@@ -736,12 +736,12 @@
     <Equipments>
       <EquipmentRoster civilian="true">
         <equipment slot="Head" id="Item.desert_helmet" />
-        <equipment slot="Body" id="Item.aserai_villager_male_tunic" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Body" id="Item.aserai_tunic_waistcoat" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Body" id="Item.sackcloth_tunic" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
@@ -816,11 +816,11 @@
     <Equipments>
       <EquipmentRoster civilian="true">
         <equipment slot="Body" id="Item.tattered_rags" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
         <equipment slot="Body" id="Item.torn_bandit_clothes" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
@@ -867,7 +867,7 @@
       <EquipmentRoster civilian="true">
         <equipment slot="Head" id="Item.desert_helmet" />
         <equipment slot="Body" id="Item.bandit_leather_water_flask" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentSet id="npc_merchant_equipment_akan" />
     </Equipments>
@@ -889,7 +889,7 @@
       <EquipmentRoster civilian="true">
         <equipment slot="Head" id="Item.wrapped_headcloth" />
         <equipment slot="Body" id="Item.vlandia_bandit_c" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentSet id="npc_artisan_equipment_akan" />
     </Equipments>
@@ -909,9 +909,9 @@
     <upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster civilian="true">
-        <equipment slot="Head" id="Item.shaman_hat" />
-        <equipment slot="Body" id="Item.aserai_villager_male_tunic" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Body" id="Item.aserai_tunic_waistcoat" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentSet id="npc_preacher_equipment_akan" />
     </Equipments>
@@ -932,8 +932,8 @@
     <Equipments>
       <EquipmentRoster civilian="true">
         <equipment slot="Head" id="Item.desert_helmet" />
-        <equipment slot="Body" id="Item.aserai_villager_male_tunic" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Body" id="Item.aserai_tunic_waistcoat" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentSet id="npc_gentry_equipment_akan" />
     </Equipments>
@@ -976,7 +976,7 @@
       <EquipmentRoster civilian="true">
         <equipment slot="Head" id="Item.desert_helmet" />
         <equipment slot="Body" id="Item.bandit_leather_water_flask" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentSet id="npc_merchant_equipment_akan" />
     </Equipments>
@@ -998,7 +998,7 @@
       <EquipmentRoster civilian="true">
         <equipment slot="Head" id="Item.wrapped_headcloth" />
         <equipment slot="Body" id="Item.vlandia_bandit_c" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentSet id="npc_merchant_equipment_akan" />
     </Equipments>
@@ -1153,10 +1153,10 @@
     <upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
-        <equipment slot="Item0" id="Item.infantry_sabre" />
+        <equipment slot="Item0" id="Item.simple_sabre_sword_t2" />
         <equipment slot="Head" id="Item.wrapped_headcloth" />
         <equipment slot="Body" id="Item.vlandia_bandit_c" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentSet id="npc_gang_leader_equipment_akan" />
     </Equipments>
@@ -1204,7 +1204,7 @@
       <EquipmentRoster civilian="true">
         <equipment slot="Head" id="Item.wrapped_headcloth" />
         <equipment slot="Body" id="Item.bandit_leather_water_flask" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentSet id="npc_artisan_equipment_akan" />
     </Equipments>
@@ -1225,7 +1225,7 @@
     <Equipments>
       <EquipmentRoster civilian="true">
         <equipment slot="Body" id="Item.vlandia_bandit_c" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentSet id="npc_artisan_equipment_akan" />
     </Equipments>
@@ -1250,8 +1250,8 @@
     <Equipments>
       <EquipmentRoster civilian="true">
         <equipment slot="Head" id="Item.desert_helmet" />
-        <equipment slot="Body" id="Item.aserai_villager_male_tunic" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Body" id="Item.aserai_tunic_waistcoat" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentSet id="npc_gentry_equipment_akan" />
     </Equipments>
@@ -1271,9 +1271,9 @@
     <upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster civilian="true">
-        <equipment slot="Head" id="Item.shaman_hat" />
-        <equipment slot="Body" id="Item.aserai_villager_male_tunic" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Body" id="Item.aserai_tunic_waistcoat" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentSet id="npc_gentry_equipment_akan" />
     </Equipments>
@@ -1299,7 +1299,7 @@
       <EquipmentRoster civilian="true">
         <equipment slot="Head" id="Item.desert_helmet" />
         <equipment slot="Body" id="Item.bandit_leather_water_flask" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentSet id="npc_gentry_equipment_akan" />
     </Equipments>
@@ -1321,7 +1321,7 @@
       <EquipmentRoster civilian="true">
         <equipment slot="Head" id="Item.wrapped_headcloth" />
         <equipment slot="Body" id="Item.vlandia_bandit_c" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentSet id="npc_gentry_equipment_akan" />
     </Equipments>
@@ -1341,9 +1341,9 @@
     <upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster civilian="true">
-        <equipment slot="Head" id="Item.shaman_hat" />
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
         <equipment slot="Body" id="Item.aserai_villager_female_dress" />
-        <equipment slot="Leg" id="Item.aserai_villager_shoes" />
+        <equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
       <EquipmentSet id="npc_gentry_equipment_akan" />
     </Equipments>

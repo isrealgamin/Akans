@@ -14,12 +14,12 @@ TroopDesigner files. It adds:
 - The Maroon Warlords kingdom (Cudjoe, Zea, Joejoe, Nyla) and clan, now set
   to Akan culture, plus the BoklahomaGang clan from your files.
 - All Akan notables, party templates, equipment rosters and dialog strings.
-- Starting fief: castle_A7, in the far SOUTHWEST of the Aserai lands by
-  the Perassic Sea, is handed to the Maroon Warlords at campaign start via
-  an XSLT patch on settlements.xml (version-safe, no native files copied).
-  Note: castle_A7 is a secondary fief of the native clan_aserai_7, not
-  their home settlement (that's castle_A3) - clan_aserai_7 keeps its
-  capital and simply starts with one less fief.
+- The Maroon Warlords start LANDLESS - they own no settlement at campaign
+  start. The three Maroon clans use initial_posX/initial_posY (357.485,
+  216.349) to spawn in the far SOUTHWEST of the Aserai lands by the
+  Perassic Sea, matching the kingdom's lore, following the same pattern
+  native landless factions use. No native settlement ownership is
+  modified, and no settlements.xml/.xslt ships with this module.
 
 INSTALL
 -------

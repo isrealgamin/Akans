@@ -4,7 +4,8 @@
 <!-- Maroon Warlords -->
 <Faction
 	id="clan_maroon_1"
-	initial_home_settlement="Settlement.castle_A7"
+	initial_posX="357.485"
+	initial_posY="216.349"
 	name="{=zY2TQC9t}Maroon Warlords"
 	tier="6"
 	owner="Hero.lord_1_A31"
@@ -16,7 +17,8 @@
 <!-- Accompong Warriors – second Maroon noble clan -->
 <Faction
 	id="clan_maroon_2"
-	initial_home_settlement="Settlement.castle_A7"
+	initial_posX="357.485"
+	initial_posY="216.349"
 	name="{=accompongclan}Accompong Warriors"
 	tier="4"
 	owner="Hero.lord_1_A35"
@@ -28,7 +30,8 @@
 <!-- Windward Maroons – third Maroon noble clan -->
 <Faction
 	id="clan_maroon_3"
-	initial_home_settlement="Settlement.castle_A7"
+	initial_posX="357.485"
+	initial_posY="216.349"
 	name="{=windwardclan}Windward Maroons"
 	tier="4"
 	owner="Hero.lord_1_A37"

@@ -82,7 +82,13 @@
 			<caravan_party_template
 				id="PartyTemplate.elite_eastern_caravan_template" />
 		</elite_caravan_party_templates>
-		<available_ship_hulls></available_ship_hulls>
+		<available_ship_hulls>
+			<ship_hull id="ShipHull.central_light_ship" />
+			<ship_hull id="ShipHull.eastern_heavy_ship" />
+			<ship_hull id="ShipHull.aserai_heavy_ship" />
+			<ship_hull id="ShipHull.eastern_medium_ship" />
+			<ship_hull id="ShipHull.eastern_trade_ship" />
+		</available_ship_hulls>
 		<vassal_reward_items>
 			<item id="Item.sentinel_2hsword" />
 		</vassal_reward_items>

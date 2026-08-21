@@ -29,6 +29,7 @@
 			 caravan_master="NPCCharacter.caravan_master_aserai"
 			 caravan_guard="NPCCharacter.caravan_guard_aserai"
 			 veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_aserai"
+			 executioner="NPCCharacter.akan_veteran_town_guard"
 			 prison_guard="NPCCharacter.prison_guard_akan"
 			 guard="NPCCharacter.guard_akan"
 			 blacksmith="NPCCharacter.blacksmith_akan"

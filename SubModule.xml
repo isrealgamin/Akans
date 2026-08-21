@@ -81,43 +81,7 @@
 </IncludedGameTypes>
 </XmlNode>
 <XmlNode>
-<XmlName id="NPCCharacters" path="akan_lords"/>
-<IncludedGameTypes>
-<GameType value="Campaign"/>
-<GameType value="CampaignStoryMode"/>
-<GameType value="CustomGame"/>
-<GameType value="EditorGame"/>
-</IncludedGameTypes>
-</XmlNode>
-<XmlNode>
 <XmlName id="partyTemplates" path="akan_party_templates"/>
-<IncludedGameTypes>
-<GameType value="Campaign"/>
-<GameType value="CampaignStoryMode"/>
-<GameType value="CustomGame"/>
-<GameType value="EditorGame"/>
-</IncludedGameTypes>
-</XmlNode>
-<XmlNode>
-<XmlName id="Factions" path="akan_clans"/>
-<IncludedGameTypes>
-<GameType value="Campaign"/>
-<GameType value="CampaignStoryMode"/>
-<GameType value="CustomGame"/>
-<GameType value="EditorGame"/>
-</IncludedGameTypes>
-</XmlNode>
-<XmlNode>
-<XmlName id="Kingdoms" path="akan_kingdoms"/>
-<IncludedGameTypes>
-<GameType value="Campaign"/>
-<GameType value="CampaignStoryMode"/>
-<GameType value="CustomGame"/>
-<GameType value="EditorGame"/>
-</IncludedGameTypes>
-</XmlNode>
-<XmlNode>
-<XmlName id="Heroes" path="akan_heroes"/>
 <IncludedGameTypes>
 <GameType value="Campaign"/>
 <GameType value="CampaignStoryMode"/>

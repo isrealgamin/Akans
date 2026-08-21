@@ -4,8 +4,7 @@ Akans - playable Akan culture for Mount & Blade II: Bannerlord (War Sails)
 WHAT THIS IS
 ------------
 An XML-only module (no DLL needed) built from your Maroon Kingdom /
-TroopDesigner files, using the WesternPirates SubModule.xml as the template.
-It adds:
+TroopDesigner files. It adds:
 - The Akan culture, selectable at the culture selection screen when starting
   a new sandbox campaign (is_main_culture=true), with Akan name lists,
   banner, character-creation equipment and education stages.
@@ -38,5 +37,4 @@ NOTES / FIXES MADE
   re-pointed at existing troops.
 - Troop cultures were changed from darshi to akan so they belong to the new
   culture. The kingdom/clan/lords were switched from aserai to akan.
-- Requires the War Sails DLC (NavalDLC), same as your WesternPirates
-  template. No other mods are required.
+- Requires the War Sails DLC (NavalDLC). No other mods are required.

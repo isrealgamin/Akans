@@ -37,13 +37,13 @@
 <PartyTemplateStack troop="NPCCharacter.akan_warrior" min_value="6" max_value="15"/>
 <PartyTemplateStack troop="NPCCharacter.tdTroop_VSTtYyg0001Qt" min_value="5" max_value="12"/>
 <PartyTemplateStack troop="NPCCharacter.tdTroop_VSTx2Fq0002Na" min_value="4" max_value="10"/>
-<PartyTemplateStack troop="NPCCharacter.jawwal_tier_1" min_value="3" max_value="8"/>
+<PartyTemplateStack troop="NPCCharacter.akan_jawwal_recruit" min_value="3" max_value="8"/>
 </stacks>
 </MBPartyTemplate>
 <MBPartyTemplate id="rebels_akan_template">
 <stacks>
 <PartyTemplateStack troop="NPCCharacter.akan_freeman" min_value="15" max_value="30"/>
-<PartyTemplateStack troop="NPCCharacter.jawwal_tier_1" min_value="5" max_value="12"/>
+<PartyTemplateStack troop="NPCCharacter.akan_jawwal_recruit" min_value="5" max_value="12"/>
 <PartyTemplateStack troop="NPCCharacter.akan_scout" min_value="5" max_value="10"/>
 </stacks>
 </MBPartyTemplate>

@@ -423,7 +423,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter
-		id="lord_K9_c1"
+		id="lord_boklahoma_c1"
 		name="{=bEKtDbS0}Boklahoma"
 		age="24"
 		voice="ironic"
@@ -484,7 +484,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter
-		id="lord_K9_c2"
+		id="lord_boklahoma_c2"
 		name="{=vDqbZTbb}LadyRed"
 		age="22"
 		voice="ironic"

@@ -255,7 +255,7 @@
 		</Equipments>
 	</NPCCharacter>
 
-  <NPCCharacter id="jawwal_tier_1" _replaceWhileMerging="true" default_group="Infantry" level="11" is_basic_troop="true" name="Jawwal Recruit" is_female="false" occupation="Soldier" culture="Culture.akan">
+  <NPCCharacter id="akan_jawwal_recruit" default_group="Infantry" level="11" is_basic_troop="true" name="Jawwal Recruit" is_female="false" occupation="Soldier" culture="Culture.akan">
     <face>
       <BodyProperties version="4" age="27.64" weight="0.4" build="0.5" key="002BE80ACDFC10155D721A4BB3A5D2FAAE7C686AD5C01C469CFFFF3F9922C78900977603099BA4A300000000000000000000000000000000000000003B342002" />
       <BodyPropertiesMax version="4" age="46.62" weight="0.6408" build="0.9594" key="003FF80FCDFC301AEE8EEEDEEEEBEFFFEE7F9FDCCEEAFCDFEFFFFFCF992FEEF80FCE46FF0CBCCCCA000000000000000000000000000000000000000005949142" />

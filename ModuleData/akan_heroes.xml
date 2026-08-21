@@ -59,14 +59,14 @@
 	spouse="Hero.lord_K9_l1"
 	faction="Faction.clan_khuzait_19" />
 <Hero
-	id="lord_K9_c1"
+	id="lord_boklahoma_c1"
 	father="Hero.lord_K9_l1"
 	mother="Hero.lord_K9_s1"
-	spouse="Hero.lord_K9_c2"
+	spouse="Hero.lord_boklahoma_c2"
 	faction="Faction.clan_khuzait_19" />
 <Hero
-	id="lord_K9_c2"
-	spouse="Hero.lord_K9_c1"
+	id="lord_boklahoma_c2"
+	spouse="Hero.lord_boklahoma_c1"
 	faction="Faction.clan_khuzait_19" />	
 	
 	

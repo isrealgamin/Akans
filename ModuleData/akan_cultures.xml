@@ -72,8 +72,13 @@
 		  marriage_bride_equipment_roster="EquipmentRoster.marriage_female_akan_cutscene_template"
 		  board_game_type="MuTorere"
 		  default_character_creation_body_property="BodyProperty.default_character_creation_body_property_akan"
-			start_point_position_x="357.485"
-			start_point_position_y="216.349">
+		  naval_factor="1.8"
+		  shipwright="NPCCharacter.shipwright_aserai"
+		  shipyard_worker="NPCCharacter.shipyard_worker_aserai"
+		  fishing_party_template="PartyTemplate.fishing_party_template_aserai"
+		  settlement_patrol_template_coastal="PartyTemplate.patrol_party_aserai_template_coastal"
+		  start_point_position_x="367"
+		  start_point_position_y="251">
 		<caravan_party_templates>
 			<caravan_party_template
 				id="PartyTemplate.caravan_template_aserai" />

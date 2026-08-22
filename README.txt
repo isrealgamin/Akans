@@ -67,4 +67,23 @@ NOTES / FIXES MADE
   NavalDLC gives Aserai.
 - Oversized banner_key values (16 layers) were trimmed to 12, the maximum
   seen anywhere in native data.
+- Culture was still on the pre-War Sails map. NavalDLC ships
+  XSLT/NavalDLC_SandBoxCore_SPCultures.xslt, which moves every native
+  culture's start point onto the War Sails map (aserai 300.78,259.99 ->
+  367,251; empire -> 776,280; sturgia -> 523,603; vlandia -> 305,414;
+  battania -> 397,476; khuzait -> 841,541; nord -> 725,811) and adds
+  naval_factor, shipwright, shipyard_worker, fishing_party_template and
+  settlement_patrol_template_coastal. The Akan culture had base-map
+  coordinates (357.485, 216.349) and none of those attributes; it now
+  carries the War Sails Aserai set.
+- akan_equipment_sets.xml used <EquipmentSet civilian="true">. The engine
+  rejects that form ("This civilian tag should not be used anymore, the
+  equipmentSet type should be defined as equipmentType=civilian in the
+  .xml file"); all 100 were changed to equipmentType="Civilian". The
+  separate <EquipmentRoster civilian="true"> form used inside
+  <NPCCharacter><Equipments> is still correct and was left alone.
+- Conversation tags FemaleTag and GenerousTag do not exist in the engine;
+  corrected to NpcIsFemaleTag and GenerosityTag.
+- Removed _replaceWhileMerging from akan_troops.xml (a TroopDesigner
+  leftover; no Bannerlord assembly reads it).
 - Requires the War Sails DLC (NavalDLC). No other mods are required.

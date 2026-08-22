@@ -106,7 +106,7 @@
           text="{=str_comment_noble_introduces_self.akan_female.text}I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}. You stand in the presence of a Maroon matriarch — mind your manners.">
     <tags>
       <tag tag_name="akanTag"/>
-      <tag tag_name="FemaleTag"/>
+      <tag tag_name="NpcIsFemaleTag"/>
     </tags>
   </string>
 
@@ -114,7 +114,7 @@
           text="{=str_comment_noble_introduces_self.akan_female_mercy.text}I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}. My hearth is open to those who come in friendship.">
     <tags>
       <tag tag_name="akanTag"/>
-      <tag tag_name="FemaleTag"/>
+      <tag tag_name="NpcIsFemaleTag"/>
       <tag tag_name="MercyTag" weight="1"/>
     </tags>
   </string>
@@ -123,7 +123,7 @@
           text="{=str_comment_noble_introduces_self.akan_female_honor.text}I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}. My people have survived worse than you — I ask only that you give me reason to trust.">
     <tags>
       <tag tag_name="akanTag"/>
-      <tag tag_name="FemaleTag"/>
+      <tag tag_name="NpcIsFemaleTag"/>
       <tag tag_name="HonorTag" weight="1"/>
     </tags>
   </string>
@@ -432,7 +432,7 @@
           text="{=str_comment_lord_greets_friend.akan_generous.text}Good to see you riding these roads again. My cook has prepared more than we can eat — come, join us.">
     <tags>
       <tag tag_name="akanTag"/>
-      <tag tag_name="GenerousTag" weight="1"/>
+      <tag tag_name="GenerosityTag" weight="1"/>
     </tags>
   </string>
 

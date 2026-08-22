@@ -212,7 +212,7 @@
 				id="Item.leather_boots" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.fine_town_tunic" />
@@ -243,7 +243,7 @@
 				id="Item.strapped_shoes" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.fine_town_tunic" />
@@ -269,7 +269,7 @@
 				id="Item.strapped_shoes" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.fine_town_tunic" />
@@ -295,7 +295,7 @@
 				id="Item.strapped_shoes" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.fine_town_tunic" />
@@ -321,7 +321,7 @@
 				id="Item.strapped_shoes" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.fine_town_tunic" />
@@ -386,7 +386,7 @@
 				id="Item.narrow_sword_t3" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Item0"
 				id="Item.empire_sword_1_t2" />
@@ -445,7 +445,7 @@
 				id="Item.fine_town_boots" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.fine_town_tunic" />
@@ -688,7 +688,7 @@
 				<Equipment slot="Gloves" id="Item.armwraps"/>
 				<Equipment slot="Leg" id="Item.wrapped_shoes"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>		
 				<Equipment slot="Item2" id="Item.noble_bow"/>
 				<Equipment slot="Item3" id="Item.default_arrows"/>				
@@ -701,36 +701,36 @@
 	<!--Townsman -->
 	<EquipmentRoster id="child_template_akan_townsman_male"
 		culture="Culture.akan">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.sackcloth_tunic"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Head" id="Item.wrapped_headcloth"/>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>		
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.tattered_rags"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.torn_bandit_clothes"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Head" id="Item.wrapped_headcloth"/>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
@@ -745,20 +745,20 @@
 	
 	<EquipmentRoster id="child_template_akan_townsman_female"
 		culture="Culture.akan">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.cut_dress_with_pouch"/>
 				<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.aserai_villager_female_dress"/>
 				<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
 				<Equipment slot="Body" id="Item.plain_dress"/>
 				<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Head" id="Item.head_wrapped"/>
 				<Equipment slot="Body" id="Item.aserai_villager_female_dress"/>
 				<Equipment slot="Leg" id="Item.ladys_shoe"/>
@@ -773,36 +773,36 @@
 	
 	<EquipmentRoster id="teenager_template_akan_townsman_male"
 		culture="Culture.akan">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.sackcloth_tunic"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Head" id="Item.wrapped_headcloth"/>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>		
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.tattered_rags"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.torn_bandit_clothes"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Head" id="Item.wrapped_headcloth"/>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
@@ -817,20 +817,20 @@
 	
 	<EquipmentRoster id="teenager_template_akan_townsman_female"
 		culture="Culture.akan">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.cut_dress_with_pouch"/>
 				<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.aserai_villager_female_dress"/>
 				<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
 				<Equipment slot="Body" id="Item.plain_dress"/>
 				<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Head" id="Item.head_wrapped"/>
 				<Equipment slot="Body" id="Item.aserai_villager_female_dress"/>
 				<Equipment slot="Leg" id="Item.ladys_shoe"/>
@@ -845,36 +845,36 @@
 	<!--Villager -->
 	<EquipmentRoster id="child_template_akan_villager_male"
 		culture="Culture.akan">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.sackcloth_tunic"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Head" id="Item.wrapped_headcloth"/>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>		
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.tattered_rags"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.torn_bandit_clothes"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Head" id="Item.wrapped_headcloth"/>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
@@ -889,20 +889,20 @@
 	
 	<EquipmentRoster id="child_template_akan_villager_female"
 		culture="Culture.akan">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.cut_dress_with_pouch"/>
 				<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.aserai_villager_female_dress"/>
 				<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
 				<Equipment slot="Body" id="Item.plain_dress"/>
 				<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Head" id="Item.head_wrapped"/>
 				<Equipment slot="Body" id="Item.aserai_villager_female_dress"/>
 				<Equipment slot="Leg" id="Item.ladys_shoe"/>
@@ -917,36 +917,36 @@
 	
 	<EquipmentRoster id="teenager_template_akan_villager_male"
 		culture="Culture.akan">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.sackcloth_tunic"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Head" id="Item.wrapped_headcloth"/>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>		
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.tattered_rags"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.torn_bandit_clothes"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Head" id="Item.wrapped_headcloth"/>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
@@ -961,20 +961,20 @@
 	
 	<EquipmentRoster id="teenager_template_akan_villager_female"
 		culture="Culture.akan">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.cut_dress_with_pouch"/>
 				<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.aserai_villager_female_dress"/>
 				<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
 				<Equipment slot="Body" id="Item.plain_dress"/>
 				<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Head" id="Item.head_wrapped"/>
 				<Equipment slot="Body" id="Item.aserai_villager_female_dress"/>
 				<Equipment slot="Leg" id="Item.ladys_shoe"/>
@@ -989,36 +989,36 @@
 	<!--Noble -->
 	<EquipmentRoster id="child_template_akan_noble_male"
 		culture="Culture.akan">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.sackcloth_tunic"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Head" id="Item.wrapped_headcloth"/>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>		
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.tattered_rags"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.torn_bandit_clothes"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Head" id="Item.wrapped_headcloth"/>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
@@ -1033,22 +1033,22 @@
 	
 	<EquipmentRoster id="child_template_akan_noble_female"
 		culture="Culture.akan">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
 				<Equipment slot="Body" id="Item.fine_southern_dress"/>
 				<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Head" id="Item.head_wrapped"/>
 				<Equipment slot="Body" id="Item.vlandian_woman_dress"/>
 				<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
 				<Equipment slot="Body" id="Item.laced_dress"/>
 				<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.vlandian_dress"/>
 				<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>	
@@ -1062,36 +1062,36 @@
 	
 	<EquipmentRoster id="teenager_template_akan_noble_male"
 		culture="Culture.akan">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.sackcloth_tunic"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Head" id="Item.wrapped_headcloth"/>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>		
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.tattered_rags"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.torn_bandit_clothes"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Head" id="Item.wrapped_headcloth"/>
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
@@ -1106,22 +1106,22 @@
 	
 	<EquipmentRoster id="teenager_template_akan_noble_female"
 		culture="Culture.akan">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
 				<Equipment slot="Body" id="Item.fine_southern_dress"/>
 				<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Head" id="Item.head_wrapped"/>
 				<Equipment slot="Body" id="Item.vlandian_woman_dress"/>
 				<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
 				<Equipment slot="Body" id="Item.laced_dress"/>
 				<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Body" id="Item.vlandian_dress"/>
 				<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
@@ -1269,7 +1269,7 @@
 				<Equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
 			<Equipment slot="Body" id="Item.long_woolen_tunic" />
 			<Equipment slot="Cape" id="Item.hood" />
@@ -1286,7 +1286,7 @@
 				<Equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>		
 				<Equipment slot="Item2" id="Item.noble_bow"/>
 				<Equipment slot="Item3" id="Item.default_arrows"/>			
@@ -1303,7 +1303,7 @@
 				<Equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>		
 				<Equipment slot="Item2" id="Item.noble_bow"/>
 				<Equipment slot="Item3" id="Item.default_arrows"/>			
@@ -1321,7 +1321,7 @@
 				<Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
 				<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>		
 				<Equipment slot="Item2" id="Item.noble_bow"/>
 				<Equipment slot="Item3" id="Item.default_arrows"/>	
@@ -1338,7 +1338,7 @@
 				<Equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
 				<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>		
 				<Equipment slot="Item2" id="Item.noble_bow"/>
 				<Equipment slot="Item3" id="Item.default_arrows"/>	
@@ -1368,7 +1368,7 @@
 				<Equipment slot="Body" id="Item.aserai_villager_female_dress"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>		
 				<Equipment slot="Item2" id="Item.noble_bow"/>
 				<Equipment slot="Item3" id="Item.default_arrows"/>	
@@ -1388,7 +1388,7 @@
 				<Equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>		
 				<Equipment slot="Item2" id="Item.noble_bow"/>
 				<Equipment slot="Item3" id="Item.default_arrows"/>	
@@ -1407,7 +1407,7 @@
 				<Equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>		
 				<Equipment slot="Item2" id="Item.noble_bow"/>
 				<Equipment slot="Item3" id="Item.default_arrows"/>	
@@ -1427,7 +1427,7 @@
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
 				<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>		
 				<Equipment slot="Item2" id="Item.noble_bow"/>
 				<Equipment slot="Item3" id="Item.default_arrows"/>	
@@ -1446,7 +1446,7 @@
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
 				<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>		
 				<Equipment slot="Item2" id="Item.noble_bow"/>
 				<Equipment slot="Item3" id="Item.default_arrows"/>	
@@ -1466,7 +1466,7 @@
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
 				<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>		
 				<Equipment slot="Item2" id="Item.noble_bow"/>
 				<Equipment slot="Item3" id="Item.default_arrows"/>	
@@ -1485,7 +1485,7 @@
 				<Equipment slot="Body" id="Item.vlandia_bandit_c"/>
 				<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>		
 				<Equipment slot="Item2" id="Item.noble_bow"/>
 				<Equipment slot="Item3" id="Item.default_arrows"/>	
@@ -1505,7 +1505,7 @@
 				<Equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>		
 				<Equipment slot="Item2" id="Item.noble_bow"/>
 				<Equipment slot="Item3" id="Item.default_arrows"/>	
@@ -1524,7 +1524,7 @@
 				<Equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>		
 				<Equipment slot="Item2" id="Item.noble_bow"/>
 				<Equipment slot="Item3" id="Item.default_arrows"/>	
@@ -1544,7 +1544,7 @@
 				<Equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>		
 				<Equipment slot="Item2" id="Item.noble_bow"/>
 				<Equipment slot="Item3" id="Item.default_arrows"/>	
@@ -1563,7 +1563,7 @@
 				<Equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>		
 				<Equipment slot="Item2" id="Item.noble_bow"/>
 				<Equipment slot="Item3" id="Item.default_arrows"/>	
@@ -1583,7 +1583,7 @@
 				<Equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>		
 				<Equipment slot="Item2" id="Item.noble_bow"/>
 				<Equipment slot="Item3" id="Item.default_arrows"/>	
@@ -1602,7 +1602,7 @@
 				<Equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 				<Equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>		
 				<Equipment slot="Item2" id="Item.noble_bow"/>
 				<Equipment slot="Item3" id="Item.default_arrows"/>	
@@ -1615,7 +1615,7 @@
 
 <!-- ===== default culture rosters referenced by the Culture entry ===== -->
 <EquipmentRoster id="akan_civ_template_default" culture="Culture.akan">
-<EquipmentSet civilian="true">
+<EquipmentSet equipmentType="Civilian">
 <Equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
 <Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
 </EquipmentSet>
@@ -1629,7 +1629,7 @@
 </EquipmentSet>
 </EquipmentRoster>
 <EquipmentRoster id="marriage_female_akan_cutscene_template" culture="Culture.akan">
-<EquipmentSet civilian="true">
+<EquipmentSet equipmentType="Civilian">
 <Equipment slot="Body" id="Item.aserai_villager_female_dress"/>
 <Equipment slot="Leg" id="Item.strapped_shoes"/>
 </EquipmentSet>

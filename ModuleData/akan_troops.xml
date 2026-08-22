@@ -312,7 +312,7 @@
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="CharacterObject_30173" _replaceWhileMerging="true" default_group="Ranged" level="21" name="Maroon Ranged upgrade" is_female="false" occupation="Soldier" culture="Culture.akan">
+  <NPCCharacter id="CharacterObject_30173" default_group="Ranged" level="21" name="Maroon Ranged upgrade" is_female="false" occupation="Soldier" culture="Culture.akan">
     <face>
       <BodyProperties version="4" age="35.06" weight="0.9981" build="0.6579" key="003FC40E40000947C613318B69728339700782B276615938230454226BB5807302AAFF240AE92850000000000000000000000000000000000000000077403046" />
       <BodyPropertiesMax version="4" age="35.06" weight="0.9981" build="0.6579" key="003FC40E40000947C613318B69728339700782B276615938230454226BB5807302AAFF240AE92850000000000000000000000000000000000000000077403046" />

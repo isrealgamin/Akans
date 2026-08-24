@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+<!-- Maroon clans -->
+<Hero
+	id="lord_1_A31"
+	father="Hero.lord_1_A35"
+	spouse="Hero.lord_1_A32"
+	faction="Faction.clan_maroon_1"
+	text="Cudjoe is the leader of a community of self-liberated akan known as Maroon Warriors." />
+<Hero
+	id="lord_1_A32"
+	spouse="Hero.lord_1_A31"
+	faction="Faction.clan_maroon_1"
+	text="Zea is the wife of Cudjoe, she is known to be a ruthless Warrior." />
+<Hero
+	id="lord_1_A33"
+	father="Hero.lord_1_A31" 
+	mother="Hero.lord_1_A32"
+	spouse="Hero.lord_1_A34"
+	faction="Faction.clan_maroon_1"
+	text="Joejoe is the son of Cudjoe, who is determined to make a name for himself as the most vicious." />
+<Hero
+	id="lord_1_A34"
+	spouse="Hero.lord_1_A33"
+	faction="Faction.clan_maroon_1"
+	text="Nyla is the wife of Joejoe, she is known to be a intelligent." />
+	
+<!-- Boklahoma Gang -->
+<Hero
+	id="lord_K9_l1"
+	father="Hero.dead_lord_6_1"
+	spouse="Hero.lord_K9_s1"
+	faction="Faction.clan_khuzait_19" />
+<Hero
+	id="lord_K9_s1"
+	spouse="Hero.lord_K9_l1"
+	faction="Faction.clan_khuzait_19" />
+<Hero
+	id="lord_K9_c1"
+	father="Hero.lord_K9_l1"
+	mother="Hero.lord_K9_s1"
+	spouse="Hero.lord_K9_c2"
+	faction="Faction.clan_khuzait_19" />
+<Hero
+	id="lord_K9_c2"
+	spouse="Hero.lord_K9_c1"
+	faction="Faction.clan_khuzait_19" />	
+	
+	
+	
+	
+
+<!-- Ti Fitaa -->
+<Hero
+	id="lord_1_A35"
+	faction="Faction.clan_maroon_2"
+	text="Naquan Ti Fitaa is the father of Cudjoe and the man credited with orchestrating the rising of 1080. He gave up the seat of Za to his son but never gave up his own house, and he still holds Kormantse in his own name." />
+
+<!-- Swans Company -->
+<Hero
+	id="lord_1_A36"
+	faction="Faction.clan_maroon_3"
+	text="Mad Swan came over the hills long after the first rising, with a band of his own and a reputation that arrived before he did. The Maroons gave him the southern face to hold, which is either an honour or a sentence depending on who is asked." />
+</Heroes>

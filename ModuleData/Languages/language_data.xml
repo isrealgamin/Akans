@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-	<LanguageXmlFiles>
-		<LanguageFile xml_path="EN/language.xml"/>
-	</LanguageXmlFiles>
+<!-- English manifest for the Akans module.
+     Schema matches Native/ModuleData/Languages/language_data.xml: LanguageFile
+     elements are direct children, and xml_path is relative to this Languages
+     folder. Translations, if ever added, go in per-language subfolders that each
+     carry their own language_data.xml. -->
+<LanguageData id="English">
+	<LanguageFile xml_path="std_akan_strings.xml" />
 </LanguageData>

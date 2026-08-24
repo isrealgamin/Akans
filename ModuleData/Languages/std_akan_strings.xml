@@ -32,7 +32,7 @@
             text="Za" />
     <!-- Kingdom lore text shown in the encyclopedia -->
     <string id="qggtvf8Y"
-            text="The Maroon was located in the southwestern extremities of the parish of Aserai land, close to the border of the Aserai kingdom. In 1080 a large number of Akan freedom fighters already living in the mountains launched an assault on the Northern Empire in Calradia, freeing between 300 and 400 enslaved people. They established a new community of free people in Calradia, in the forested mountains of the island's interior — the Cockpit Country. Naquan, Cudjoe's father, was allegedly the one who orchestrated this rebellion. Naquan was succeeded by Cudjoe, the first Za of this group of Maroons." />
+            text="The Maroons hold the southeastern extremity of the Aserai lands, where the Jabal al-Kals - the hills of bitterness - run down to the shore of the Bahr al-Yeshm and divide the sultanate from the Empire. In 1080 a large number of Akan freedom fighters already living in those hills launched an assault on the Northern Empire in Calradia, freeing between 300 and 400 enslaved people. They established a new community of free people in the broken country above the coastal road, where imperial cavalry could not follow them. Naquan, Cudjoe's father, was allegedly the one who orchestrated this rebellion. Naquan was succeeded by Cudjoe, the first Za of this group of Maroons." />
 
     <!-- ================================================================
          Clan names
@@ -180,6 +180,23 @@
             text="The Maroons do not take oaths lightly, and we do not release them lightly. Think carefully before you bind yourself to us — or before you leave." />
     <string id="str_comment_defect_from_faction.akan.text"
             text="You are leaving. I will not grovel. But know that a soldier's worth is measured in loyalty as much as in skill." />
+
+    <!-- ================================================================
+         Settlements
+    ================================================================ -->
+    <string id="Settlements.Settlement.name.castle_M1"
+            text="Gao Castle" />
+    <string id="Settlements.Settlement.name.castle_village_M1_1"
+            text="Faso" />
+    <string id="Settlements.Settlement.text.castle_village_M1_1"
+            text="Faso lies on the desert-steppe east of the Bahr al-Yeshm, in the long shadow of the Jabal al-Kals. Villagers sink wells deep into the gravel and trap what little runoff comes down from the bitter hills, using it to water their groves of date palms." />
+    <string id="Settlements.Settlement.name.castle_village_M1_2"
+            text="Cudjoes Town" />
+    <string id="Settlements.Settlement.text.castle_village_M1_2"
+            text="Cudjoes Town sits high on the seaward slopes of the Jabal al-Kals, the bitter hills, where the Aserai deserts give way to scrub and acacia. The villagers terrace the hillsides for olives, and keep watch over the coastal road below - the highway that caravans and armies have used between the Empire and the Aserai lands for thousands of years." />
+
+    <string id="akan_woman_warrior"
+            text="Akan Warrior Woman" />
 
   </strings>
 </base>

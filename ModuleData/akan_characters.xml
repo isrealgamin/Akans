@@ -104,7 +104,7 @@
     name="{=!}Townsman"
     is_hidden_encyclopedia="true">
     <face>
-      <face_key_template value="BodyProperty.fighter_akan" />
+      <face_key_template value="BodyProperty.townsman_akan" />
     </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
@@ -146,6 +146,9 @@
     is_female="true"
     name="{=!}Townswoman"
     is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_akan" />
+    </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
     <Equipments>
@@ -285,7 +288,7 @@
     name="{=!}Villager"
     is_hidden_encyclopedia="true">
     <face>
-      <face_key_template value="BodyProperty.fighter_akan" />
+      <face_key_template value="BodyProperty.townsman_akan" />
     </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
@@ -318,6 +321,9 @@
     is_female="true"
     name="{=!}Village Woman"
     is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_akan" />
+    </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
     <Equipments>
@@ -420,7 +426,7 @@
     name="{=!}Blacksmith"
     is_hidden_encyclopedia="true">
     <face>
-      <face_key_template value="BodyProperty.fighter_akan" />
+      <face_key_template value="BodyProperty.townsman_akan" />
     </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
@@ -446,7 +452,7 @@
     name="{=!}Weaponsmith"
     is_hidden_encyclopedia="true">
     <face>
-      <face_key_template value="BodyProperty.fighter_akan" />
+      <face_key_template value="BodyProperty.townsman_akan" />
     </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
@@ -472,7 +478,7 @@
     name="{=!}Armorer"
     is_hidden_encyclopedia="true">
     <face>
-      <face_key_template value="BodyProperty.fighter_akan" />
+      <face_key_template value="BodyProperty.townsman_akan" />
     </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
@@ -494,7 +500,7 @@
     name="{=!}Merchant"
     is_hidden_encyclopedia="true">
     <face>
-      <face_key_template value="BodyProperty.fighter_akan" />
+      <face_key_template value="BodyProperty.townsman_akan" />
     </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
@@ -516,7 +522,7 @@
     name="{=!}Horse Merchant"
     is_hidden_encyclopedia="true">
     <face>
-      <face_key_template value="BodyProperty.fighter_akan" />
+      <face_key_template value="BodyProperty.townsman_akan" />
     </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
@@ -538,7 +544,7 @@
     name="{=!}Shop Worker"
     is_hidden_encyclopedia="true">
     <face>
-      <face_key_template value="BodyProperty.fighter_akan" />
+      <face_key_template value="BodyProperty.townsman_akan" />
     </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
@@ -567,7 +573,7 @@
     name="{=!}Barber"
     is_hidden_encyclopedia="true">
     <face>
-      <face_key_template value="BodyProperty.fighter_akan" />
+      <face_key_template value="BodyProperty.townsman_akan" />
     </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
@@ -592,7 +598,7 @@
     name="{=!}Ransom Broker"
     is_hidden_encyclopedia="true">
     <face>
-      <face_key_template value="BodyProperty.fighter_akan" />
+      <face_key_template value="BodyProperty.townsman_akan" />
     </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
@@ -652,7 +658,7 @@
     name="{=!}Tournament Master"
     is_hidden_encyclopedia="true">
     <face>
-      <face_key_template value="BodyProperty.fighter_akan" />
+      <face_key_template value="BodyProperty.townsman_akan" />
     </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
@@ -678,7 +684,7 @@
     name="{=!}Tavernkeeper"
     is_hidden_encyclopedia="true">
     <face>
-      <face_key_template value="BodyProperty.fighter_akan" />
+      <face_key_template value="BodyProperty.townsman_akan" />
     </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
@@ -704,7 +710,7 @@
     name="{=!}Game Host"
     is_hidden_encyclopedia="true">
     <face>
-      <face_key_template value="BodyProperty.fighter_akan" />
+      <face_key_template value="BodyProperty.townsman_akan" />
     </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
@@ -729,7 +735,7 @@
     name="{=!}Musician"
     is_hidden_encyclopedia="true">
     <face>
-      <face_key_template value="BodyProperty.fighter_akan" />
+      <face_key_template value="BodyProperty.townsman_akan" />
     </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
@@ -754,6 +760,9 @@
     is_female="true"
     name="{=!}Barmaid"
     is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_akan" />
+    </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
     <Equipments>
@@ -781,6 +790,9 @@
     is_female="true"
     name="{=!}Dancer"
     is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_akan" />
+    </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
     <Equipments>
@@ -809,7 +821,7 @@
     name="{=!}Beggar"
     is_hidden_encyclopedia="true">
     <face>
-      <face_key_template value="BodyProperty.fighter_akan" />
+      <face_key_template value="BodyProperty.townsman_akan" />
     </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
@@ -833,6 +845,9 @@
     is_female="true"
     name="{=!}Beggar"
     is_hidden_encyclopedia="true">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_akan" />
+    </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
     <Equipments>
@@ -859,7 +874,7 @@
     name="{=!}Merchant"
     is_hidden_encyclopedia="true">
     <face>
-      <face_key_template value="BodyProperty.fighter_akan" />
+      <face_key_template value="BodyProperty.townsman_akan" />
     </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
@@ -881,7 +896,7 @@
     name="{=!}Artisan"
     is_hidden_encyclopedia="true">
     <face>
-      <face_key_template value="BodyProperty.fighter_akan" />
+      <face_key_template value="BodyProperty.townsman_akan" />
     </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
@@ -903,7 +918,7 @@
     name="{=!}Preacher"
     is_hidden_encyclopedia="true">
     <face>
-      <face_key_template value="BodyProperty.fighter_akan" />
+      <face_key_template value="BodyProperty.townsman_akan" />
     </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
@@ -951,7 +966,7 @@
     name="{=!}Merchant"
     is_hidden_encyclopedia="true">
     <face>
-      <face_key_template value="BodyProperty.fighter_akan" />
+      <face_key_template value="BodyProperty.townsman_akan" />
     </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
@@ -968,7 +983,7 @@
     name="{=!}Merchant"
     is_hidden_encyclopedia="true">
     <face>
-      <face_key_template value="BodyProperty.fighter_akan" />
+      <face_key_template value="BodyProperty.townsman_akan" />
     </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
@@ -990,7 +1005,7 @@
     name="{=!}Merchant"
     is_hidden_encyclopedia="true">
     <face>
-      <face_key_template value="BodyProperty.fighter_akan" />
+      <face_key_template value="BodyProperty.townsman_akan" />
     </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
@@ -1012,7 +1027,7 @@
     name="{=!}Merchant"
     is_hidden_encyclopedia="true">
     <face>
-      <face_key_template value="BodyProperty.fighter_akan" />
+      <face_key_template value="BodyProperty.townsman_akan" />
     </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
@@ -1027,9 +1042,10 @@
     occupation="Merchant"
     culture="Culture.akan"
     name="{=!}Merchant"
-    is_hidden_encyclopedia="true">
+    is_hidden_encyclopedia="true"
+    age="22">
     <face>
-      <face_key_template value="BodyProperty.fighter_akan" />
+      <face_key_template value="BodyProperty.fighter_akan_young" />
     </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
@@ -1050,7 +1066,7 @@
     name="{=!}Notable"
     is_hidden_encyclopedia="true">
     <face>
-      <face_key_template value="BodyProperty.fighter_akan" />
+      <face_key_template value="BodyProperty.townsman_akan" />
     </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
@@ -1067,7 +1083,7 @@
     name="{=!}Notable"
     is_hidden_encyclopedia="true">
     <face>
-      <face_key_template value="BodyProperty.fighter_akan" />
+      <face_key_template value="BodyProperty.townsman_akan" />
     </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
@@ -1084,7 +1100,7 @@
     name="{=!}Notable"
     is_hidden_encyclopedia="true">
     <face>
-      <face_key_template value="BodyProperty.fighter_akan" />
+      <face_key_template value="BodyProperty.townsman_akan" />
     </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
@@ -1101,7 +1117,7 @@
     name="{=!}Notable"
     is_hidden_encyclopedia="true">
     <face>
-      <face_key_template value="BodyProperty.fighter_akan" />
+      <face_key_template value="BodyProperty.townsman_akan" />
     </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
@@ -1168,9 +1184,10 @@
     occupation="GangLeader"
     culture="Culture.akan"
     name="{=!}Gang Leader"
-    is_hidden_encyclopedia="true">
+    is_hidden_encyclopedia="true"
+    age="22">
     <face>
-      <face_key_template value="BodyProperty.fighter_akan" />
+      <face_key_template value="BodyProperty.fighter_akan_young" />
     </face>
     <skills>
       <skill id="OneHanded" value="100" />
@@ -1196,7 +1213,7 @@
     name="{=!}Artisan"
     is_hidden_encyclopedia="true">
     <face>
-      <face_key_template value="BodyProperty.fighter_akan" />
+      <face_key_template value="BodyProperty.townsman_akan" />
     </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
@@ -1218,7 +1235,7 @@
     name="{=!}Artisan"
     is_hidden_encyclopedia="true">
     <face>
-      <face_key_template value="BodyProperty.fighter_akan" />
+      <face_key_template value="BodyProperty.townsman_akan" />
     </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>
@@ -1333,9 +1350,10 @@
     occupation="Headman"
     culture="Culture.akan"
     name="{=!}Headman"
-    is_hidden_encyclopedia="true">
+    is_hidden_encyclopedia="true"
+    age="22">
     <face>
-      <face_key_template value="BodyProperty.fighter_akan" />
+      <face_key_template value="BodyProperty.fighter_akan_young" />
     </face>
     <Traits></Traits>
     <upgrade_targets></upgrade_targets>

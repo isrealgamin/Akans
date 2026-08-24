@@ -391,7 +391,7 @@
 <skill id="OneHanded" value="45"/><skill id="Polearm" value="45"/>
 <skill id="Bow" value="25"/><skill id="Throwing" value="40"/>
 </skills>
-<upgrade_targets><upgrade_target id="NPCCharacter.tdTroop_VSTx2Fq0002Na"/></upgrade_targets>
+<upgrade_targets><upgrade_target id="NPCCharacter.tdTroop_VSTx2Fq0002Na"/><upgrade_target id="NPCCharacter.akan_woman_warrior"/></upgrade_targets>
 <Equipments>
 <EquipmentRoster>
 <equipment slot="Item0" id="Item.eastern_spear_1_t2"/>
@@ -531,6 +531,40 @@
 <EquipmentRoster civilian="true">
 <equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
 <equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+</EquipmentRoster>
+</Equipments>
+</NPCCharacter>
+<!-- Akan Warrior Woman. Second upgrade path off akan_freeman, so she actually
+     appears in Akan and Maroon parties rather than sitting unused in the tree. -->
+<NPCCharacter id="akan_woman_warrior" default_group="Infantry" level="11" is_female="true"
+ name="{=akan_woman_warrior}Akan Warrior Woman" occupation="Soldier" culture="Culture.akan">
+<face><face_key_template value="BodyProperty.fighter_akan_female" /></face>
+<skills>
+<skill id="Athletics" value="75"/><skill id="Riding" value="30"/>
+<skill id="OneHanded" value="80"/><skill id="Polearm" value="65"/>
+<skill id="Bow" value="55"/><skill id="Throwing" value="70"/>
+</skills>
+<upgrade_targets><upgrade_target id="NPCCharacter.tdTroop_VSTtYyg0001Qt"/></upgrade_targets>
+<Equipments>
+<EquipmentRoster>
+<equipment slot="Item0" id="Item.desert_long_sword_t4"/>
+<equipment slot="Item1" id="Item.stronger_eastern_wicker_shield"/>
+<equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+<equipment slot="Head" id="Item.wrapped_headcloth"/>
+<equipment slot="Body" id="Item.heavy_gambeson_armor"/>
+<equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+</EquipmentRoster>
+<EquipmentRoster>
+<equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>
+<equipment slot="Item1" id="Item.eastern_wicker_shield"/>
+<equipment slot="Item2" id="Item.eastern_javelin_2_t3"/>
+<equipment slot="Cape" id="Item.leopard_pelt"/>
+<equipment slot="Body" id="Item.heavy_gambeson_armor"/>
+<equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+</EquipmentRoster>
+<EquipmentRoster civilian="true">
+<equipment slot="Body" id="Item.aserai_villager_female_dress"/>
+<equipment slot="Leg" id="Item.ladys_shoe"/>
 </EquipmentRoster>
 </Equipments>
 </NPCCharacter>

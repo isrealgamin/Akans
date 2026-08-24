@@ -1,11 +1,231 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Akan face templates.
+
+     The engine builds a random face by interpolating each parameter between
+     BodyPropertiesMin and BodyPropertiesMax. The previous version of this file
+     used the SAME key for min and max, which left zero range to randomise
+     within - that is why every Akan in the game had an identical face.
+
+     The min/max keys below are the per-parameter bounding box of five hand-made
+     Akan faces (Cudjoe, Zea, Joejoe, Nyla and the original fighter key). Every
+     key keeps the 003F...CC prefix those five share, so the complexion stays
+     put while the facial features vary. Do not widen these toward the native
+     aserai ranges - that prefix is what holds the skin tone. -->
 <BodyProperties>
-<BodyProperty id="fighter_akan">
-<BodyPropertiesMin version="4" age="20" weight="0.4" build="0.5" key="003FF00FC6CC0496641481BA2452B2337209487268239D5D888888888AD650E402AFBF240A88888800000000000000000000000000000000000000000D506086" />
-<BodyPropertiesMax version="4" age="45" weight="0.8" build="1.0" key="003FF00FC6CC0496641481BA2452B2337209487268239D5D888888888AD650E402AFBF240A88888800000000000000000000000000000000000000000D506086" />
-</BodyProperty>
-<BodyProperty id="default_character_creation_body_property_akan">
-<BodyPropertiesMin version="4" age="20" weight="0.3" build="0.4" key="003FF00FC6CC0496641481BA2452B2337209487268239D5D888888888AD650E402AFBF240A88888800000000000000000000000000000000000000000D506086" />
-<BodyPropertiesMax version="4" age="40" weight="0.8" build="0.9" key="003FF00FC6CC0496641481BA2452B2337209487268239D5D888888888AD650E402AFBF240A88888800000000000000000000000000000000000000000D506086" />
-</BodyProperty>
+
+  <!-- Adult male warriors -->
+  <BodyProperty id="fighter_akan">
+    <BodyPropertiesMin version="4" age="22" weight="0.30" build="0.45"
+      key="003FD00FC1CC04552410111424024233100945324523060338847838840450900099660309572111000000000000000000000000000000000000000001202042" />
+    <BodyPropertiesMax version="4" age="45" weight="0.75" build="0.95"
+      key="003FF80FC6CC29997E84B9BAAEBABAAE88CF8FD78E79DDFDDEFFB8ED8AD7FAE902BFBF240BC888A800000000000000000000000000000000000000005D7C6086" />
+    <hair_tags>
+      <hair_tag name="Afro Hair" />
+      <hair_tag name="Afro Hair 1" />
+      <hair_tag name="Afro Hair 2" />
+      <hair_tag name="Afro Hair 3" />
+      <hair_tag name="Afro Hair 4" />
+      <hair_tag name="Afro Hair 5" />
+      <hair_tag name="Cornrows" />
+      <hair_tag name="CornrowMohawk" />
+      <hair_tag name="Native Braids" />
+      <hair_tag name="Bald" />
+      <hair_tag name="VeryShort" />
+      <hair_tag name="Short" />
+    </hair_tags>
+    <beard_tags>
+      <beard_tag name="Cleanshaven" />
+      <beard_tag name="Cleanshaven" />
+      <beard_tag name="Stubble 1" />
+      <beard_tag name="Stubble 2" />
+      <beard_tag name="LightGoatee" />
+      <beard_tag name="ChinGoatee" />
+      <beard_tag name="CircleBeard" />
+      <beard_tag name="MediumMustache" />
+      <beard_tag name="BeardWithShavedCheeks" />
+      <beard_tag name="HeavyShortBeard" />
+      <beard_tag name="PointedShortBeard" />
+      <beard_tag name="LightShortBeard" />
+    </beard_tags>
+    <tattoo_tags>
+      <tattoo_tag name="Cleanface" />
+      <tattoo_tag name="Cleanface" />
+      <tattoo_tag name="Cleanface" />
+      <tattoo_tag name="Scar2" />
+      <tattoo_tag name="Scar4" />
+      <tattoo_tag name="Scar5" />
+      <tattoo_tag name="Scar7" />
+      <tattoo_tag name="Scar11" />
+      <tattoo_tag name="Scar15" />
+    </tattoo_tags>
+  </BodyProperty>
+
+  <!-- Young male warriors - the 22-year-olds -->
+  <BodyProperty id="fighter_akan_young">
+    <BodyPropertiesMin version="4" age="20" weight="0.25" build="0.40"
+      key="003FF00FC4CC0496641481B82452423372094872452396598884783885645094009F660309572581000000000000000000000000000000000000000003205042" />
+    <BodyPropertiesMax version="4" age="24" weight="0.60" build="0.85"
+      key="003FF80FC6CC27997784B9BAAEBABA4B88297FD66868DDFDDCC8888D8AD6FAE902AFBF240A8888A800000000000000000000000000000000000000005D5C6086" />
+    <hair_tags>
+      <hair_tag name="Afro Hair" />
+      <hair_tag name="Afro Hair 1" />
+      <hair_tag name="Afro Hair 2" />
+      <hair_tag name="Afro Hair 4" />
+      <hair_tag name="Afro Hair 5" />
+      <hair_tag name="Cornrows" />
+      <hair_tag name="CornrowMohawk" />
+      <hair_tag name="Native Braids" />
+      <hair_tag name="VeryShort" />
+    </hair_tags>
+    <beard_tags>
+      <beard_tag name="Cleanshaven" />
+      <beard_tag name="Cleanshaven" />
+      <beard_tag name="Cleanshaven" />
+      <beard_tag name="Stubble 1" />
+      <beard_tag name="Stubble 2" />
+      <beard_tag name="LightGoatee" />
+      <beard_tag name="ChinGoatee" />
+    </beard_tags>
+    <tattoo_tags>
+      <tattoo_tag name="Cleanface" />
+      <tattoo_tag name="Cleanface" />
+      <tattoo_tag name="Cleanface" />
+      <tattoo_tag name="Scar2" />
+      <tattoo_tag name="Scar5" />
+    </tattoo_tags>
+  </BodyProperty>
+
+  <!-- Female warriors -->
+  <BodyProperty id="fighter_akan_female">
+    <BodyPropertiesMin version="4" age="20" weight="0.25" build="0.35"
+      key="003FCC0FC6CC0001677343968AA745078027447541688649DCC47839855466760040160204552561000000000000000000000000000000000000000031942002" />
+    <BodyPropertiesMax version="4" age="40" weight="0.70" build="0.90"
+      key="003FDC0FC7CC20187784B9B8AEBA9A4B9849AAD676DBDAFBFCEBF84D9F66FAE908CB66830AC79AA9000000000000000000000000000000000000000052944043" />
+    <hair_tags>
+      <hair_tag name="Afro Hair" />
+      <hair_tag name="Afro Hair 1" />
+      <hair_tag name="Afro Hair 2" />
+      <hair_tag name="Afro Hair 3" />
+      <hair_tag name="Afro Hair 5" />
+      <hair_tag name="Cornrows" />
+      <hair_tag name="CornrowMohawk" />
+      <hair_tag name="Native Braids" />
+      <hair_tag name="BraidedInBack" />
+      <hair_tag name="CrownBraid" />
+      <hair_tag name="HighPonytail" />
+    </hair_tags>
+    <beard_tags>
+      <beard_tag name="Cleanshaven" />
+    </beard_tags>
+    <tattoo_tags>
+      <tattoo_tag name="Cleanface" />
+      <tattoo_tag name="Cleanface" />
+      <tattoo_tag name="Cleanface" />
+      <tattoo_tag name="Scar2" />
+      <tattoo_tag name="Scar5" />
+      <tattoo_tag name="Scar15" />
+    </tattoo_tags>
+  </BodyProperty>
+
+  <!-- Male civilians: townsmen, villagers, craftsmen. Widest age spread. -->
+  <BodyProperty id="townsman_akan">
+    <BodyPropertiesMin version="4" age="18" weight="0.20" build="0.15"
+      key="003FD00FC1CC04552410111424024233100945324523060338847838840450900099660309572111000000000000000000000000000000000000000001202042" />
+    <BodyPropertiesMax version="4" age="70" weight="0.90" build="0.80"
+      key="003FF80FC6CC29997E84B9BAAEBABAAE88CF8FD78E79DDFDDEFFB8ED8AD7FAE902BFBF240BC888A800000000000000000000000000000000000000005D7C6086" />
+    <hair_tags>
+      <hair_tag name="Afro Hair" />
+      <hair_tag name="Afro Hair 1" />
+      <hair_tag name="Afro Hair 2" />
+      <hair_tag name="Afro Hair 3" />
+      <hair_tag name="Afro Hair 4" />
+      <hair_tag name="Afro Hair 5" />
+      <hair_tag name="Cornrows" />
+      <hair_tag name="Native Braids" />
+      <hair_tag name="Bald" />
+      <hair_tag name="Bald" />
+      <hair_tag name="VeryShort" />
+      <hair_tag name="Short" />
+    </hair_tags>
+    <beard_tags>
+      <beard_tag name="Cleanshaven" />
+      <beard_tag name="Stubble 1" />
+      <beard_tag name="Stubble 2" />
+      <beard_tag name="LightGoatee" />
+      <beard_tag name="ChinGoatee" />
+      <beard_tag name="CircleBeard" />
+      <beard_tag name="MediumMustache" />
+      <beard_tag name="LightShortBeard" />
+      <beard_tag name="HeavyShortBeard" />
+      <beard_tag name="LongBeard" />
+      <beard_tag name="BushyFullBeard" />
+    </beard_tags>
+    <tattoo_tags>
+      <tattoo_tag name="Cleanface" />
+      <tattoo_tag name="Cleanface" />
+      <tattoo_tag name="Cleanface" />
+      <tattoo_tag name="Cleanface" />
+      <tattoo_tag name="Scar4" />
+      <tattoo_tag name="Scar10" />
+    </tattoo_tags>
+  </BodyProperty>
+
+  <!-- Female civilians -->
+  <BodyProperty id="townswoman_akan">
+    <BodyPropertiesMin version="4" age="18" weight="0.20" build="0.10"
+      key="003FCC0FC6CC0001677343968AA745078027447541688649DCC47839855466760040160204552561000000000000000000000000000000000000000031942002" />
+    <BodyPropertiesMax version="4" age="65" weight="0.85" build="0.70"
+      key="003FDC0FC7CC20187784B9B8AEBA9A4B9849AAD676DBDAFBFCEBF84D9F66FAE908CB66830AC79AA9000000000000000000000000000000000000000052944043" />
+    <hair_tags>
+      <hair_tag name="Afro Hair" />
+      <hair_tag name="Afro Hair 1" />
+      <hair_tag name="Afro Hair 2" />
+      <hair_tag name="Afro Hair 3" />
+      <hair_tag name="Afro Hair 4" />
+      <hair_tag name="Afro Hair 5" />
+      <hair_tag name="Cornrows" />
+      <hair_tag name="Native Braids" />
+      <hair_tag name="BraidedInBack" />
+      <hair_tag name="CrownBraid" />
+      <hair_tag name="ShoulderLengthTied" />
+      <hair_tag name="Bobbed" />
+    </hair_tags>
+    <beard_tags>
+      <beard_tag name="Cleanshaven" />
+    </beard_tags>
+    <tattoo_tags>
+      <tattoo_tag name="Cleanface" />
+      <tattoo_tag name="Cleanface" />
+      <tattoo_tag name="Cleanface" />
+      <tattoo_tag name="Cleanface" />
+      <tattoo_tag name="Scar2" />
+    </tattoo_tags>
+  </BodyProperty>
+
+  <!-- Character creation. Deliberately narrower than the NPC ranges so the
+       player starting face is a recognisably Akan one. -->
+  <BodyProperty id="default_character_creation_body_property_akan">
+    <BodyPropertiesMin version="4" age="20" weight="0.30" build="0.40"
+      key="003FD00FC1CC04552410111424024233100945324523060338847838840450900099660309572111000000000000000000000000000000000000000001202042" />
+    <BodyPropertiesMax version="4" age="40" weight="0.80" build="0.90"
+      key="003FF80FC6CC29997E84B9BAAEBABAAE88CF8FD78E79DDFDDEFFB8ED8AD7FAE902BFBF240BC888A800000000000000000000000000000000000000005D7C6086" />
+    <hair_tags>
+      <hair_tag name="Afro Hair" />
+      <hair_tag name="Afro Hair 1" />
+      <hair_tag name="Afro Hair 2" />
+      <hair_tag name="Cornrows" />
+      <hair_tag name="Native Braids" />
+      <hair_tag name="VeryShort" />
+    </hair_tags>
+    <beard_tags>
+      <beard_tag name="Cleanshaven" />
+      <beard_tag name="Stubble 1" />
+      <beard_tag name="LightGoatee" />
+      <beard_tag name="ChinGoatee" />
+    </beard_tags>
+    <tattoo_tags>
+      <tattoo_tag name="Cleanface" />
+    </tattoo_tags>
+  </BodyProperty>
+
 </BodyProperties>

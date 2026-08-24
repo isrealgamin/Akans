@@ -27,12 +27,46 @@ The Maroon Warlords kingdom lives in a SEPARATE module, "Maroons", which
 depends on this one (its clans, kingdom and lords are all Culture.akan).
 Enable BOTH, with Maroons below Akans in the launcher.
 
-Akans ships the fiefs; Maroons ships the people:
-- Akans/ModuleData/akan_settlements.xml adds castle_M1 (Gao Castle) and its
-  two bound villages, castle_village_M1_1 (Faso) and castle_village_M1_2
-  (Cudjoes Town), owned by Faction.clan_maroon_1.
-- Maroons ships Kingdom.maroon, Faction.clan_maroon_1 (Cudjoe, Zea, Joejoe,
-  Nyla) and Faction.clan_khuzait_19 (BoklahomaGang).
+Akans ships the fiefs; Maroons ships the people. Three Maroon clans hold
+fifteen settlements between them:
+
+- Faction.clan_maroon_1 (Cudjoe, Zea, Joejoe, Nyla)
+    castle_M1 Gao Castle
+      castle_village_M1_1 Faso, castle_village_M1_2 Cudjoes Town
+- Faction.clan_maroon_2 "Ti Fitaa" (Naquan Ti Fitaa, Cudjoe's father)
+    town_M1 Kormantse
+      village_M1_1 Anomabo, village_M1_2 Adanse
+    castle_M2 Abrafo Castle
+      castle_village_M2_1 Assin, castle_village_M2_2 Denkyira
+- Faction.clan_maroon_3 "Swans Company" (Mad Swan)
+    town_M2 Nanny Town
+      village_M2_1 Accompong, village_M2_2 Scotts Hall
+    castle_M3 Trelawny Keep
+      castle_village_M3_1 Moore Town, castle_village_M3_2 Charles Town
+
+Maroons also ships Kingdom.maroon and Faction.clan_khuzait_19
+(BoklahomaGang). All three Maroon clans are super_faction="Kingdom.maroon".
+
+Cudjoe is 42 rather than 62, so that Naquan can be his living father at 68
+without either of them dying of old age in the first few campaign years.
+
+PLACING NEW SETTLEMENTS
+-----------------------
+Two constraints govern where a settlement may go on the War Sails map, and
+both are easy to violate silently:
+
+- It must be on land. The scene's terrain grid is 16x16 nodes of 65 units
+  each, and every <node> in NavalDLC/SceneObj/Main_map/scene.xscene carries
+  min_height and max_height. A node whose min_height is above zero is land
+  across its whole cell. All twelve settlements added here sit in such
+  cells - (13,3), (14,3), (13,4), (14,4), (13,5), (14,5). Do not trust
+  max_height alone: it reads high for any cell that merely contains a hill.
+- It must be inside the playable area. Terrain runs to x=1040, but no native
+  settlement exceeds x=943.5; beyond that is the map's border relief. Every
+  position here is at or below x=942.
+
+Native settlements sit a median of 18.9 units apart (min 7.0, max 39.3).
+Nothing added here is closer than 16.1 units to anything else.
 
 The earlier version of this kingdom crashed at campaign start. Root cause:
 every clan in SandBox/spclans.xml marked is_noble="true" owns at least one
@@ -48,13 +82,13 @@ sides, and the invariant is worth re-checking after any edit here:
 - Kingdom.maroon and both clans point initial_home_settlement at a
   settlement they actually own.
 
-The map icons for the three new settlements are game_entity nodes in
+The map icons for all fifteen Maroon settlements are game_entity nodes in
 NavalDLC/SceneObj/Main_map/scene.xscene, named to match the settlement ids,
 with positions that must stay in sync with akan_settlements.xml. That is a
 BASE-GAME file, so a Steam file-verify or a War Sails patch reverts it and the
 settlements silently lose their icons and stop being clickable.
 
-Those three entities (2247 lines, 212 game_entity nodes counting children) are
+Those fifteen entities (13179 lines, 1374 game_entity nodes counting children) are
 kept here, so the edit is recoverable:
 
     powershell -ExecutionPolicy Bypass -File MapIcons\Restore-MapIcons.ps1
@@ -63,7 +97,7 @@ Re-running it is safe. It exits without touching anything if the icons are
 already present, copies the scene to scene.xscene.bak before writing, and
 refuses to install a result that is not well-formed XML. Verified by restoring
 into a pristine copy of NavalDLC/SceneObj/Backups/Main_map/scene.xscene: 41846
-entities in, 42058 out, matching the edited scene exactly.
+entities in, 43220 out, matching the edited scene exactly.
 
 You can also still found an Akan kingdom in-game as the player.
 

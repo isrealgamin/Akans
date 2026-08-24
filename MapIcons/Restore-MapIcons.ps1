@@ -3,10 +3,11 @@
     Re-inserts the Akan settlement map icons into the War Sails campaign map.
 
 .DESCRIPTION
-    castle_M1, castle_village_M1_1 and castle_village_M1_2 need game_entity
-    nodes in NavalDLC/SceneObj/Main_map/scene.xscene, named to match the
-    settlement ids in Akans/ModuleData/akan_settlements.xml, or they appear on
-    the map with no icon and cannot be clicked.
+    All 15 Akan and Maroon settlements need game_entity nodes in
+    NavalDLC/SceneObj/Main_map/scene.xscene, named to match the settlement ids
+    in Akans/ModuleData/akan_settlements.xml, or they appear on the map with no
+    icon and cannot be clicked. That is Gao Castle and its two villages, plus
+    Kormantse, Abrafo Castle, Nanny Town and Trelawny Keep with theirs.
 
     scene.xscene is a BASE-GAME file. A Steam file-verify or a War Sails patch
     reverts it and silently drops those three entities. This script puts them
@@ -88,4 +89,4 @@ try {
 
 Move-Item $tmp $ScenePath -Force
 Write-Host ("Done - inserted {0:N0} lines, scene is now {1:N0} lines." -f $fragment.Length, $out.Count) -ForegroundColor Green
-Write-Host "Restored icons: castle_M1, castle_village_M1_1, castle_village_M1_2"
+Write-Host ("Restored icons for {0} settlements." -f ($fragment | Where-Object { $_ -match '^\t\t<game_entity name=' }).Count)

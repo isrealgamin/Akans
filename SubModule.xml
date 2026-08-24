@@ -90,6 +90,20 @@
 </IncludedGameTypes>
 </XmlNode>
 <XmlNode>
+<XmlName id="Settlements" path="akan_settlements"/>
+<IncludedGameTypes>
+<GameType value="Campaign"/>
+<GameType value="CampaignStoryMode"/>
+</IncludedGameTypes>
+</XmlNode>
+<XmlNode>
+<XmlName id="Settlements" path="XSLT/Akans_SandBox_Settlements"/>
+<IncludedGameTypes>
+<GameType value="Campaign"/>
+<GameType value="CampaignStoryMode"/>
+</IncludedGameTypes>
+</XmlNode>
+<XmlNode>
 <XmlName id="GameText" path="akan_comment_strings"/>
 <IncludedGameTypes>
 <GameType value="Campaign"/>

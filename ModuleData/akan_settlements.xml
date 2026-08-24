@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Akan settlements. Merged into the Settlements document built from
      SandBox + NavalDLC, so only the new ids appear here.
-     Map icons for these three ids live in NavalDLC/SceneObj/Main_map/scene.xscene;
-     the posX/posY below must stay in sync with the entity transforms there. -->
+     Map icons for all fifteen ids live in NavalDLC/SceneObj/Main_map/scene.xscene;
+     the posX/posY below must stay in sync with the entity transforms there, and
+     a copy of those entities is kept in MapIcons/. Positions were set in the
+     Bannerlord editor, so the z in the scene is measured terrain height. -->
 <Settlements>
   <Settlement id="castle_M1" name="{=Settlements.Settlement.name.castle_M1}Gao Castle" owner="Faction.clan_maroon_1" posX="900.36" posY="161.36" culture="Culture.akan" gate_posX="897.722" gate_posY="159.676">
     <Components>
@@ -54,7 +56,6 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-
   <!-- ================================================================
        Naquan Ti Fitaa's holdings (Faction.clan_maroon_2)
        Kormantse and Abrafo Castle, south-east of Gao Castle.
@@ -127,7 +128,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_M2" name="{=Settlements.Settlement.name.castle_M2}Abrafo Castle" owner="Faction.clan_maroon_2" posX="932.00" posY="259.00" culture="Culture.akan" gate_posX="929.41" gate_posY="257.32">
+  <Settlement id="castle_M2" name="{=Settlements.Settlement.name.castle_M2}Abrafo Castle" owner="Faction.clan_maroon_2" posX="977.700" posY="98.797" culture="Culture.akan" gate_posX="975.063" gate_posY="97.108">
     <Components>
       <Town id="castle_comp_M2" is_castle="true" background_crop_position="0.0" background_mesh="menu_aserai_3" wait_mesh="wait_aserai_town" gate_rotation="0.908" prosperity="520">
         <Buildings>
@@ -151,7 +152,7 @@
       <Location id="prison" scene_name="aserai_dungeon_stealth" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_village_M2_1" name="{=Settlements.Settlement.name.castle_village_M2_1}Assin" posX="909.00" posY="265.00" culture="Culture.akan" text="{=Settlements.Settlement.text.castle_village_M2_1}Assin lies in the shallow bowl below Abrafo Castle, close enough that the castle horn carries to the fields. Its people owe the garrison dates rather than silver, an arrangement they negotiated themselves and defend whenever a steward proposes otherwise.">
+  <Settlement id="castle_village_M2_1" name="{=Settlements.Settlement.name.castle_village_M2_1}Assin" posX="976.642" posY="157.811" culture="Culture.akan" text="{=Settlements.Settlement.text.castle_village_M2_1}Assin lies in the shallow bowl below Abrafo Castle, close enough that the castle horn carries to the fields. Its people owe the garrison dates rather than silver, an arrangement they negotiated themselves and defend whenever a steward proposes otherwise.">
     <Components>
       <Village id="castle_village_comp_M2_1" village_type="VillageType.date_farm" hearth="396" bound="Settlement.castle_M2" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
     </Components>
@@ -164,7 +165,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_village_M2_2" name="{=Settlements.Settlement.name.castle_village_M2_2}Denkyira" posX="940.00" posY="285.00" culture="Culture.akan" text="{=Settlements.Settlement.text.castle_village_M2_2}Denkyira takes its name from a kingdom that ruled the Akan goldfields and then lost them. The villagers are said to descend from that court, and they keep the name deliberately, as a caution about what becomes of those who hold others in bondage.">
+  <Settlement id="castle_village_M2_2" name="{=Settlements.Settlement.name.castle_village_M2_2}Denkyira" posX="932.848" posY="170.217" culture="Culture.akan" text="{=Settlements.Settlement.text.castle_village_M2_2}Denkyira takes its name from a kingdom that ruled the Akan goldfields and then lost them. The villagers are said to descend from that court, and they keep the name deliberately, as a caution about what becomes of those who hold others in bondage.">
     <Components>
       <Village id="castle_village_comp_M2_2" village_type="VillageType.olive_trees" hearth="431" bound="Settlement.castle_M2" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
     </Components>
@@ -177,12 +178,11 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-
   <!-- ================================================================
        Mad Swan's holdings (Faction.clan_maroon_3)
        Nanny Town and Trelawny Keep, on the southern flank of the range.
        ================================================================ -->
-  <Settlement id="town_M2" name="{=Settlements.Settlement.name.town_M2}Nanny Town" owner="Faction.clan_maroon_3" posX="910.00" posY="308.00" culture="Culture.akan" gate_posX="907.41" gate_posY="306.32" text="{=Settlements.Settlement.text.town_M2}Nanny Town is built on a shelf of rock reachable by one path, which its founders chose so that it could be held by a handful of people against a column. Whether the woman it is named for ever lived there is disputed even among the Maroons, but the town has never been taken, and its people regard that as the more useful fact.">
+  <Settlement id="town_M2" name="{=Settlements.Settlement.name.town_M2}Nanny Town" owner="Faction.clan_maroon_3" posX="943.533" posY="188.996" culture="Culture.akan" gate_posX="940.896" gate_posY="187.307" text="{=Settlements.Settlement.text.town_M2}Nanny Town is built on a shelf of rock reachable by one path, which its founders chose so that it could be held by a handful of people against a column. Whether the woman it is named for ever lived there is disputed even among the Maroons, but the town has never been taken, and its people regard that as the more useful fact.">
     <Components>
       <Town id="town_comp_M2" is_castle="false" background_crop_position="0.235" background_mesh="menu_aserai_1" wait_mesh="wait_aserai_town" gate_rotation="0.808" prosperity="2300">
         <Buildings>
@@ -218,7 +218,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_M2_1" name="{=Settlements.Settlement.name.village_M2_1}Accompong" posX="934.00" posY="322.00" culture="Culture.akan" text="{=Settlements.Settlement.text.village_M2_1}Accompong is the granary of Nanny Town, laid out on the only ground on this side of the range flat enough to take a plough. Its headmen sit in the town assembly by right rather than by invitation, a concession won during the first siege and never given back.">
+  <Settlement id="village_M2_1" name="{=Settlements.Settlement.name.village_M2_1}Accompong" posX="988.652" posY="87.400" culture="Culture.akan" text="{=Settlements.Settlement.text.village_M2_1}Accompong is the granary of Nanny Town, laid out on the only ground on this side of the range flat enough to take a plough. Its headmen sit in the town assembly by right rather than by invitation, a concession won during the first siege and never given back.">
     <Components>
       <Village id="village_comp_M2_1" village_type="VillageType.date_farm" hearth="474" bound="Settlement.town_M2" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
     </Components>
@@ -231,7 +231,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_M2_2" name="{=Settlements.Settlement.name.village_M2_2}Scotts Hall" posX="884.00" posY="296.00" culture="Culture.akan" text="{=Settlements.Settlement.text.village_M2_2}Scotts Hall keeps the name of the estate that once stood here and of the man who ran it, which visitors often find strange. The villagers say they kept it so that nobody would have to be told what the terraces were built for, or by whom.">
+  <Settlement id="village_M2_2" name="{=Settlements.Settlement.name.village_M2_2}Scotts Hall" posX="993.194" posY="117.818" culture="Culture.akan" text="{=Settlements.Settlement.text.village_M2_2}Scotts Hall keeps the name of the estate that once stood here and of the man who ran it, which visitors often find strange. The villagers say they kept it so that nobody would have to be told what the terraces were built for, or by whom.">
     <Components>
       <Village id="village_comp_M2_2" village_type="VillageType.olive_trees" hearth="409" bound="Settlement.town_M2" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
     </Components>
@@ -244,7 +244,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_M3" name="{=Settlements.Settlement.name.castle_M3}Trelawny Keep" owner="Faction.clan_maroon_3" posX="912.00" posY="337.00" culture="Culture.akan" gate_posX="909.41" gate_posY="335.32">
+  <Settlement id="castle_M3" name="{=Settlements.Settlement.name.castle_M3}Trelawny Keep" owner="Faction.clan_maroon_3" posX="907.244" posY="64.781" culture="Culture.akan" gate_posX="904.607" gate_posY="63.092">
     <Components>
       <Town id="castle_comp_M3" is_castle="true" background_crop_position="0.0" background_mesh="menu_aserai_3" wait_mesh="wait_aserai_town" gate_rotation="0.908" prosperity="480">
         <Buildings>
@@ -268,7 +268,7 @@
       <Location id="prison" scene_name="aserai_dungeon_stealth" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_village_M3_1" name="{=Settlements.Settlement.name.castle_village_M3_1}Moore Town" posX="884.00" posY="338.00" culture="Culture.akan" text="{=Settlements.Settlement.text.castle_village_M3_1}Moore Town lies west of Trelawny Keep where the range begins to break into gullies. It is the last Maroon settlement before Khuzait country, and its herds are kept close to the houses at night for reasons the villagers consider too obvious to explain.">
+  <Settlement id="castle_village_M3_1" name="{=Settlements.Settlement.name.castle_village_M3_1}Moore Town" posX="875.905" posY="65.270" culture="Culture.akan" text="{=Settlements.Settlement.text.castle_village_M3_1}Moore Town lies west of Trelawny Keep where the range begins to break into gullies. It is the last Maroon settlement before Khuzait country, and its herds are kept close to the houses at night for reasons the villagers consider too obvious to explain.">
     <Components>
       <Village id="castle_village_comp_M3_1" village_type="VillageType.date_farm" hearth="387" bound="Settlement.castle_M3" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
     </Components>
@@ -281,7 +281,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_village_M3_2" name="{=Settlements.Settlement.name.castle_village_M3_2}Charles Town" posX="935.00" posY="348.00" culture="Culture.akan" text="{=Settlements.Settlement.text.castle_village_M3_2}Charles Town is the newest of the Maroon villages, settled by people who came over the hills long after the first rising and were given land on the exposed southern face because it was what remained. They have made more of it than anyone expected.">
+  <Settlement id="castle_village_M3_2" name="{=Settlements.Settlement.name.castle_village_M3_2}Charles Town" posX="916.877" posY="49.148" culture="Culture.akan" text="{=Settlements.Settlement.text.castle_village_M3_2}Charles Town is the newest of the Maroon villages, settled by people who came over the hills long after the first rising and were given land on the exposed southern face because it was what remained. They have made more of it than anyone expected.">
     <Components>
       <Village id="castle_village_comp_M3_2" village_type="VillageType.olive_trees" hearth="362" bound="Settlement.castle_M3" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
     </Components>

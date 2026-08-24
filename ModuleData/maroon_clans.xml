@@ -35,7 +35,7 @@
      while keeping the same device. -->
 <Faction
 	id="clan_maroon_2"
-	initial_home_settlement="Settlement.town_M1"
+	initial_home_settlement="Settlement.castle_M4"
 	name="{=maroon_clan_tifitaa}Ti Fitaa"
 	tier="5"
 	owner="Hero.lord_1_A35"

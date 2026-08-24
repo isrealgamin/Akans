@@ -38,8 +38,8 @@ Three Maroon clans hold fifteen settlements between them:
     castle_M1 Gao Castle
       castle_village_M1_1 Faso, castle_village_M1_2 Cudjoes Town
 - Faction.clan_maroon_2 "Ti Fitaa" (Naquan Ti Fitaa, Cudjoe's father)
-    town_M1 Kormantse
-      village_M1_1 Anomabo, village_M1_2 Adanse
+    castle_M4 Kormantse Castle
+      castle_village_M4_1 Anomabo, village_M4_1 Adanse
     castle_M2 Abrafo Castle
       castle_village_M2_1 Assin, castle_village_M2_2 Denkyira
 - Faction.clan_maroon_3 "Swans Company" (Mad Swan)
@@ -92,7 +92,7 @@ with positions that must stay in sync with akan_settlements.xml. That is a
 BASE-GAME file, so a Steam file-verify or a War Sails patch reverts it and the
 settlements silently lose their icons and stop being clickable.
 
-Those fifteen entities (13179 lines, 1374 game_entity nodes counting children) are
+Those fifteen entities (12055 lines, 1206 game_entity nodes counting children) are
 kept here, so the edit is recoverable:
 
     powershell -ExecutionPolicy Bypass -File MapIcons\Restore-MapIcons.ps1
@@ -101,7 +101,7 @@ Re-running it is safe. It exits without touching anything if the icons are
 already present, copies the scene to scene.xscene.bak before writing, and
 refuses to install a result that is not well-formed XML. Verified by restoring
 into a pristine copy of NavalDLC/SceneObj/Backups/Main_map/scene.xscene: 41846
-entities in, 43220 out, matching the edited scene exactly.
+entities in, 43070 out, matching the edited scene exactly.
 
 You can also still found an Akan kingdom in-game as the player.
 

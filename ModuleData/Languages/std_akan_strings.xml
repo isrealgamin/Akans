@@ -194,18 +194,6 @@
             text="Cudjoes Town" />
     <string id="Settlements.Settlement.text.castle_village_M1_2"
             text="Cudjoes Town sits high on the seaward slopes of the Jabal al-Kals, the bitter hills, where the Aserai deserts give way to scrub and acacia. The villagers terrace the hillsides for olives, and keep watch over the coastal road below - the highway that caravans and armies have used between the Empire and the Aserai lands for thousands of years." />
-    <string id="Settlements.Settlement.name.town_M1"
-            text="Kormantse" />
-    <string id="Settlements.Settlement.text.town_M1"
-            text="Kormantse grew out of the first free market the Maroons kept above the coastal road, where people who had freed themselves could trade without being asked whose property they had been. The elders hold that no captive has ever been sold within its walls, and the town keeps that law more jealously than any other." />
-    <string id="Settlements.Settlement.name.village_M1_1"
-            text="Anomabo" />
-    <string id="Settlements.Settlement.text.village_M1_1"
-            text="Anomabo is named for a port on the far Gold Coast that most of its people have never seen and their grandparents were carried away from. The date groves here are watered by hand from a cistern cut into the rock above the village." />
-    <string id="Settlements.Settlement.name.village_M1_2"
-            text="Adanse" />
-    <string id="Settlements.Settlement.text.village_M1_2"
-            text="Adanse sits on the terraced slope between Kormantse and the old Aserai road. Its olive presses are the oldest the Maroons own, taken intact when the estate that held them was abandoned, and the village has worked them for its own account ever since." />
     <string id="Settlements.Settlement.name.castle_M2"
             text="Abrafo Castle" />
     <string id="Settlements.Settlement.name.castle_village_M2_1"
@@ -238,6 +226,16 @@
             text="Charles Town" />
     <string id="Settlements.Settlement.text.castle_village_M3_2"
             text="Charles Town is the newest of the Maroon villages, settled by people who came over the hills long after the first rising and were given land on the exposed southern face because it was what remained. They have made more of it than anyone expected." />
+    <string id="Settlements.Settlement.name.castle_M4"
+            text="Kormantse Castle" />
+    <string id="Settlements.Settlement.name.castle_village_M4_1"
+            text="Anomabo" />
+    <string id="Settlements.Settlement.text.castle_village_M4_1"
+            text="Anomabo is named for a port on the far Gold Coast that most of its people have never seen and their grandparents were carried away from. The flocks are folded against the castle wall each night, a habit from the years when the Maroons owned nothing they could not drive uphill at short notice." />
+    <string id="Settlements.Settlement.name.village_M4_1"
+            text="Adanse" />
+    <string id="Settlements.Settlement.text.village_M4_1"
+            text="Adanse holds the open ground north of Kormantse Castle, where the hills flatten enough to run horses. The stock is descended from animals taken in the rising, and the villagers will tell you at length that no Maroon has ever bought a horse from anyone who once owned people." />
 
     <string id="akan_woman_warrior"
             text="Akan Warrior Woman" />

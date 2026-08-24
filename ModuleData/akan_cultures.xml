@@ -26,10 +26,9 @@
 			 text="{=culture_akan.text}Many people across the Americas trace their ancestry to Akan-speaking populations due to the trans-Atlantic slave trade. Between the 17th and 19th centuries, a significant proportion of enslaved Africans shipped from the Gold Coast—estimated at 10% of all embarkations from West Africa—were of Akan origin. Although gold remained central to the Akan economy, the intensification of internal conflicts—especially among the Fante and Ashanti during the 18th century—led to the capture and external sale of war captives, many of whom were exported through coastal ports such as Anomabo and Cape Coast."
 			 tournament_master="NPCCharacter.tournament_master_akan"
 			 villager="NPCCharacter.villager_akan"
-			 caravan_master="NPCCharacter.eastern_caravan_master"
-			 armed_trader="NPCCharacter.eastern_armed_trader"
-			 caravan_guard="NPCCharacter.eastern_caravan_master"
-			 veteran_caravan_guard="NPCCharacter.veteran_eastern_caravan_guard"
+			 caravan_master="NPCCharacter.caravan_master_aserai"
+			 caravan_guard="NPCCharacter.caravan_guard_aserai"
+			 veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_aserai"
 			 prison_guard="NPCCharacter.prison_guard_akan"
 			 guard="NPCCharacter.guard_akan"
 			 blacksmith="NPCCharacter.blacksmith_akan"
@@ -72,17 +71,28 @@
 		  marriage_bride_equipment_roster="EquipmentRoster.marriage_female_akan_cutscene_template"
 		  board_game_type="MuTorere"
 		  default_character_creation_body_property="BodyProperty.default_character_creation_body_property_akan"
-			start_point_position_x="1115"
-			start_point_position_y="1152">
+		  naval_factor="1.8"
+		  shipwright="NPCCharacter.shipwright_aserai"
+		  shipyard_worker="NPCCharacter.shipyard_worker_aserai"
+		  fishing_party_template="PartyTemplate.fishing_party_template_aserai"
+		  settlement_patrol_template_coastal="PartyTemplate.patrol_party_aserai_template_coastal"
+		  start_point_position_x="367"
+		  start_point_position_y="251">
 		<caravan_party_templates>
 			<caravan_party_template
-				id="PartyTemplate.eastern_caravan_template" />
+				id="PartyTemplate.caravan_template_aserai" />
 		</caravan_party_templates>
 		<elite_caravan_party_templates>
 			<caravan_party_template
-				id="PartyTemplate.elite_eastern_caravan_template" />
+				id="PartyTemplate.elite_caravan_template_aserai" />
 		</elite_caravan_party_templates>
-		<available_ship_hulls></available_ship_hulls>
+		<available_ship_hulls>
+			<ship_hull id="ShipHull.central_light_ship" />
+			<ship_hull id="ShipHull.eastern_heavy_ship" />
+			<ship_hull id="ShipHull.aserai_heavy_ship" />
+			<ship_hull id="ShipHull.eastern_medium_ship" />
+			<ship_hull id="ShipHull.eastern_trade_ship" />
+		</available_ship_hulls>
 		<vassal_reward_items>
 			<item id="Item.sentinel_2hsword" />
 		</vassal_reward_items>
@@ -226,13 +236,7 @@
 		</rebellion_hero_templates>
 		<tournament_team_templates_one_participant>
 			<template
-				name="NPCCharacter.jawwal_tier_1" />
-			<template
-				name="NPCCharacter.jawwal_tier_1" />
-			<template
-				name="NPCCharacter.jawwal_tier_1" />
-			<template
-				name="NPCCharacter.jawwal_tier_1" />
+				name="NPCCharacter.akan_jawwal_recruit" />
 			<template
 				name="NPCCharacter.tournament_template_khuzait_one_participant_set_v1" />
 			<template
@@ -257,7 +261,7 @@
 				name="NPCCharacter.tournament_template_khuzait_four_participant_set_v3" />
 		</tournament_team_templates_four_participant>
 		<basic_mercenary_troops>
-			<template name="NPCCharacter.jawwal_tier_1" />
+			<template name="NPCCharacter.akan_jawwal_recruit" />
 
 		</basic_mercenary_troops>
 	</Culture>

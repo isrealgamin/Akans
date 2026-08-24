@@ -58,7 +58,7 @@
 			<EquipmentRoster civilian="true">
 				<equipment slot="Item0" id="Item.empire_sword_1_t2"/>
 				<equipment slot="Head" id="Item.nordic_civilian_hat_fur_brim"/>
-				<equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
 				<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
@@ -104,7 +104,7 @@
 				<equipment slot="Item3" id="Item.battania_axe_1_t2"/>
 				<equipment slot="Head" id="Item.desert_helmet"/>
 				<equipment slot="Cape" id="Item.leopard_pelt"/>
-				<equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
 				<equipment slot="Gloves" id="Item.splinted_bracers"/>
 				<equipment slot="Leg" id="Item.wrapped_leather_boots"/>
 			</EquipmentRoster>
@@ -115,7 +115,7 @@
 				<equipment slot="Item3" id="Item.battania_axe_1_t2"/>
 				<equipment slot="Head" id="Item.desert_helmet"/>
 				<equipment slot="Cape" id="Item.bandit_hybrid_armor_shoulder_b"/>
-				<equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
 				<equipment slot="Gloves" id="Item.splinted_bracers"/>
 				<equipment slot="Leg" id="Item.battania_leather_boots"/>
 			</EquipmentRoster>
@@ -126,7 +126,7 @@
 				<equipment slot="Item3" id="Item.battania_axe_1_t2"/>
 				<equipment slot="Head" id="Item.desert_helmet"/>
 				<equipment slot="Cape" id="Item.bandit_hybrid_armor_shoulder_b"/>
-				<equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
 				<equipment slot="Gloves" id="Item.splinted_bracers"/>
 				<equipment slot="Leg" id="Item.battania_leather_boots"/>
 			</EquipmentRoster>
@@ -134,7 +134,7 @@
 				<equipment slot="Item0" id="Item.empire_sword_2_t3"/>
 				<equipment slot="Head" id="Item.fur_hat"/>
 				<equipment slot="Cape" id="Item.scarf"/>
-				<equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
 				<equipment slot="Leg" id="Item.wrapped_leather_boots"/>
 			</EquipmentRoster>
 			<EquipmentRoster civilian="true">
@@ -244,19 +244,18 @@
 		<Equipments>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.western_javelin_3_t4"/>
-				<equipment slot="Item1" id="Item.aserai_javelin_1_t3"/>
+				<equipment slot="Item1" id="Item.eastern_javelin_2_t3"/>
 				<equipment slot="Item2" id="Item.stronger_eastern_wicker_shield"/>
 				<equipment slot="Item3" id="Item.desert_long_sword_t4"/>
 				<equipment slot="Cape" id="Item.leopard_pelt"/>
-				<equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+				<equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
 				<equipment slot="Gloves" id="Item.splinted_bracers"/>
-				<equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
 
-
-  <NPCCharacter id="jawwal_tier_1" _replaceWhileMerging="true" default_group="Infantry" level="11" is_basic_troop="true" name="Jawwal Recruit" is_female="false" occupation="Soldier" culture="Culture.akan">
+  <NPCCharacter id="akan_jawwal_recruit" default_group="Infantry" level="11" is_basic_troop="true" name="Jawwal Recruit" is_female="false" occupation="Soldier" culture="Culture.akan">
     <face>
       <BodyProperties version="4" age="27.64" weight="0.4" build="0.5" key="002BE80ACDFC10155D721A4BB3A5D2FAAE7C686AD5C01C469CFFFF3F9922C78900977603099BA4A300000000000000000000000000000000000000003B342002" />
       <BodyPropertiesMax version="4" age="46.62" weight="0.6408" build="0.9594" key="003FF80FCDFC301AEE8EEEDEEEEBEFFFEE7F9FDCCEEAFCDFEFFFFFCF992FEEF80FCE46FF0CBCCCCA000000000000000000000000000000000000000005949142" />
@@ -313,7 +312,7 @@
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="CharacterObject_30173" _replaceWhileMerging="true" default_group="Ranged" level="21" name="Maroon Ranged upgrade" is_female="false" occupation="Soldier" culture="Culture.akan">
+  <NPCCharacter id="CharacterObject_30173" default_group="Ranged" level="21" name="Maroon Ranged upgrade" is_female="false" occupation="Soldier" culture="Culture.akan">
     <face>
       <BodyProperties version="4" age="35.06" weight="0.9981" build="0.6579" key="003FC40E40000947C613318B69728339700782B276615938230454226BB5807302AAFF240AE92850000000000000000000000000000000000000000077403046" />
       <BodyPropertiesMax version="4" age="35.06" weight="0.9981" build="0.6579" key="003FC40E40000947C613318B69728339700782B276615938230454226BB5807302AAFF240AE92850000000000000000000000000000000000000000077403046" />
@@ -336,7 +335,7 @@
         <equipment slot="Item3" id="Item.battania_axe_1_t2" />
         <equipment slot="Head" id="Item.desert_helmet" />
         <equipment slot="Cape" id="Item.leopard_pelt" />
-        <equipment slot="Body" id="Item.aserai_villager_male_tunic" />
+        <equipment slot="Body" id="Item.aserai_tunic_waistcoat" />
         <equipment slot="Gloves" id="Item.splinted_bracers" />
         <equipment slot="Leg" id="Item.wrapped_leather_boots" />
       </EquipmentRoster>
@@ -347,7 +346,7 @@
         <equipment slot="Item3" id="Item.battania_axe_1_t2" />
         <equipment slot="Head" id="Item.desert_helmet" />
         <equipment slot="Cape" id="Item.bandit_hybrid_armor_shoulder_b" />
-        <equipment slot="Body" id="Item.aserai_villager_male_tunic" />
+        <equipment slot="Body" id="Item.aserai_tunic_waistcoat" />
         <equipment slot="Gloves" id="Item.splinted_bracers" />
         <equipment slot="Leg" id="Item.battania_leather_boots" />
       </EquipmentRoster>
@@ -358,7 +357,7 @@
         <equipment slot="Item3" id="Item.battania_axe_1_t2" />
         <equipment slot="Head" id="Item.desert_helmet" />
         <equipment slot="Cape" id="Item.bandit_hybrid_armor_shoulder_b" />
-        <equipment slot="Body" id="Item.aserai_villager_male_tunic" />
+        <equipment slot="Body" id="Item.aserai_tunic_waistcoat" />
         <equipment slot="Gloves" id="Item.splinted_bracers" />
         <equipment slot="Leg" id="Item.battania_leather_boots" />
       </EquipmentRoster>
@@ -366,7 +365,7 @@
         <equipment slot="Item0" id="Item.empire_sword_2_t3" />
         <equipment slot="Head" id="Item.fur_hat" />
         <equipment slot="Cape" id="Item.scarf" />
-        <equipment slot="Body" id="Item.aserai_villager_male_tunic" />
+        <equipment slot="Body" id="Item.aserai_tunic_waistcoat" />
         <equipment slot="Leg" id="Item.wrapped_leather_boots" />
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
@@ -392,7 +391,7 @@
 <skill id="OneHanded" value="45"/><skill id="Polearm" value="45"/>
 <skill id="Bow" value="25"/><skill id="Throwing" value="40"/>
 </skills>
-<upgrade_targets><upgrade_target id="NPCCharacter.tdTroop_VSTx2Fq0002Na"/></upgrade_targets>
+<upgrade_targets><upgrade_target id="NPCCharacter.tdTroop_VSTx2Fq0002Na"/><upgrade_target id="NPCCharacter.akan_woman_warrior"/></upgrade_targets>
 <Equipments>
 <EquipmentRoster>
 <equipment slot="Item0" id="Item.eastern_spear_1_t2"/>
@@ -479,7 +478,7 @@
 <equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
 <equipment slot="Head" id="Item.desert_helmet"/>
 <equipment slot="Cape" id="Item.leopard_pelt"/>
-<equipment slot="Body" id="Item.aserai_villager_male_tunic"/>
+<equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
 <equipment slot="Gloves" id="Item.splinted_bracers"/>
 <equipment slot="Leg" id="Item.battania_leather_boots"/>
 </EquipmentRoster>
@@ -532,6 +531,40 @@
 <EquipmentRoster civilian="true">
 <equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
 <equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+</EquipmentRoster>
+</Equipments>
+</NPCCharacter>
+<!-- Akan Warrior Woman. Second upgrade path off akan_freeman, so she actually
+     appears in Akan and Maroon parties rather than sitting unused in the tree. -->
+<NPCCharacter id="akan_woman_warrior" default_group="Infantry" level="11" is_female="true"
+ name="{=akan_woman_warrior}Akan Warrior Woman" occupation="Soldier" culture="Culture.akan">
+<face><face_key_template value="BodyProperty.fighter_akan_female" /></face>
+<skills>
+<skill id="Athletics" value="75"/><skill id="Riding" value="30"/>
+<skill id="OneHanded" value="80"/><skill id="Polearm" value="65"/>
+<skill id="Bow" value="55"/><skill id="Throwing" value="70"/>
+</skills>
+<upgrade_targets><upgrade_target id="NPCCharacter.tdTroop_VSTtYyg0001Qt"/></upgrade_targets>
+<Equipments>
+<EquipmentRoster>
+<equipment slot="Item0" id="Item.desert_long_sword_t4"/>
+<equipment slot="Item1" id="Item.stronger_eastern_wicker_shield"/>
+<equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+<equipment slot="Head" id="Item.wrapped_headcloth"/>
+<equipment slot="Body" id="Item.heavy_gambeson_armor"/>
+<equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+</EquipmentRoster>
+<EquipmentRoster>
+<equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>
+<equipment slot="Item1" id="Item.eastern_wicker_shield"/>
+<equipment slot="Item2" id="Item.eastern_javelin_2_t3"/>
+<equipment slot="Cape" id="Item.leopard_pelt"/>
+<equipment slot="Body" id="Item.heavy_gambeson_armor"/>
+<equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+</EquipmentRoster>
+<EquipmentRoster civilian="true">
+<equipment slot="Body" id="Item.aserai_villager_female_dress"/>
+<equipment slot="Leg" id="Item.ladys_shoe"/>
 </EquipmentRoster>
 </Equipments>
 </NPCCharacter>

@@ -1,3 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Akan settlements. Merged into the Settlements document built from
+     SandBox + NavalDLC, so only the new ids appear here.
+     Map icons for these three ids live in NavalDLC/SceneObj/Main_map/scene.xscene;
+     the posX/posY below must stay in sync with the entity transforms there. -->
 <Settlements>
+  <Settlement id="castle_M1" name="{=Settlements.Settlement.name.castle_M1}Gao Castle" owner="Faction.clan_maroon_1" posX="900.36" posY="161.36" culture="Culture.akan" gate_posX="897.722" gate_posY="159.676">
+    <Components>
+      <Town id="castle_comp_M1" is_castle="true" background_crop_position="0.0" background_mesh="menu_aserai_3" wait_mesh="wait_aserai_town" gate_rotation="0.908" prosperity="550">
+        <Buildings>
+          <Building id="building_castle_fortifications" level="1" />
+          <Building id="building_castle_barracks" level="2" />
+          <Building id="building_castle_training_fields" level="1" />
+          <Building id="building_castle_guard_house" level="0" />
+          <Building id="building_castle_siege_workshop" level="1" />
+          <Building id="building_castle_castallans_office" level="1" />
+          <Building id="building_castle_granary" level="1" />
+          <Building id="building_castle_craftmans_quarters" level="0" />
+          <Building id="building_castle_farmlands" level="0" />
+          <Building id="building_castle_mason" level="0" />
+          <Building id="building_castle_roads_and_paths" level="1" />
+        </Buildings>
+      </Town>
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.castle_complex">
+      <Location id="center" scene_name="aserai_castle_002" scene_name_1="aserai_castle_002" scene_name_2="aserai_castle_002" scene_name_3="aserai_castle_002" />
+      <Location id="lordshall" scene_name_1="aserai_castle_keep_a_l1_interior" scene_name_2="aserai_castle_keep_a_l2_interior" scene_name_3="aserai_castle_keep_a_l3_interior" />
+      <Location id="prison" scene_name="aserai_dungeon_stealth" />
+    </Locations>
+  </Settlement>
+  <Settlement id="castle_village_M1_1" name="{=Settlements.Settlement.name.castle_village_M1_1}Faso" posX="906.43" posY="181.19" culture="Culture.akan" text="{=Settlements.Settlement.text.castle_village_M1_1}Faso lies on the desert-steppe east of the Bahr al-Yeshm, in the long shadow of the Jabal al-Kals. Villagers sink wells deep into the gravel and trap what little runoff comes down from the bitter hills, using it to water their groves of date palms.">
+    <Components>
+      <Village id="castle_village_comp_M1_1" village_type="VillageType.date_farm" hearth="477" bound="Settlement.castle_M1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="aserai_village_k" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
+  <Settlement id="castle_village_M1_2" name="{=Settlements.Settlement.name.castle_village_M1_2}Cudjoes Town" posX="902.38" posY="206.20" culture="Culture.akan" text="{=Settlements.Settlement.text.castle_village_M1_2}Cudjoes Town sits high on the seaward slopes of the Jabal al-Kals, the bitter hills, where the Aserai deserts give way to scrub and acacia. The villagers terrace the hillsides for olives, and keep watch over the coastal road below - the highway that caravans and armies have used between the Empire and the Aserai lands for thousands of years.">
+    <Components>
+      <Village id="castle_village_comp_M1_2" village_type="VillageType.olive_trees" hearth="477" bound="Settlement.castle_M1" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.village_complex">
+      <Location id="village_center" scene_name="aserai_village_e" />
+    </Locations>
+    <CommonAreas>
+      <Area type="Pasture" name="{=fOUsLdZR}Pasture" />
+      <Area type="Thicket" name="{=66Mzk0NZ}Thicket" />
+      <Area type="Bog" name="{=iXA5SttU}Bog" />
+    </CommonAreas>
+  </Settlement>
 </Settlements>

@@ -19,7 +19,7 @@
     <Equipments>
       <EquipmentRoster>
 				<equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true"/>
     </Equipments>
@@ -41,7 +41,7 @@
     <Equipments>
       <EquipmentRoster>
 				<equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true"/>
     </Equipments>
@@ -108,7 +108,7 @@
     <Equipments>
       <EquipmentRoster>
 				<equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true"/>
     </Equipments>
@@ -130,7 +130,7 @@
     <Equipments>
       <EquipmentRoster>
 				<equipment slot="Body" id="Item.vlandia_bandit_c"/>
-				<equipment slot="Leg" id="Item.aserai_villager_shoes"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true"/>
     </Equipments>

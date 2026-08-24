@@ -81,15 +81,6 @@
 </IncludedGameTypes>
 </XmlNode>
 <XmlNode>
-<XmlName id="NPCCharacters" path="akan_lords"/>
-<IncludedGameTypes>
-<GameType value="Campaign"/>
-<GameType value="CampaignStoryMode"/>
-<GameType value="CustomGame"/>
-<GameType value="EditorGame"/>
-</IncludedGameTypes>
-</XmlNode>
-<XmlNode>
 <XmlName id="partyTemplates" path="akan_party_templates"/>
 <IncludedGameTypes>
 <GameType value="Campaign"/>
@@ -99,52 +90,21 @@
 </IncludedGameTypes>
 </XmlNode>
 <XmlNode>
-<XmlName id="Factions" path="akan_clans"/>
-<IncludedGameTypes>
-<GameType value="Campaign"/>
-<GameType value="CampaignStoryMode"/>
-<GameType value="CustomGame"/>
-<GameType value="EditorGame"/>
-</IncludedGameTypes>
-</XmlNode>
-<XmlNode>
-<XmlName id="Kingdoms" path="akan_kingdoms"/>
-<IncludedGameTypes>
-<GameType value="Campaign"/>
-<GameType value="CampaignStoryMode"/>
-<GameType value="CustomGame"/>
-<GameType value="EditorGame"/>
-</IncludedGameTypes>
-</XmlNode>
-<XmlNode>
-<XmlName id="Heroes" path="akan_heroes"/>
-<IncludedGameTypes>
-<GameType value="Campaign"/>
-<GameType value="CampaignStoryMode"/>
-<GameType value="CustomGame"/>
-<GameType value="EditorGame"/>
-</IncludedGameTypes>
-</XmlNode>
-<XmlNode>
-<XmlName id="strings" path="akan_comment_strings"/>
-<IncludedGameTypes>
-<GameType value="Campaign"/>
-<GameType value="CampaignStoryMode"/>
-<GameType value="CustomGame"/>
-<GameType value="EditorGame"/>
-</IncludedGameTypes>
-</XmlNode>
-<XmlNode>
-<XmlName id="Concepts" path="akan_concept_strings"/>
-<IncludedGameTypes>
-<GameType value="Campaign"/>
-<GameType value="CampaignStoryMode"/>
-<GameType value="CustomGame"/>
-<GameType value="EditorGame"/>
-</IncludedGameTypes>
-</XmlNode>
-<XmlNode>
 <XmlName id="Settlements" path="akan_settlements"/>
+<IncludedGameTypes>
+<GameType value="Campaign"/>
+<GameType value="CampaignStoryMode"/>
+</IncludedGameTypes>
+</XmlNode>
+<XmlNode>
+<XmlName id="Settlements" path="XSLT/Akans_SandBox_Settlements"/>
+<IncludedGameTypes>
+<GameType value="Campaign"/>
+<GameType value="CampaignStoryMode"/>
+</IncludedGameTypes>
+</XmlNode>
+<XmlNode>
+<XmlName id="GameText" path="akan_comment_strings"/>
 <IncludedGameTypes>
 <GameType value="Campaign"/>
 <GameType value="CampaignStoryMode"/>

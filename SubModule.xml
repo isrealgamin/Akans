@@ -112,5 +112,40 @@
 <GameType value="EditorGame"/>
 </IncludedGameTypes>
 </XmlNode>
+<!-- Maroon Warlords. These four files were the whole of the separate "Maroons"
+     module and were folded in here so the kingdom needs only one mod. They are
+     declared last, so they merge after the Akan culture, troops and settlements
+     they depend on, exactly as they did when Maroons loaded below Akans.
+     Campaign-only: clans, kingdoms and heroes have no meaning in CustomGame or
+     EditorGame. If the old Maroons module is still installed, DISABLE it -
+     leaving both enabled defines every id here twice. -->
+<XmlNode>
+<XmlName id="NPCCharacters" path="maroon_lords"/>
+<IncludedGameTypes>
+<GameType value="Campaign"/>
+<GameType value="CampaignStoryMode"/>
+</IncludedGameTypes>
+</XmlNode>
+<XmlNode>
+<XmlName id="Heroes" path="maroon_heroes"/>
+<IncludedGameTypes>
+<GameType value="Campaign"/>
+<GameType value="CampaignStoryMode"/>
+</IncludedGameTypes>
+</XmlNode>
+<XmlNode>
+<XmlName id="Kingdoms" path="maroon_kingdoms"/>
+<IncludedGameTypes>
+<GameType value="Campaign"/>
+<GameType value="CampaignStoryMode"/>
+</IncludedGameTypes>
+</XmlNode>
+<XmlNode>
+<XmlName id="Factions" path="maroon_clans"/>
+<IncludedGameTypes>
+<GameType value="Campaign"/>
+<GameType value="CampaignStoryMode"/>
+</IncludedGameTypes>
+</XmlNode>
 </Xmls>
 </Module>

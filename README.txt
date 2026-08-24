@@ -49,9 +49,21 @@ sides, and the invariant is worth re-checking after any edit here:
   settlement they actually own.
 
 The map icons for the three new settlements are game_entity nodes in
-NavalDLC/SceneObj/Main_map/scene.xscene, named to match the settlement ids.
-That is a base-game file, so a Steam file-verify or a War Sails patch will
-revert it and the settlements will lose their icons - keep a copy.
+NavalDLC/SceneObj/Main_map/scene.xscene, named to match the settlement ids,
+with positions that must stay in sync with akan_settlements.xml. That is a
+BASE-GAME file, so a Steam file-verify or a War Sails patch reverts it and the
+settlements silently lose their icons and stop being clickable.
+
+Those three entities (2247 lines, 212 game_entity nodes counting children) are
+kept here, so the edit is recoverable:
+
+    powershell -ExecutionPolicy Bypass -File MapIcons\Restore-MapIcons.ps1
+
+Re-running it is safe. It exits without touching anything if the icons are
+already present, copies the scene to scene.xscene.bak before writing, and
+refuses to install a result that is not well-formed XML. Verified by restoring
+into a pristine copy of NavalDLC/SceneObj/Backups/Main_map/scene.xscene: 41846
+entities in, 42058 out, matching the edited scene exactly.
 
 You can also still found an Akan kingdom in-game as the player.
 

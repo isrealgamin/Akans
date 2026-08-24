@@ -11819,7 +11819,7 @@
 				</game_entity>
 			</children>
 		</game_entity>
-		<game_entity name="castle_village_M4_1" old_prefab_name="map_icon_full_khuzait_village" mobility="1">
+		<game_entity name="castle_village_M4_1" old_prefab_name="map_icon_full_aserai_village" mobility="1">
 			<tags>
 				<tag name="village"/>
 				<tag name="castle"/>
@@ -11842,47 +11842,43 @@
 						</body_flags>
 					</physics>
 				</game_entity>
-				<game_entity name="map_icons_khuzait_village_l1" old_prefab_name="" mobility="1">
+				<game_entity name="map_icons_aserai_village_l1" old_prefab_name="" mobility="1">
 					<transform rotation_euler="0.000, 0.000, 0.000" scale="0.440, 0.440, 0.440"/>
 					<components>
-						<meta_mesh_component name="village_khuzait_1"/>
+						<meta_mesh_component name="village_aserai_1"/>
 					</components>
 					<levels>
 						<level name="level_1"/>
 						<level name="civilian"/>
 					</levels>
 				</game_entity>
-				<game_entity name="map_icons_khuzait_village_l2" old_prefab_name="" mobility="1">
+				<game_entity name="map_icons_aserai_village_l2" old_prefab_name="" mobility="1">
 					<transform rotation_euler="0.000, 0.000, 0.000" scale="0.440, 0.440, 0.440"/>
 					<components>
-						<meta_mesh_component name="village_khuzait_2"/>
+						<meta_mesh_component name="village_aserai_2"/>
 					</components>
 					<levels>
 						<level name="level_2"/>
 						<level name="civilian"/>
 					</levels>
 				</game_entity>
-				<game_entity name="map_icons_khuzait_village_l3" old_prefab_name="" mobility="1">
+				<game_entity name="map_icons_aserai_village_l3" old_prefab_name="" mobility="1">
 					<transform rotation_euler="0.000, 0.000, 0.000" scale="0.440, 0.440, 0.440"/>
 					<components>
-						<meta_mesh_component name="village_khuzait_3"/>
+						<meta_mesh_component name="village_aserai_3"/>
 					</components>
 					<levels>
 						<level name="level_3"/>
 						<level name="civilian"/>
 					</levels>
 				</game_entity>
-				<game_entity name="map_icons_khuzait_village_looted" old_prefab_name="" mobility="1">
+				<game_entity name="map_icons_aserai_village_looted" old_prefab_name="" mobility="1">
 					<transform rotation_euler="0.000, 0.000, 0.000" scale="0.440, 0.440, 0.440"/>
 					<components>
-						<meta_mesh_component name="village_khuzait_1">
-							<mesh name="village_khuzait_1.0" factor="4279045389"/>
-							<mesh name="village_khuzait_1.1" factor="4279045389"/>
-							<mesh name="village_khuzait_1.2" factor="4279045389"/>
-							<mesh name="village_khuzait_1.3" factor="4279045389"/>
-							<mesh name="village_khuzait_1.4" factor="4279045389"/>
-							<mesh name="village_khuzait_1.5" factor="4279045389"/>
-							<mesh name="village_khuzait_1.6" factor="4279045389"/>
+						<meta_mesh_component name="village_aserai_1">
+							<mesh name="village_aserai_1.0" factor="4282861383"/>
+							<mesh name="village_aserai_1.1" factor="4282861383"/>
+							<mesh name="village_aserai_1.2" factor="4282861383"/>
 						</meta_mesh_component>
 					</components>
 					<levels>
@@ -11892,10 +11888,10 @@
 						<level name="looted"/>
 					</levels>
 				</game_entity>
-				<game_entity name="map_icons_production_sheep_farm_b" old_prefab_name="" mobility="1">
-					<transform position="2.214, -0.360, 0.025" rotation_euler="0.118, 0.000, 0.000"/>
+				<game_entity name="map_icons_production_datefarm_c" old_prefab_name="" mobility="1">
+					<transform position="-2.362, -0.733, -0.045" rotation_euler="-0.078, -0.042, -2.168" scale="0.654, 0.654, 0.654"/>
 					<components>
-						<meta_mesh_component name="mi_sheep_b"/>
+						<meta_mesh_component name="mi_date_c"/>
 					</components>
 					<levels>
 						<level name="level_1"/>
@@ -11904,27 +11900,30 @@
 						<level name="civilian"/>
 					</levels>
 				</game_entity>
-				<game_entity name="map_icons_production_sheep_farm_d" old_prefab_name="" mobility="1">
-					<transform position="0.486, 2.319, 0.060" rotation_euler="0.000, 0.000, 0.882"/>
+				<game_entity name="map_icons_production_datefarm_b" old_prefab_name="" mobility="1">
+					<transform position="0.967, 2.598, -0.010" rotation_euler="-0.049, -0.070, 1.799" scale="0.678, 0.678, 0.678"/>
 					<components>
-						<meta_mesh_component name="mi_sheep_d"/>
+						<meta_mesh_component name="mi_date_b"/>
 					</components>
-					<levels>
-						<level name="level_3"/>
-						<level name="civilian"/>
-					</levels>
-				</game_entity>
-				<game_entity prefab="map_icons_production_sheep_farm_c" mobility="1" _index_="7">
-					<transform position="-1.829, -1.052, -0.090"/>
 					<levels>
 						<level name="level_2"/>
 						<level name="level_3"/>
 						<level name="civilian"/>
 					</levels>
 				</game_entity>
+				<game_entity name="map_icons_production_datefarm_d" old_prefab_name="" mobility="1">
+					<transform position="2.229, -2.984, 0.061" rotation_euler="0.043, -0.077, 2.535" scale="0.627, 0.627, 0.627"/>
+					<components>
+						<meta_mesh_component name="mi_date_d"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+					</levels>
+				</game_entity>
 			</children>
 		</game_entity>
-		<game_entity name="village_M4_1" old_prefab_name="map_icon_full_khuzait_village" mobility="1">
+		<game_entity name="village_M4_1" old_prefab_name="map_icon_full_aserai_village" mobility="1">
 			<tags>
 				<tag name="village"/>
 				<tag name="castle"/>
@@ -11939,7 +11938,7 @@
 				</script>
 			</scripts>
 			<children>
-				<game_entity name="bo_village" old_prefab_name="" mobility="1">
+				<game_entity name="bo_village" old_prefab_name="bo_village" mobility="1">
 					<transform rotation_euler="0.000, 0.000, 0.000" scale="1.323, 1.323, 1.323"/>
 					<physics shape="bo_sphere_collider">
 						<body_flags>
@@ -11947,47 +11946,43 @@
 						</body_flags>
 					</physics>
 				</game_entity>
-				<game_entity name="map_icons_khuzait_village_l1" old_prefab_name="" mobility="1">
-					<transform position="0.001, 0.000, 0.026" rotation_euler="0.000, -0.054, 0.000" scale="0.440, 0.440, 0.440"/>
+				<game_entity name="map_icons_aserai_village_l1" old_prefab_name="map_icons_aserai_village_l1" mobility="1">
+					<transform position="0.000, 0.000, -0.024" rotation_euler="-0.019, 0.000, 0.000" scale="0.440, 0.440, 0.440"/>
 					<components>
-						<meta_mesh_component name="village_khuzait_1"/>
+						<meta_mesh_component name="village_aserai_1"/>
 					</components>
 					<levels>
 						<level name="level_1"/>
 						<level name="civilian"/>
 					</levels>
 				</game_entity>
-				<game_entity name="map_icons_khuzait_village_l2" old_prefab_name="" mobility="1">
-					<transform position="-0.003, 0.000, 0.058" rotation_euler="0.000, -0.059, 0.000" scale="0.440, 0.440, 0.440"/>
+				<game_entity name="map_icons_aserai_village_l2" old_prefab_name="map_icons_aserai_village_l2" mobility="1">
+					<transform rotation_euler="-0.041, -0.054, -0.010" scale="0.440, 0.440, 0.440"/>
 					<components>
-						<meta_mesh_component name="village_khuzait_2"/>
+						<meta_mesh_component name="village_aserai_2"/>
 					</components>
 					<levels>
 						<level name="level_2"/>
 						<level name="civilian"/>
 					</levels>
 				</game_entity>
-				<game_entity name="map_icons_khuzait_village_l3" old_prefab_name="" mobility="1">
-					<transform position="-0.002, 0.000, 0.050" rotation_euler="0.000, -0.076, 0.000" scale="0.440, 0.440, 0.440"/>
+				<game_entity name="map_icons_aserai_village_l3" old_prefab_name="map_icons_aserai_village_l3" mobility="1">
+					<transform rotation_euler="0.009, -0.038, 0.000" scale="0.440, 0.440, 0.440"/>
 					<components>
-						<meta_mesh_component name="village_khuzait_3"/>
+						<meta_mesh_component name="village_aserai_3"/>
 					</components>
 					<levels>
 						<level name="level_3"/>
 						<level name="civilian"/>
 					</levels>
 				</game_entity>
-				<game_entity name="map_icons_khuzait_village_looted" old_prefab_name="" mobility="1">
+				<game_entity name="map_icons_aserai_village_looted" old_prefab_name="map_icons_aserai_village_looted" mobility="1">
 					<transform rotation_euler="0.000, 0.000, 0.000" scale="0.440, 0.440, 0.440"/>
 					<components>
-						<meta_mesh_component name="village_khuzait_1">
-							<mesh name="village_khuzait_1.0" factor="4279045389"/>
-							<mesh name="village_khuzait_1.1" factor="4279045389"/>
-							<mesh name="village_khuzait_1.2" factor="4279045389"/>
-							<mesh name="village_khuzait_1.3" factor="4279045389"/>
-							<mesh name="village_khuzait_1.4" factor="4279045389"/>
-							<mesh name="village_khuzait_1.5" factor="4279045389"/>
-							<mesh name="village_khuzait_1.6" factor="4279045389"/>
+						<meta_mesh_component name="village_aserai_1">
+							<mesh name="village_aserai_1.0" factor="4282861383"/>
+							<mesh name="village_aserai_1.1" factor="4282861383"/>
+							<mesh name="village_aserai_1.2" factor="4282861383"/>
 						</meta_mesh_component>
 					</components>
 					<levels>
@@ -11997,17 +11992,10 @@
 						<level name="looted"/>
 					</levels>
 				</game_entity>
-				<game_entity name="map_icons_production_horseranch_steppe_b" old_prefab_name="" mobility="1">
-					<transform position="-1.451, 2.479, 0.080" rotation_euler="0.038, -0.037, -0.009" scale="1.278, 1.278, 1.278"/>
+				<game_entity name="map_icons_production_horseranch_desert_c" old_prefab_name="map_icons_production_horseranch_desert_c" mobility="1">
+					<transform position="1.405, 2.967, 0.021" rotation_euler="-0.163, 0.050, 1.297" scale="1.288, 1.288, 1.288"/>
 					<components>
-						<meta_mesh_component name="mi_steppe_horse_b">
-							<mesh name="mi_steppe_horse_b" argument="-1.600, 0.000, 0.000, 0.000"/>
-							<mesh name="mi_steppe_horse_b.lod1" argument="-1.600, 0.000, 0.000, 0.000"/>
-							<mesh name="mi_steppe_horse_b.lod2" argument="-1.600, 0.000, 0.000, 0.000"/>
-							<mesh name="mi_steppe_horse_b.lod3" argument="-1.600, 0.000, 0.000, 0.000"/>
-							<mesh name="mi_steppe_horse_b.lod4" argument="-1.600, 0.000, 0.000, 0.000"/>
-							<mesh name="mi_steppe_horse_b.lod5" argument="-1.600, 0.000, 0.000, 0.000"/>
-						</meta_mesh_component>
+						<meta_mesh_component name="mi_saddle_horse_c"/>
 					</components>
 					<levels>
 						<level name="level_2"/>
@@ -12015,38 +12003,24 @@
 						<level name="civilian"/>
 					</levels>
 				</game_entity>
-				<game_entity name="map_icons_production_horseranch_steppe_c" old_prefab_name="" mobility="1">
-					<transform position="3.116, 0.341, 0.331" rotation_euler="-0.096, -0.159, -0.010" scale="1.249, 1.249, 1.249"/>
+				<game_entity name="map_icons_production_horseranch_desert_a" old_prefab_name="map_icons_production_horseranch_desert_a" mobility="1">
+					<transform position="4.036, -1.365, 0.483" rotation_euler="0.081, -0.319, 0.001" scale="1.308, 1.308, 1.308"/>
 					<components>
-						<meta_mesh_component name="mi_steppe_horse_c">
-							<mesh name="mi_steppe_horse_c" argument="-2.100, 0.000, 0.000, 0.000"/>
-							<mesh name="mi_steppe_horse_c.lod1" argument="-2.100, 0.000, 0.000, 0.000"/>
-							<mesh name="mi_steppe_horse_c.lod2" argument="-2.100, 0.000, 0.000, 0.000"/>
-							<mesh name="mi_steppe_horse_c.lod3" argument="-2.100, 0.000, 0.000, 0.000"/>
-							<mesh name="mi_steppe_horse_c.lod4" argument="-2.100, 0.000, 0.000, 0.000"/>
-							<mesh name="mi_steppe_horse_c.lod5" argument="-2.100, 0.000, 0.000, 0.000"/>
-						</meta_mesh_component>
+						<meta_mesh_component name="mi_saddle_horse_a"/>
+					</components>
+					<levels>
+						<level name="level_3"/>
+						<level name="civilian"/>
+					</levels>
+				</game_entity>
+				<game_entity name="map_icons_production_horseranch_desert_b" old_prefab_name="map_icons_production_horseranch_desert_b" mobility="1">
+					<transform position="1.274, -2.909, -0.181" rotation_euler="0.116, 0.128, -1.365" scale="1.300, 1.300, 1.300"/>
+					<components>
+						<meta_mesh_component name="mi_saddle_horse_b"/>
 					</components>
 					<levels>
 						<level name="level_1"/>
 						<level name="level_2"/>
-						<level name="level_3"/>
-						<level name="civilian"/>
-					</levels>
-				</game_entity>
-				<game_entity prefab="map_icons_production_horseranch_steppe_d" mobility="1" _index_="7">
-					<transform position="-3.139, -1.716, -0.050" rotation_euler="-0.066, 0.132, -2.737" scale="1.265, 1.265, 1.265"/>
-					<components>
-						<meta_mesh_component>
-							<mesh name="mi_steppe_horse_d" argument="-1.600, 0.000, 0.000, 0.000"/>
-							<mesh name="mi_steppe_horse_d.lod1" argument="-1.600, 0.000, 0.000, 0.000"/>
-							<mesh name="mi_steppe_horse_d.lod2" argument="-1.600, 0.000, 0.000, 0.000"/>
-							<mesh name="mi_steppe_horse_d.lod3" argument="-1.600, 0.000, 0.000, 0.000"/>
-							<mesh name="mi_steppe_horse_d.lod4" argument="-1.600, 0.000, 0.000, 0.000"/>
-							<mesh name="mi_steppe_horse_d.lod5" argument="-1.600, 0.000, 0.000, 0.000"/>
-						</meta_mesh_component>
-					</components>
-					<levels>
 						<level name="level_3"/>
 						<level name="civilian"/>
 					</levels>

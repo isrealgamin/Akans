@@ -301,7 +301,7 @@
        straddles a shore - but the measured heights, 3.811 and 5.655, put
        both firmly on land.
        ================================================================ -->
-  <Settlement id="town_M5" name="{=Settlements.Settlement.name.town_M5}Cape Coast" owner="Faction.clan_maroon_1" posX="941.532" posY="48.702" culture="Culture.akan" gate_posX="938.895" gate_posY="47.013" text="{=Settlements.Settlement.text.town_M5}Cape Coast carries the name of a fort on the Gold Coast that the ancestors of its people were marched through in chains. The Maroons took the name deliberately when they built here, on the reasoning that a word means whatever the people using it decide, and that this one now belongs to a free harbour.">
+  <Settlement id="town_M5" name="{=Settlements.Settlement.name.town_M5}Cape Coast" owner="Faction.clan_maroon_1" posX="941.532" posY="48.702" culture="Culture.akan" gate_posX="938.895" gate_posY="47.013" port_posX="947.17" port_posY="46.65" text="{=Settlements.Settlement.text.town_M5}Cape Coast carries the name of a fort on the Gold Coast that the ancestors of its people were marched through in chains. The Maroons took the name deliberately when they built here, on the reasoning that a word means whatever the people using it decide, and that this one now belongs to a free harbour.">
     <Components>
       <Town id="town_comp_M5" is_castle="false" background_crop_position="0.235" background_mesh="menu_aserai_1" wait_mesh="wait_aserai_town" gate_rotation="0.738" prosperity="2400">
         <Buildings>
@@ -317,6 +317,7 @@
           <Building id="building_settlement_waterworks" level="0" />
           <Building id="building_settlement_courthouse" level="0" />
           <Building id="building_settlement_roads_and_paths" level="0" />
+          <Building id="building_shipyard" level="1" />
         </Buildings>
       </Town>
     </Components>
@@ -330,6 +331,7 @@
       <Location id="house_2" scene_name="arabian_house_new_a_interior_a_house" />
       <Location id="house_3" scene_name="arabian_house_new_a_interior_a_house" />
       <Location id="alley" />
+      <Location id="port" scene_name="aserai_shipyard" />
     </Locations>
     <CommonAreas>
       <Area type="Backstreet" name="{=a0MVffcN}Backstreet" />

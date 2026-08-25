@@ -37,7 +37,7 @@ Three Maroon clans hold seventeen settlements between them:
 - Faction.clan_maroon_1 (Cudjoe, Zea, Joejoe, Nyla)
     castle_M1 Gao Castle
       castle_village_M1_1 Faso, castle_village_M1_2 Cudjoes Town
-    town_M5 Cape Coast
+    town_M5 Cape Coast (port: shipyard + landing point)
       village_M5_1 Axim
 - Faction.clan_maroon_2 "Ti Fitaa" (Naquan Ti Fitaa, Cudjoe's father)
     castle_M4 Kormantse Castle

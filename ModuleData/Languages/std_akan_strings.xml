@@ -240,5 +240,13 @@
     <string id="akan_woman_warrior"
             text="Akan Warrior Woman" />
 
+    <string id="Settlements.Settlement.name.town_M5"
+            text="Cape Coast" />
+    <string id="Settlements.Settlement.text.town_M5"
+            text="Cape Coast carries the name of a fort on the Gold Coast that the ancestors of its people were marched through in chains. The Maroons took the name deliberately when they built here, on the reasoning that a word means whatever the people using it decide, and that this one now belongs to a free harbour." />
+    <string id="Settlements.Settlement.name.village_M5_1"
+            text="Axim" />
+    <string id="Settlements.Settlement.text.village_M5_1"
+            text="Axim works the strip of flat ground between Cape Coast and the water, the only stretch on this shore wide enough to take grain. Its wheat feeds the town and its piers take the overflow out by boat, which the villagers consider a far better arrangement than carting it over the hills." />
   </strings>
 </base>

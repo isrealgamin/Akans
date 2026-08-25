@@ -32,11 +32,13 @@ they still merge after the culture, troops and settlements they depend on.
 IF THE OLD "Maroons" MODULE IS STILL INSTALLED, DISABLE IT. With both enabled
 every clan, kingdom and lord id below is defined twice.
 
-Three Maroon clans hold fifteen settlements between them:
+Three Maroon clans hold seventeen settlements between them:
 
 - Faction.clan_maroon_1 (Cudjoe, Zea, Joejoe, Nyla)
     castle_M1 Gao Castle
       castle_village_M1_1 Faso, castle_village_M1_2 Cudjoes Town
+    town_M5 Cape Coast
+      village_M5_1 Axim
 - Faction.clan_maroon_2 "Ti Fitaa" (Naquan Ti Fitaa, Cudjoe's father)
     castle_M4 Kormantse Castle
       castle_village_M4_1 Anomabo, village_M4_1 Adanse
@@ -86,14 +88,14 @@ sides, and the invariant is worth re-checking after any edit here:
 - Kingdom.maroon and both clans point initial_home_settlement at a
   settlement they actually own.
 
-The map icons for all fifteen Maroon settlements, and a wooden bridge east of
+The map icons for all seventeen Maroon settlements, and a wooden bridge east of
 Adanse, are game_entity nodes in
 NavalDLC/SceneObj/Main_map/scene.xscene, named to match the settlement ids,
 with positions that must stay in sync with akan_settlements.xml. That is a
 BASE-GAME file, so a Steam file-verify or a War Sails patch reverts it and the
 settlements silently lose their icons and stop being clickable.
 
-Those fifteen entities plus the Maroon wooden bridge (12081 lines, 1211
+Those seventeen entities plus the Maroon wooden bridge (16257 lines, 1531
 game_entity nodes counting children) are
 kept here, so the edit is recoverable:
 

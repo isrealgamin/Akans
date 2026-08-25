@@ -86,13 +86,15 @@ sides, and the invariant is worth re-checking after any edit here:
 - Kingdom.maroon and both clans point initial_home_settlement at a
   settlement they actually own.
 
-The map icons for all fifteen Maroon settlements are game_entity nodes in
+The map icons for all fifteen Maroon settlements, and a wooden bridge east of
+Adanse, are game_entity nodes in
 NavalDLC/SceneObj/Main_map/scene.xscene, named to match the settlement ids,
 with positions that must stay in sync with akan_settlements.xml. That is a
 BASE-GAME file, so a Steam file-verify or a War Sails patch reverts it and the
 settlements silently lose their icons and stop being clickable.
 
-Those fifteen entities (12055 lines, 1206 game_entity nodes counting children) are
+Those fifteen entities plus the Maroon wooden bridge (12081 lines, 1211
+game_entity nodes counting children) are
 kept here, so the edit is recoverable:
 
     powershell -ExecutionPolicy Bypass -File MapIcons\Restore-MapIcons.ps1

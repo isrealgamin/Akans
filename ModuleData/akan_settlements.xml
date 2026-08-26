@@ -301,7 +301,7 @@
        straddles a shore - but the measured heights, 3.811 and 5.655, put
        both firmly on land.
        ================================================================ -->
-  <Settlement id="town_M5" name="{=Settlements.Settlement.name.town_M5}Cape Coast" owner="Faction.clan_maroon_1" posX="941.532" posY="48.702" culture="Culture.akan" gate_posX="938.895" gate_posY="47.013" port_posX="947.17" port_posY="46.65" text="{=Settlements.Settlement.text.town_M5}Cape Coast carries the name of a fort on the Gold Coast that the ancestors of its people were marched through in chains. The Maroons took the name deliberately when they built here, on the reasoning that a word means whatever the people using it decide, and that this one now belongs to a free harbour.">
+  <Settlement id="town_M5" name="{=Settlements.Settlement.name.town_M5}Cape Coast" owner="Faction.clan_maroon_1" posX="941.532" posY="48.702" culture="Culture.akan" gate_posX="938.895" gate_posY="47.013" port_posX="943.460" port_posY="45.211" text="{=Settlements.Settlement.text.town_M5}Cape Coast carries the name of a fort on the Gold Coast that the ancestors of its people were marched through in chains. The Maroons took the name deliberately when they built here, on the reasoning that a word means whatever the people using it decide, and that this one now belongs to a free harbour.">
     <Components>
       <Town id="town_comp_M5" is_castle="false" background_crop_position="0.235" background_mesh="menu_aserai_1" wait_mesh="wait_aserai_town" gate_rotation="0.738" prosperity="2400">
         <Buildings>

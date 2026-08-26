@@ -2032,7 +2032,7 @@
 				<tag name="village"/>
 				<tag name="castle"/>
 			</tags>
-			<transform position="875.905, 65.270, 6.900" rotation_euler="-0.009, -0.088, -1.671"/>
+			<transform position="884.000, 341.000, 7.525" rotation_euler="-0.009, -0.088, -1.671"/>
 			<scripts>
 				<script name="Town Entity Manager">
 					<variables>
@@ -2136,7 +2136,7 @@
 				<tag name="village"/>
 				<tag name="castle"/>
 			</tags>
-			<transform position="916.877, 49.148, 8.010" rotation_euler="-0.154, 0.149, -1.626"/>
+			<transform position="939.000, 341.000, 8.588" rotation_euler="-0.154, 0.149, -1.626"/>
 			<scripts>
 				<script name="Town Entity Manager">
 					<variables>
@@ -2354,7 +2354,7 @@
 				<tag name="village"/>
 				<tag name="castle"/>
 			</tags>
-			<transform position="976.642, 157.811, 8.114" rotation_euler="-0.009, -0.088, -1.671"/>
+			<transform position="911.000, 256.000, 7.851" rotation_euler="-0.009, -0.088, -1.671"/>
 			<scripts>
 				<script name="Town Entity Manager">
 					<variables>
@@ -2675,7 +2675,7 @@
 			<tags>
 				<tag name="town"/>
 			</tags>
-			<transform position="943.533, 188.996, 8.100" rotation_euler="0.000, 0.000, -3.027"/>
+			<transform position="936.000, 284.000, 8.284" rotation_euler="0.000, 0.000, -3.027"/>
 			<scripts>
 				<script name="Town Entity Manager">
 					<variables>
@@ -7707,7 +7707,7 @@
 			<tags>
 				<tag name="castle"/>
 			</tags>
-			<transform position="977.700, 98.797, 8.024" rotation_euler="0.000, 0.000, 0.266"/>
+			<transform position="938.000, 246.000, 8.546" rotation_euler="0.000, 0.000, 0.266"/>
 			<scripts>
 				<script name="Town Entity Manager">
 					<variables>
@@ -9786,7 +9786,7 @@
 			<tags>
 				<tag name="village"/>
 			</tags>
-			<transform position="988.652, 87.400, 8.003" rotation_euler="-0.009, -0.088, -1.671"/>
+			<transform position="908.000, 289.000, 7.486" rotation_euler="-0.009, -0.088, -1.671"/>
 			<scripts>
 				<script name="Town Entity Manager">
 					<variables>
@@ -9889,7 +9889,7 @@
 			<tags>
 				<tag name="village"/>
 			</tags>
-			<transform position="993.194, 117.818, 8.010" rotation_euler="-0.154, 0.149, -1.626"/>
+			<transform position="941.000, 313.000, 8.269" rotation_euler="-0.154, 0.149, -1.626"/>
 			<scripts>
 				<script name="Town Entity Manager">
 					<variables>
@@ -10106,7 +10106,7 @@
 			<tags>
 				<tag name="castle"/>
 			</tags>
-			<transform position="907.244, 64.781, 6.300" rotation_euler="0.000, 0.000, 0.266"/>
+			<transform position="913.000, 331.000, 8.569" rotation_euler="0.000, 0.000, 0.266"/>
 			<scripts>
 				<script name="Town Entity Manager">
 					<variables>
@@ -12031,7 +12031,7 @@
 			<tags>
 				<tag name="town"/>
 			</tags>
-			<transform position="941.532, 48.702, 3.811" rotation_euler="0.091, 0.079, 0.738" scale="1.000, 1.000, 1.000"/>
+			<transform position="882.000, 150.000, 5.605" rotation_euler="0.091, 0.079, 0.738" scale="1.000, 1.000, 1.000"/>
 			<scripts>
 				<script name="Town Entity Manager">
 					<variables>
@@ -15847,7 +15847,7 @@
 			<tags>
 				<tag name="village"/>
 			</tags>
-			<transform position="931.231, 57.923, 5.655" rotation_euler="-0.015, -0.077, 0.058"/>
+			<transform position="866.000, 170.000, 4.579" rotation_euler="-0.015, -0.077, 0.058"/>
 			<scripts>
 				<script name="Town Entity Manager">
 					<variables>
